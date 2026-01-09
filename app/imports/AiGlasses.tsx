@@ -841,20 +841,59 @@ function Header1() {
 }
 
 function Video() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Ensure video autoplays and is muted
+    video.muted = true;
+    video.playsInline = true;
+    
+    // Check if video can play
+    const checkVideo = () => {
+      if (video.readyState >= 2) {
+        setVideoLoaded(true);
+      }
+    };
+
+    video.addEventListener('loadeddata', checkVideo);
+    video.addEventListener('canplay', () => setVideoLoaded(true));
+    
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch((error) => {
+        console.error("Error playing BuyingAdvice video:", error);
+      });
+    }
+
+    return () => {
+      video.removeEventListener('loadeddata', checkVideo);
+    };
+  }, []);
+
   return (
     <div className="[grid-area:1_/_1] h-[816.75px] ml-0 mt-0 relative w-[1452px]" data-name="Video 1">
       <div className="absolute inset-0 rounded-[24px]" data-name="video container">
-        {/* Fallback image */}
+        {/* Fallback image - always show as background */}
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-0" src={imgImage172} aria-hidden="true" />
-        {/* Video overlay */}
+        {/* Video overlay - only show if loaded */}
         <video
+          ref={videoRef}
           autoPlay
           muted
           loop
           playsInline
           preload="auto"
-          className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-10"
+          className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
+          style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
           aria-label="See with AI demonstration video"
+          onLoadedData={() => setVideoLoaded(true)}
+          onError={(e) => {
+            console.error("Video loading error:", e);
+          }}
         >
           <source src="/assets/BuyingAdvice.mov" type="video/quicktime" />
         </video>
@@ -1000,18 +1039,48 @@ function Frame116() {
 }
 
 function Group12() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Ensure video autoplays and is muted
+    video.muted = true;
+    video.playsInline = true;
+    
+    video.addEventListener('loadeddata', () => setVideoLoaded(true));
+    video.addEventListener('canplay', () => setVideoLoaded(true));
+    
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch((error) => {
+        console.error("Error playing Birthday party video:", error);
+      });
+    }
+  }, []);
+
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       <div className="[grid-area:1_/_1] h-[815px] ml-0 mt-0 relative rounded-[24px] w-[1452px]" data-name="Birthday party 1">
+        {/* Background placeholder - always show */}
+        <div className="absolute inset-0 bg-gray-200 rounded-[24px]" />
         <video 
+          ref={videoRef}
           autoPlay 
           muted 
-          className="absolute max-w-none object-cover rounded-[24px] size-full z-10" 
+          className="absolute max-w-none object-cover rounded-[24px] size-full" 
           controlsList="nodownload" 
           loop 
           playsInline 
           preload="auto"
           aria-label="Stream your world demonstration video"
+          style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
+          onLoadedData={() => setVideoLoaded(true)}
+          onError={(e) => {
+            console.error("Video loading error:", e);
+          }}
         >
           <source src="/assets/Birthday%20party.mov" type="video/quicktime" />
         </video>
@@ -2390,19 +2459,49 @@ function Header4() {
 }
 
 function Frame111() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Ensure video autoplays and is muted
+    video.muted = true;
+    video.playsInline = true;
+    
+    video.addEventListener('loadeddata', () => setVideoLoaded(true));
+    video.addEventListener('canplay', () => setVideoLoaded(true));
+    
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch((error) => {
+        console.error("Error playing Music Video:", error);
+      });
+    }
+  }, []);
+
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0">
       <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[57.333px] not-italic relative shrink-0 text-[#0a0a0a] text-[40px] text-center text-nowrap">Hear your audio, hear the world.</p>
       <div className="h-[497px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Music Video 1">
+        {/* Background placeholder - always show */}
+        <div className="absolute inset-0 bg-gray-200 rounded-[24px]" />
         <video 
+          ref={videoRef}
           autoPlay 
           muted 
-          className="absolute max-w-none object-cover rounded-[24px] size-full z-10" 
+          className="absolute max-w-none object-cover rounded-[24px] size-full" 
           controlsList="nodownload" 
           loop 
           playsInline 
           preload="auto"
           aria-label="Hear your audio, hear the world demonstration video"
+          style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
+          onLoadedData={() => setVideoLoaded(true)}
+          onError={(e) => {
+            console.error("Video loading error:", e);
+          }}
         >
           <source src="/assets/Music%20Video.mov" type="video/quicktime" />
         </video>
@@ -2494,19 +2593,47 @@ function Frame131() {
 }
 
 function Video1() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Ensure video autoplays and is muted
+    video.muted = true;
+    video.playsInline = true;
+    
+    video.addEventListener('loadeddata', () => setVideoLoaded(true));
+    video.addEventListener('canplay', () => setVideoLoaded(true));
+    
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch((error) => {
+        console.error("Error playing Cooking video:", error);
+      });
+    }
+  }, []);
+
   return (
     <div className="h-[469px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Video 5">
-      {/* Fallback image */}
+      {/* Fallback image - always show as background */}
       <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-0" src={imgVideo5} aria-hidden="true" />
-      {/* Video overlay */}
+      {/* Video overlay - only show if loaded */}
       <video
+        ref={videoRef}
         autoPlay
         muted
         loop
         playsInline
         preload="auto"
-        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-10"
+        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
+        style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
         aria-label="Take calls demonstration video"
+        onLoadedData={() => setVideoLoaded(true)}
+        onError={(e) => {
+          console.error("Video loading error:", e);
+        }}
       >
         <source src="/assets/Cooking.mov" type="video/quicktime" />
       </video>
@@ -2985,19 +3112,47 @@ function Frame156() {
 }
 
 function Video2() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Ensure video autoplays and is muted
+    video.muted = true;
+    video.playsInline = true;
+    
+    video.addEventListener('loadeddata', () => setVideoLoaded(true));
+    video.addEventListener('canplay', () => setVideoLoaded(true));
+    
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch((error) => {
+        console.error("Error playing Driving video:", error);
+      });
+    }
+  }, []);
+
   return (
     <div className="h-[469px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Video 7">
-      {/* Fallback image */}
+      {/* Fallback image - always show as background */}
       <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-0" src={imgVideo7} aria-hidden="true" />
-      {/* Video overlay */}
+      {/* Video overlay - only show if loaded */}
       <video
+        ref={videoRef}
         autoPlay
         muted
         loop
         playsInline
         preload="auto"
-        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-10"
+        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
+        style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
         aria-label="AI reminders demonstration video"
+        onLoadedData={() => setVideoLoaded(true)}
+        onError={(e) => {
+          console.error("Video loading error:", e);
+        }}
       >
         <source src="/assets/Driving.mov" type="video/quicktime" />
       </video>
@@ -3683,7 +3838,7 @@ function Frame125() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[83px] not-italic top-[181.04px]">
       <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[57.333px] relative shrink-0 text-[#0a0a0a] text-[57.333px] text-center text-nowrap">{`The Easiest Smart Glasses `}</p>
-      <ol className="block font-['Manrope:Regular',sans-serif] leading-[0] list-decimal min-w-full relative shrink-0 text-[24px] text-black w-[min-content]" start="1">
+      <ol className="block font-['Manrope:Regular',sans-serif] leading-[0] list-decimal min-w-full relative shrink-0 text-[24px] text-black w-[min-content]" start={1}>
         <li className="ms-[36px]">
           <span className="leading-[100.33%]">Slide on your Mentra Live.</span>
         </li>
