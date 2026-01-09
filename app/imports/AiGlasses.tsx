@@ -6,7 +6,7 @@ import ComparisonTable from "./Frame1618873011-12-7678";
 import PrescriptionReadySection from "./Frame1984078242-12-7749";
 import AppStoreSection from "./Frame1984078232";
 import GetYourMentraGlassesSection from "./Frame1984078261";
-import NavigationBar from "../components/NavigationBar";
+// NavigationBar removed - using shared Header from root.tsx
 import ScrollReveal from "../components/ScrollReveal";
 import FAQSection from "../components/FAQSection";
 import imgImage171 from "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png";
@@ -6212,7 +6212,7 @@ function NavBar() {
 function DivGrid9({ onDropdownChange }: { onDropdownChange?: (isActive: boolean) => void }) {
   return (
     <div className="content-stretch flex flex-col items-start overflow-visible w-full" data-name="div.grid">
-      <NavigationBar onDropdownChange={onDropdownChange} />
+      {/* NavigationBar removed - using shared Header from root.tsx */}
     </div>
   );
 }

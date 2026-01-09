@@ -6,6 +6,7 @@ import {
   ScrollRestoration,
 } from '@remix-run/react';
 import type {LinksFunction} from '@remix-run/node';
+import Header from './components/Header';
 import styles from './styles/index.css?url';
 import responsiveFixed from './styles/responsive-fixed.css?url';
 import mobileResponsive from './styles/mobile-responsive.css?url';
@@ -36,6 +37,7 @@ export function Layout({children}: {children: React.ReactNode}) {
         <Links />
       </head>
       <body>
+        <Header />
         {children}
         <ScrollRestoration />
         <Scripts />

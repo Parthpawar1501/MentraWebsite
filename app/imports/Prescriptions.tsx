@@ -1,5 +1,5 @@
 import { useNavigate } from "@remix-run/react";
-import NavigationBar from "../components/NavigationBar";
+// NavigationBar removed - using shared Header from root.tsx
 import ScrollReveal from "../components/ScrollReveal";
 import svgPaths from "./svg-4mnhiia8zl";
 import imgImage197 from "/assets/prescription-image197.png";
@@ -387,7 +387,7 @@ function PrescriptionFooter() {
 export default function Prescriptions() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative size-full" data-name="Prescriptions">
-      <NavigationBar />
+      {/* NavigationBar removed - using shared Header from root.tsx */}
       <div className="content-stretch flex flex-col gap-[80px] items-center justify-center overflow-clip px-[133.778px] py-[90px] relative shrink-0 w-full">
         <div className="content-stretch flex flex-col gap-[80px] items-center pb-[80px] pt-0 px-0 relative shrink-0 w-[1452px]">
           <ScrollReveal direction="fade" delay={0} duration={0.8}>
