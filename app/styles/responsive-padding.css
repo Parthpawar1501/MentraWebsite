@@ -1,0 +1,150 @@
+/**
+ * Responsive Padding System
+ * Ensures equivalent padding from both sides across all screen sizes
+ */
+
+/* Mobile (default): Equal padding on both sides */
+@media (max-width: 767px) {
+  /* All containers should have equal padding */
+  [data-name="Mentra Live"] > *,
+  [data-name="AI glasses"] > * {
+    padding-left: 1rem !important; /* 16px */
+    padding-right: 1rem !important; /* 16px */
+  }
+
+  /* Specific sections that had asymmetric padding */
+  .content-stretch[class*="pl-"],
+  .content-stretch[class*="pr-"] {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Frame sections */
+  div[class*="pl-[133"],
+  div[class*="pr-[133"],
+  div[class*="pl-[40px]"],
+  div[class*="pr-[40px]"] {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Navigation bars */
+  div[class*="backdrop-blur"],
+  div[data-name="NavBar"],
+  div[data-name="div.grid"] {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Footer sections */
+  [data-name="Footer"],
+  footer {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* Tablet (768px - 1023px): Equal padding */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Equal padding for tablet */
+  [data-name="Mentra Live"] > *,
+  [data-name="AI glasses"] > *,
+  [data-name="Mentra Live"],
+  [data-name="AI glasses"],
+  .responsive-wrapper > * {
+    padding-left: 1.5rem !important; /* 24px */
+    padding-right: 1.5rem !important; /* 24px */
+  }
+
+  /* Fix asymmetric padding - override all pl/pr classes */
+  div[class*="pl-[133"],
+  div[class*="pr-[133"],
+  div[class*="pl-[40px]"],
+  div[class*="pr-[40px]"],
+  div[class*="px-[40px]"],
+  div[class*="content-stretch"][class*="pl-"],
+  div[class*="content-stretch"][class*="pr-"] {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  /* Navigation bars */
+  div[class*="backdrop-blur"],
+  div[data-name="NavBar"],
+  div[data-name="div.grid"],
+  div[class*="px-[133"] {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  /* Override any single-side padding */
+  [class*="pl-"]:not([class*="pr-"]),
+  [class*="pr-"]:not([class*="pl-"]) {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+
+/* Desktop (1024px+): Fix asymmetric padding while preserving symmetric designs */
+@media (min-width: 1024px) {
+  /* Fix asymmetric padding - make equal where one side differs significantly */
+  div[class*="pl-[133"][class*="pr-[40px]"],
+  div[class*="pl-[40px]"][class*="pr-[133"],
+  /* Match patterns like pl-[133.778px] pr-[40px] */
+  div[class*="pl-[133"][class*="pr-40"],
+  div[class*="pl-40"][class*="pr-[133"] {
+    /* Make them equal - use 86px (average of 133px and 40px) or use the larger value */
+    padding-left: 5.5rem !important; /* ~88px - balanced between 133px and 40px */
+    padding-right: 5.5rem !important;
+  }
+
+  /* If px- is used, it's already symmetric, leave it */
+  /* But if pl- and pr- differ significantly, make them equal */
+  div[class*="pl-"]:not([class*="px-"]):not([class*="pr-"]) {
+    /* Single padding-left, check if there's a corresponding pr- with different value nearby */
+  }
+
+  /* Navigation bars - ensure they're symmetric */
+  div[class*="backdrop-blur"][class*="px-["] {
+    /* If px- is used, it's symmetric - preserve */
+  }
+  
+  /* Specifically fix NavBar if it has asymmetric padding */
+  div[data-name="NavBar"][class*="px-[133"] {
+    /* Already symmetric if using px- */
+  }
+}
+
+/* Global: Ensure all main containers respect padding symmetry */
+.responsive-wrapper,
+[data-name="Mentra Live"],
+[data-name="AI glasses"] {
+  overflow-x: hidden;
+}
+
+/* Utility class for equal padding */
+.equal-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .equal-padding {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .equal-padding {
+    padding-left: 2.5rem; /* 40px */
+    padding-right: 2.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .equal-padding {
+    padding-left: 5rem; /* 80px */
+    padding-right: 5rem;
+  }
+}

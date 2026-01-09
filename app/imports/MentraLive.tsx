@@ -239,9 +239,13 @@ function ShoppingCart() {
   );
 }
 
-function Button() {
+function Button({ onClick }: { onClick?: () => void }) {
   return (
-    <div className="bg-[#0a0a0a] relative rounded-[39px] shrink-0 w-full" data-name="Button">
+    <button
+      onClick={onClick}
+      className="bg-[#0a0a0a] hover:bg-[#00b869] relative rounded-[39px] shrink-0 w-full cursor-pointer transition-all duration-300 active:scale-95" 
+      data-name="Button"
+    >
       <div className="flex flex-row items-center justify-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center justify-center px-[32px] py-[16px] relative w-full">
           <ShoppingCart />
@@ -250,14 +254,14 @@ function Button() {
           </div>
         </div>
       </div>
-    </div>
+    </button>
   );
 }
 
 function Frame27() {
   return (
     <div className="relative shrink-0 w-full">
-      <div className="content-stretch flex flex-col gap-[8px] items-start px-[40px] py-0 relative w-full">
+      <div className="content-stretch flex flex-col gap-[8px] items-start px-4 md:px-6 lg:px-[40px] py-0 relative w-full">
         <p className="font-['Red_Hat_Display:Medium',sans-serif] leading-[45.173px] not-italic relative shrink-0 text-[#0a0a0a] text-[28px] text-nowrap">Mentra Live Case</p>
         <p className="font-['Red_Hat_Display:Medium',sans-serif] leading-[45.173px] not-italic relative shrink-0 text-[#0a0a0a] text-[28px] text-nowrap text-right">{`$99 `}</p>
         <Button />
@@ -269,7 +273,7 @@ function Frame27() {
 function Frame27Alt() {
   return (
     <div className="relative shrink-0 w-full">
-      <div className="content-stretch flex flex-col gap-[8px] items-start px-[40px] py-0 relative w-full">
+      <div className="content-stretch flex flex-col gap-[8px] items-start px-4 md:px-6 lg:px-[40px] py-0 relative w-full">
         <p className="font-['Red_Hat_Display:Medium',sans-serif] leading-[45.173px] not-italic relative shrink-0 text-[#0a0a0a] text-[28px] text-nowrap">Charging Cable</p>
         <p className="font-['Red_Hat_Display:Medium',sans-serif] leading-[45.173px] not-italic relative shrink-0 text-[#0a0a0a] text-[28px] text-nowrap text-right">{`$49 `}</p>
         <Button1 />
@@ -313,9 +317,13 @@ function ShoppingCart1() {
   );
 }
 
-function Button1() {
+function Button1({ onClick }: { onClick?: () => void }) {
   return (
-    <div className="bg-[#0a0a0a] relative rounded-[39px] shrink-0 w-full" data-name="Button">
+    <button
+      onClick={onClick}
+      className="bg-[#0a0a0a] hover:bg-[#00b869] relative rounded-[39px] shrink-0 w-full cursor-pointer transition-all duration-300 active:scale-95" 
+      data-name="Button"
+    >
       <div className="flex flex-row items-center justify-center overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-center justify-center px-[32px] py-[16px] relative w-full">
           <ShoppingCart1 />
@@ -324,14 +332,14 @@ function Button1() {
           </div>
         </div>
       </div>
-    </div>
+    </button>
   );
 }
 
 function Frame28() {
   return (
     <div className="relative shrink-0 w-full">
-      <div className="content-stretch flex flex-col gap-[8px] items-start px-[40px] py-0 relative w-full">
+      <div className="content-stretch flex flex-col gap-[8px] items-start px-4 md:px-6 lg:px-[40px] py-0 relative w-full">
         <p className="font-['Red_Hat_Display:Medium',sans-serif] leading-[45.173px] not-italic relative shrink-0 text-[#0a0a0a] text-[28px] text-nowrap">Charging Cable</p>
         <p className="font-['Red_Hat_Display:Medium',sans-serif] leading-[45.173px] not-italic relative shrink-0 text-[#0a0a0a] text-[28px] text-nowrap text-right">{`$49 `}</p>
         <Button1 />
@@ -643,7 +651,7 @@ function Frame7() {
   return (
     <div className="basis-0 grow min-h-px min-w-px relative shrink-0">
       <div className="overflow-clip rounded-[inherit] size-full">
-        <div className="content-stretch flex flex-col gap-[40px] items-start pb-0 pl-[133.778px] pr-[40px] pt-[80px] relative w-full">
+        <div className="content-stretch flex flex-col gap-[40px] items-start pb-0 px-4 md:px-6 lg:pl-[133.778px] lg:pr-[133.778px] pt-[80px] relative w-full">
           <ScrollReveal direction="fade" duration={0.8}>
             <ProductImages />
           </ScrollReveal>
@@ -1002,7 +1010,7 @@ function Frame25() {
 
 function Frame24() {
   return (
-    <div className="content-stretch flex flex-col gap-[28px] items-start pb-[144px] pl-[40px] pr-[133.78px] pt-[80px] relative shrink-0">
+    <div className="content-stretch flex flex-col gap-[28px] items-start pb-[144px] px-4 md:px-6 lg:px-[133.78px] pt-[80px] relative shrink-0">
       <Right />
       <Frame25 />
     </div>
@@ -1589,7 +1597,7 @@ function Frame8() {
   return (
     <div className="relative shrink-0 w-full">
       <div className="flex flex-col items-center justify-center overflow-clip rounded-[inherit] size-full">
-        <div className="content-stretch flex flex-col gap-[160px] items-center justify-center px-[133.778px] py-[144px] relative w-full max-w-full">
+        <div className="content-stretch flex flex-col gap-[160px] items-center justify-center px-4 md:px-6 lg:px-[133.778px] py-[144px] relative w-full max-w-full">
           <Frame5 />
           <Footer />
         </div>
@@ -1714,24 +1722,23 @@ function Frame19() {
 
 function NavBar() {
   return (
-    <div className="backdrop-blur-[250px] backdrop-filter bg-[rgba(255,255,255,0.85)] content-stretch flex h-[90px] items-start justify-between overflow-clip pointer-events-auto px-[133.778px] py-[24px] shadow-[0px_4px_30px_5px_rgba(0,0,0,0.05)] sticky top-0 w-[1720px]" data-name="NavBar">
+    <div className="backdrop-blur-[250px] backdrop-filter bg-[rgba(255,255,255,0.85)] content-stretch flex h-[90px] items-start justify-between overflow-clip pointer-events-auto px-4 md:px-6 lg:px-[133.778px] py-[24px] shadow-[0px_4px_30px_5px_rgba(0,0,0,0.05)] sticky top-0 w-full max-w-[1720px] mx-auto" data-name="NavBar">
       <Frame19 />
     </div>
   );
 }
 
-export default function MentraLive() {
-  const [cartMessage, setCartMessage] = useState("");
+interface MentraLiveProps {
+  product?: any;
+  variantId?: string | null;
+  fetcher?: any;
+}
 
+export default function MentraLive({ product, variantId, fetcher }: MentraLiveProps = {}) {
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, []);
-
-  const handleAddToCart = () => {
-    setCartMessage("Added to cart!");
-    setTimeout(() => setCartMessage(""), 3000);
-  };
 
   return (
     <div className="bg-white content-stretch flex flex-col items-start relative size-full" data-name="Mentra Live">
@@ -1746,15 +1753,7 @@ export default function MentraLive() {
       <StickyPurchaseSection
         productName="Mentra Live Camera Glasses"
         price="$299.00"
-        onAddToCart={handleAddToCart}
       />
-
-      {/* Toast notification */}
-      {cartMessage && (
-        <div className="fixed top-24 right-8 z-50 bg-[#00b869] text-white px-6 py-4 rounded-lg shadow-2xl animate-slideInRight">
-          <p className="font-['Red_Hat_Display:SemiBold',sans-serif] text-[16px]">{cartMessage}</p>
-        </div>
-      )}
 
       <style dangerouslySetInnerHTML={{__html: `
         @keyframes slideInRight {

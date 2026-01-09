@@ -1,11 +1,12 @@
 import type {LoaderFunctionArgs, MetaFunction} from '@remix-run/node';
-import {useLoaderData} from '@remix-run/react';
+import {useLoaderData, useFetcher} from '@remix-run/react';
 import {useState, useEffect} from 'react';
 import {json} from '@remix-run/node';
 import {createHydrogenStorefront} from '../lib/shopify.server';
 import MentraLiveDesktop from '../imports/MentraLive';
 import EnhancedMobileMentraLive from '../components/EnhancedMobileMentraLive';
 import {Toaster} from '../components/ui/sonner';
+import {CartProvider} from '../contexts/CartContext';
 
 export const meta: MetaFunction<typeof loader> = ({data}) => {
   if (!data?.product) {
@@ -113,6 +114,7 @@ export async function loader({request, params, context}: LoaderFunctionArgs) {
 export default function ProductPage() {
   const {product} = useLoaderData<typeof loader>();
   const [isMobile, setIsMobile] = useState(false);
+  const fetcher = useFetcher();
 
   useEffect(() => {
     const checkMobile = () => {
@@ -124,12 +126,26 @@ export default function ProductPage() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  // For now, use the existing component structure
-  // Later we can integrate product data from Shopify
+  // Get variant ID from product data
+  const variantId = product?.variants?.edges?.[0]?.node?.id || null;
+
+  // Pass product data and cart handler to components
   return (
-    <>
-      {isMobile ? <EnhancedMobileMentraLive /> : <MentraLiveDesktop />}
+    <CartProvider variantId={variantId} fetcher={fetcher}>
+      {isMobile ? (
+        <EnhancedMobileMentraLive 
+          product={product} 
+          variantId={variantId}
+          fetcher={fetcher}
+        />
+      ) : (
+        <MentraLiveDesktop 
+          product={product} 
+          variantId={variantId}
+          fetcher={fetcher}
+        />
+      )}
       <Toaster position="top-center" richColors />
-    </>
+    </CartProvider>
   );
 }

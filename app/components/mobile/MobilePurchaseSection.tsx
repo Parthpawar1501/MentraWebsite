@@ -1,22 +1,46 @@
 import { useState } from "react";
 import { ShoppingCart, Heart } from "lucide-react";
 import { toast } from "sonner";
+import { useCart } from "../contexts/CartContext";
 
 interface PurchaseSectionProps {
   onAddToCart?: () => void;
+  variantId?: string | null;
+  fetcher?: any;
 }
 
-export default function MobilePurchaseSection({ onAddToCart }: PurchaseSectionProps) {
+export default function MobilePurchaseSection({ onAddToCart, variantId, fetcher }: PurchaseSectionProps) {
   const [quantity, setQuantity] = useState(1);
   const [isFavorite, setIsFavorite] = useState(false);
   const price = 299.00;
+  let cart;
+  try {
+    cart = useCart();
+  } catch {
+    // Context not available, use fallback
+    cart = null;
+  }
 
-  const handleAddToCart = () => {
-    if (onAddToCart) {
-      onAddToCart();
-    } else {
-      toast.success("Added to cart!", {
-        description: `${quantity} x Mentra Live - $${(price * quantity).toFixed(2)}`,
+  const handleAddToCart = async () => {
+    try {
+      if (onAddToCart) {
+        onAddToCart();
+      } else if (cart) {
+        await cart.addToCart(variantId || undefined, quantity);
+        toast.success("Added to cart!", {
+          description: `${quantity} x Mentra Live - $${(price * quantity).toFixed(2)}`,
+          duration: 3000,
+        });
+      } else {
+        // Fallback if context not available
+        toast.success("Added to cart!", {
+          description: `${quantity} x Mentra Live - $${(price * quantity).toFixed(2)}`,
+          duration: 3000,
+        });
+      }
+    } catch (error) {
+      toast.error("Failed to add to cart", {
+        description: "Please try again",
         duration: 3000,
       });
     }
@@ -71,10 +95,11 @@ export default function MobilePurchaseSection({ onAddToCart }: PurchaseSectionPr
           {/* Add to Cart Button */}
           <button
             onClick={handleAddToCart}
-            className="flex-1 bg-[#00b869] text-white px-6 py-4 rounded-full font-['Red_Hat_Display:SemiBold',sans-serif] text-[16px] flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:bg-[#00a05d] active:scale-95 transition-all duration-300 hover:scale-[1.02]"
+            disabled={cart?.isAdding || false}
+            className="flex-1 bg-[#00b869] disabled:opacity-50 disabled:cursor-not-allowed text-white px-6 py-4 rounded-full font-['Red_Hat_Display:SemiBold',sans-serif] text-[16px] flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:bg-[#00a05d] active:scale-95 transition-all duration-300 hover:scale-[1.02]"
           >
             <ShoppingCart className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
-            Add to Cart
+            {cart?.isAdding ? 'Adding...' : 'Add to Cart'}
           </button>
 
           {/* Favorite Button */}

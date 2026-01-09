@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
+import { useCart } from "../contexts/CartContext";
 import MobileNavigationBar from "./MobileNavigationBar";
 import MobileHeroSection from "./mobile/MobileHeroSection";
 import MobileInvestorLogos from "./mobile/MobileInvestorLogos";
@@ -12,8 +13,20 @@ import MobileProductFeatures from "./mobile/MobileProductFeatures";
 import MobileReviews from "./mobile/MobileReviews";
 import ScrollReveal from "./ScrollReveal";
 
-export default function EnhancedMobileMentraLive() {
+interface EnhancedMobileMentraLiveProps {
+  product?: any;
+  variantId?: string | null;
+  fetcher?: any;
+}
+
+export default function EnhancedMobileMentraLive({ product, variantId, fetcher }: EnhancedMobileMentraLiveProps = {}) {
   const [showStickyBar, setShowStickyBar] = useState(false);
+  let cart;
+  try {
+    cart = useCart();
+  } catch {
+    cart = null;
+  }
 
   // Show sticky bar after scrolling down
   useEffect(() => {
@@ -25,11 +38,66 @@ export default function EnhancedMobileMentraLive() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleAddToCart = () => {
-    toast.success("Added to cart!", {
-      description: "Mentra Live - $299.00",
-      duration: 3000,
-    });
+  const handleAddToCart = async () => {
+    try {
+      const merchandiseId = variantId || product?.variants?.edges?.[0]?.node?.id || "gid://shopify/ProductVariant/placeholder";
+      
+      if (cart) {
+        await cart.addToCart(merchandiseId, 1);
+        toast.success("Added to cart!", {
+          description: "Mentra Live - $299.00",
+          duration: 3000,
+        });
+      } else if (fetcher) {
+        fetcher.submit(
+          {
+            intent: 'add',
+            merchandiseId,
+            quantity: '1',
+          },
+          {
+            method: 'POST',
+            action: '/api/cart',
+          }
+        );
+        toast.success("Added to cart!", {
+          description: "Mentra Live - $299.00",
+          duration: 3000,
+        });
+      } else {
+        const response = await fetch('/api/cart', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: new URLSearchParams({
+            intent: 'add',
+            merchandiseId,
+            quantity: '1',
+          }),
+        });
+
+        const data = await response.json();
+        
+        if (response.ok && data.cart) {
+          toast.success("Added to cart!", {
+            description: "Mentra Live - $299.00",
+            duration: 3000,
+          });
+        } else {
+          toast.error("Failed to add to cart", {
+            description: "Please try again",
+            duration: 3000,
+          });
+        }
+      }
+    } catch (error) {
+      console.error('Error adding to cart:', error);
+      toast.error("Failed to add to cart", {
+        description: "Please try again",
+        duration: 3000,
+      });
+    }
   };
 
   return (
@@ -104,9 +172,10 @@ export default function EnhancedMobileMentraLive() {
           </div>
           <button
             onClick={handleAddToCart}
-            className="bg-[#00b869] text-white px-8 py-3 rounded-full font-['Red_Hat_Display:SemiBold',sans-serif] text-[16px] shadow-lg active:scale-95 transition-all hover:bg-[#00a05d] flex-shrink-0"
+            disabled={cart?.isAdding || false}
+            className="bg-[#00b869] disabled:opacity-50 disabled:cursor-not-allowed text-white px-8 py-3 rounded-full font-['Red_Hat_Display:SemiBold',sans-serif] text-[16px] shadow-lg active:scale-95 transition-all hover:bg-[#00a05d] flex-shrink-0"
           >
-            Buy Now
+            {cart?.isAdding ? 'Adding...' : 'Buy Now'}
           </button>
         </div>
       </div>

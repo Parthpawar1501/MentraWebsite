@@ -13,6 +13,7 @@ import mentraLive from './styles/mentra-live.css?url';
 import mobileMentraLive from './styles/mobile-mentra-live.css?url';
 import animations from './styles/animations.css?url';
 import globalImprovements from './styles/global-improvements.css?url';
+import responsivePadding from './styles/responsive-padding.css?url';
 
 export const links: LinksFunction = () => [
   {rel: 'stylesheet', href: styles},
@@ -22,6 +23,7 @@ export const links: LinksFunction = () => [
   {rel: 'stylesheet', href: mobileMentraLive},
   {rel: 'stylesheet', href: animations},
   {rel: 'stylesheet', href: globalImprovements},
+  {rel: 'stylesheet', href: responsivePadding},
 ];
 
 export function Layout({children}: {children: React.ReactNode}) {
