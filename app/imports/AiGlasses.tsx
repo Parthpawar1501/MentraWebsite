@@ -859,18 +859,32 @@ function Video() {
       }
     };
 
-    video.addEventListener('loadeddata', checkVideo);
-    video.addEventListener('canplay', () => setVideoLoaded(true));
-    
-    const playPromise = video.play();
-    if (playPromise !== undefined) {
-      playPromise.catch((error) => {
+    const handleCanPlay = () => {
+      setVideoLoaded(true);
+      video.play().catch((error) => {
         console.error("Error playing BuyingAdvice video:", error);
+        setVideoLoaded(false);
       });
-    }
-
+    };
+    
+    const handleError = () => {
+      console.error("BuyingAdvice video failed to load");
+      setVideoLoaded(false);
+    };
+    
+    video.addEventListener('loadeddata', handleCanPlay);
+    video.addEventListener('canplay', handleCanPlay);
+    video.addEventListener('canplaythrough', handleCanPlay);
+    video.addEventListener('error', handleError);
+    
+    // Try to load the video
+    video.load();
+    
     return () => {
-      video.removeEventListener('loadeddata', checkVideo);
+      video.removeEventListener('loadeddata', handleCanPlay);
+      video.removeEventListener('canplay', handleCanPlay);
+      video.removeEventListener('canplaythrough', handleCanPlay);
+      video.removeEventListener('error', handleError);
     };
   }, []);
 
@@ -888,12 +902,14 @@ function Video() {
           playsInline
           preload="auto"
           className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
-          style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
-          aria-label="See with AI demonstration video"
-          onLoadedData={() => setVideoLoaded(true)}
-          onError={(e) => {
-            console.error("Video loading error:", e);
-          }}
+        style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}
+        aria-label="See with AI demonstration video"
+        onLoadedData={() => setVideoLoaded(true)}
+        onCanPlay={() => setVideoLoaded(true)}
+        onError={(e) => {
+          console.error("Video loading error:", e);
+          setVideoLoaded(false);
+        }}
         >
           <source src="/assets/BuyingAdvice.mov" type="video/quicktime" />
         </video>
@@ -1050,36 +1066,56 @@ function Group12() {
     video.muted = true;
     video.playsInline = true;
     
-    video.addEventListener('loadeddata', () => setVideoLoaded(true));
-    video.addEventListener('canplay', () => setVideoLoaded(true));
-    
-    const playPromise = video.play();
-    if (playPromise !== undefined) {
-      playPromise.catch((error) => {
+    const handleCanPlay = () => {
+      setVideoLoaded(true);
+      video.play().catch((error) => {
         console.error("Error playing Birthday party video:", error);
+        setVideoLoaded(false);
       });
-    }
+    };
+    
+    const handleError = () => {
+      console.error("Birthday party video failed to load");
+      setVideoLoaded(false);
+    };
+    
+    video.addEventListener('loadeddata', handleCanPlay);
+    video.addEventListener('canplay', handleCanPlay);
+    video.addEventListener('canplaythrough', handleCanPlay);
+    video.addEventListener('error', handleError);
+    
+    // Try to load the video
+    video.load();
+    
+    return () => {
+      video.removeEventListener('loadeddata', handleCanPlay);
+      video.removeEventListener('canplay', handleCanPlay);
+      video.removeEventListener('canplaythrough', handleCanPlay);
+      video.removeEventListener('error', handleError);
+    };
   }, []);
 
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       <div className="[grid-area:1_/_1] h-[815px] ml-0 mt-0 relative rounded-[24px] w-[1452px]" data-name="Birthday party 1">
-        {/* Background placeholder - always show */}
-        <div className="absolute inset-0 bg-gray-200 rounded-[24px]" />
+        {/* Fallback image - always show as background */}
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full z-0" src={imgImage172} aria-hidden="true" />
+        {/* Video overlay - only show if loaded */}
         <video 
           ref={videoRef}
           autoPlay 
           muted 
-          className="absolute max-w-none object-cover rounded-[24px] size-full" 
-          controlsList="nodownload" 
           loop 
           playsInline 
           preload="auto"
+          className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full"
+          style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}
           aria-label="Stream your world demonstration video"
-          style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
           onLoadedData={() => setVideoLoaded(true)}
+          onCanPlay={() => setVideoLoaded(true)}
           onError={(e) => {
             console.error("Video loading error:", e);
+            setVideoLoaded(false);
           }}
         >
           <source src="/assets/Birthday%20party.mov" type="video/quicktime" />
@@ -2470,37 +2506,57 @@ function Frame111() {
     video.muted = true;
     video.playsInline = true;
     
-    video.addEventListener('loadeddata', () => setVideoLoaded(true));
-    video.addEventListener('canplay', () => setVideoLoaded(true));
-    
-    const playPromise = video.play();
-    if (playPromise !== undefined) {
-      playPromise.catch((error) => {
+    const handleCanPlay = () => {
+      setVideoLoaded(true);
+      video.play().catch((error) => {
         console.error("Error playing Music Video:", error);
+        setVideoLoaded(false);
       });
-    }
+    };
+    
+    const handleError = () => {
+      console.error("Music Video failed to load");
+      setVideoLoaded(false);
+    };
+    
+    video.addEventListener('loadeddata', handleCanPlay);
+    video.addEventListener('canplay', handleCanPlay);
+    video.addEventListener('canplaythrough', handleCanPlay);
+    video.addEventListener('error', handleError);
+    
+    // Try to load the video
+    video.load();
+    
+    return () => {
+      video.removeEventListener('loadeddata', handleCanPlay);
+      video.removeEventListener('canplay', handleCanPlay);
+      video.removeEventListener('canplaythrough', handleCanPlay);
+      video.removeEventListener('error', handleError);
+    };
   }, []);
 
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0">
       <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[57.333px] not-italic relative shrink-0 text-[#0a0a0a] text-[40px] text-center text-nowrap">Hear your audio, hear the world.</p>
       <div className="h-[497px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Music Video 1">
-        {/* Background placeholder - always show */}
-        <div className="absolute inset-0 bg-gray-200 rounded-[24px]" />
+        {/* Fallback image - always show as background */}
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full z-0" src={imgImage172} aria-hidden="true" />
+        {/* Video overlay - only show if loaded */}
         <video 
           ref={videoRef}
           autoPlay 
           muted 
-          className="absolute max-w-none object-cover rounded-[24px] size-full" 
-          controlsList="nodownload" 
           loop 
           playsInline 
           preload="auto"
+          className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full"
+          style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}
           aria-label="Hear your audio, hear the world demonstration video"
-          style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
           onLoadedData={() => setVideoLoaded(true)}
+          onCanPlay={() => setVideoLoaded(true)}
           onError={(e) => {
             console.error("Video loading error:", e);
+            setVideoLoaded(false);
           }}
         >
           <source src="/assets/Music%20Video.mov" type="video/quicktime" />
@@ -2604,15 +2660,33 @@ function Video1() {
     video.muted = true;
     video.playsInline = true;
     
-    video.addEventListener('loadeddata', () => setVideoLoaded(true));
-    video.addEventListener('canplay', () => setVideoLoaded(true));
-    
-    const playPromise = video.play();
-    if (playPromise !== undefined) {
-      playPromise.catch((error) => {
+    const handleCanPlay = () => {
+      setVideoLoaded(true);
+      video.play().catch((error) => {
         console.error("Error playing Cooking video:", error);
+        setVideoLoaded(false);
       });
-    }
+    };
+    
+    const handleError = () => {
+      console.error("Cooking video failed to load");
+      setVideoLoaded(false);
+    };
+    
+    video.addEventListener('loadeddata', handleCanPlay);
+    video.addEventListener('canplay', handleCanPlay);
+    video.addEventListener('canplaythrough', handleCanPlay);
+    video.addEventListener('error', handleError);
+    
+    // Try to load the video
+    video.load();
+    
+    return () => {
+      video.removeEventListener('loadeddata', handleCanPlay);
+      video.removeEventListener('canplay', handleCanPlay);
+      video.removeEventListener('canplaythrough', handleCanPlay);
+      video.removeEventListener('error', handleError);
+    };
   }, []);
 
   return (
@@ -2628,11 +2702,13 @@ function Video1() {
         playsInline
         preload="auto"
         className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
-        style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
+        style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}
         aria-label="Take calls demonstration video"
         onLoadedData={() => setVideoLoaded(true)}
+        onCanPlay={() => setVideoLoaded(true)}
         onError={(e) => {
           console.error("Video loading error:", e);
+          setVideoLoaded(false);
         }}
       >
         <source src="/assets/Cooking.mov" type="video/quicktime" />
@@ -3123,15 +3199,33 @@ function Video2() {
     video.muted = true;
     video.playsInline = true;
     
-    video.addEventListener('loadeddata', () => setVideoLoaded(true));
-    video.addEventListener('canplay', () => setVideoLoaded(true));
-    
-    const playPromise = video.play();
-    if (playPromise !== undefined) {
-      playPromise.catch((error) => {
+    const handleCanPlay = () => {
+      setVideoLoaded(true);
+      video.play().catch((error) => {
         console.error("Error playing Driving video:", error);
+        setVideoLoaded(false);
       });
-    }
+    };
+    
+    const handleError = () => {
+      console.error("Driving video failed to load");
+      setVideoLoaded(false);
+    };
+    
+    video.addEventListener('loadeddata', handleCanPlay);
+    video.addEventListener('canplay', handleCanPlay);
+    video.addEventListener('canplaythrough', handleCanPlay);
+    video.addEventListener('error', handleError);
+    
+    // Try to load the video
+    video.load();
+    
+    return () => {
+      video.removeEventListener('loadeddata', handleCanPlay);
+      video.removeEventListener('canplay', handleCanPlay);
+      video.removeEventListener('canplaythrough', handleCanPlay);
+      video.removeEventListener('error', handleError);
+    };
   }, []);
 
   return (
@@ -3147,11 +3241,13 @@ function Video2() {
         playsInline
         preload="auto"
         className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
-        style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0 }}
+        style={{ zIndex: videoLoaded ? 10 : 0, opacity: videoLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}
         aria-label="AI reminders demonstration video"
         onLoadedData={() => setVideoLoaded(true)}
+        onCanPlay={() => setVideoLoaded(true)}
         onError={(e) => {
           console.error("Video loading error:", e);
+          setVideoLoaded(false);
         }}
       >
         <source src="/assets/Driving.mov" type="video/quicktime" />
