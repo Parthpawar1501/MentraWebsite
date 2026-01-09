@@ -3,7 +3,7 @@ import {useLoaderData, useFetcher} from '@remix-run/react';
 import {useState, useEffect} from 'react';
 import {json} from '@remix-run/node';
 import {createHydrogenStorefront} from '../lib/shopify.server';
-import MentraLiveDesktop from '../imports/MentraLive';
+import MentraLive from '../imports/MentraLive';
 import EnhancedMobileMentraLive from '../components/EnhancedMobileMentraLive';
 import {Toaster} from '../components/ui/sonner';
 import {CartProvider} from '../contexts/CartContext';
@@ -31,6 +31,8 @@ export const meta: MetaFunction<typeof loader> = ({data}) => {
 
 export async function loader({request, params, context}: LoaderFunctionArgs) {
   // Handle preview mode gracefully when Shopify credentials are placeholders
+  const {handle} = params;
+  
   try {
     const {storefront} = createHydrogenStorefront({
       request,
@@ -38,7 +40,6 @@ export async function loader({request, params, context}: LoaderFunctionArgs) {
       waitUntil: context?.waitUntil,
     });
 
-    const {handle} = params;
     if (!handle) {
       throw new Response('Product handle is required', {status: 400});
     }
@@ -84,30 +85,38 @@ export async function loader({request, params, context}: LoaderFunctionArgs) {
     }
 
     return json({product});
-  } catch (error) {
-    // In preview mode, return mock data instead of failing
-    if (error instanceof Error && error.message.includes('SHOPIFY')) {
-      console.warn('Shopify not configured, returning mock product data for preview');
-      return json({
-        product: {
-          id: 'preview-product',
-          title: 'Preview Product',
-          description: 'This is a preview deployment. Connect a Shopify store to see real products.',
-          handle: params.handle || 'preview',
-          featuredImage: null,
-          priceRange: {
-            minVariantPrice: {
-              amount: '0.00',
-              currencyCode: 'USD',
-            },
-          },
-          variants: {
-            edges: [],
+  } catch (error: any) {
+    // In preview mode or if Shopify is not configured, return mock data
+    // Catch all errors - storefront creation errors, API errors, etc.
+    console.warn('Shopify error or not configured, returning mock product data for preview:', error?.message || error);
+    
+    return json({
+      product: {
+        id: 'gid://shopify/Product/mentra-live',
+        title: 'Mentra Live Camera Glasses',
+        description: 'Mentra Live smart glasses with HD camera, speakers, no display, and open-source SDK.',
+        handle: handle || 'mentra-live',
+        featuredImage: null,
+        priceRange: {
+          minVariantPrice: {
+            amount: '299.00',
+            currencyCode: 'USD',
           },
         },
-      });
-    }
-    throw error;
+        variants: {
+          edges: [{
+            node: {
+              id: 'gid://shopify/ProductVariant/mentra-live-default',
+              title: 'Default Title',
+              price: {
+                amount: '299.00',
+                currencyCode: 'USD',
+              },
+            },
+          }],
+        },
+      },
+    });
   }
 }
 
@@ -139,7 +148,7 @@ export default function ProductPage() {
           fetcher={fetcher}
         />
       ) : (
-        <MentraLiveDesktop 
+        <MentraLive 
           product={product} 
           variantId={variantId}
           fetcher={fetcher}

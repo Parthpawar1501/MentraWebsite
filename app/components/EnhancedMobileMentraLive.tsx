@@ -21,12 +21,8 @@ interface EnhancedMobileMentraLiveProps {
 
 export default function EnhancedMobileMentraLive({ product, variantId, fetcher }: EnhancedMobileMentraLiveProps = {}) {
   const [showStickyBar, setShowStickyBar] = useState(false);
-  let cart;
-  try {
-    cart = useCart();
-  } catch {
-    cart = null;
-  }
+  // useCart must be called unconditionally - it's wrapped in CartProvider
+  const cart = useCart();
 
   // Show sticky bar after scrolling down
   useEffect(() => {

@@ -21,19 +21,29 @@ export function createHydrogenStorefront({
   i18n?: I18nLocale;
   request: Request;
 }) {
-  const {storefront} = createStorefrontClient({
-    cache,
-    waitUntil,
-    i18n,
-    publicStorefrontToken: getPublicStorefrontToken(),
-    privateStorefrontToken: getPrivateStorefrontToken(),
-    storeDomain: getStoreDomain(),
-    storefrontId: getStorefrontId(),
-    requestGroupId: request.headers.get('request-id'),
-    storefrontHeaders: getStorefrontHeaders(request),
-  });
+  try {
+    const token = getPublicStorefrontToken();
+    const domain = getStoreDomain();
+    
+    const {storefront} = createStorefrontClient({
+      cache,
+      waitUntil,
+      i18n,
+      publicStorefrontToken: token,
+      privateStorefrontToken: getPrivateStorefrontToken(),
+      storeDomain: domain,
+      storefrontId: getStorefrontId(),
+      requestGroupId: request.headers.get('request-id'),
+      storefrontHeaders: getStorefrontHeaders(request),
+    });
 
-  return {storefront, storefrontRedirect};
+    return {storefront, storefrontRedirect};
+  } catch (error) {
+    // If storefront creation fails (e.g., invalid credentials), throw with special flag
+    const wrappedError = error instanceof Error ? error : new Error(String(error));
+    (wrappedError as any).isStorefrontError = true;
+    throw wrappedError;
+  }
 }
 
 function getPublicStorefrontToken() {

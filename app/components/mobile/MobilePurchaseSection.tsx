@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ShoppingCart, Heart } from "lucide-react";
 import { toast } from "sonner";
-import { useCart } from "../contexts/CartContext";
+import { useCart } from "../../contexts/CartContext";
 
 interface PurchaseSectionProps {
   onAddToCart?: () => void;
@@ -13,13 +13,8 @@ export default function MobilePurchaseSection({ onAddToCart, variantId, fetcher 
   const [quantity, setQuantity] = useState(1);
   const [isFavorite, setIsFavorite] = useState(false);
   const price = 299.00;
-  let cart;
-  try {
-    cart = useCart();
-  } catch {
-    // Context not available, use fallback
-    cart = null;
-  }
+  // useCart must be called unconditionally - it's wrapped in CartProvider
+  const cart = useCart();
 
   const handleAddToCart = async () => {
     try {
