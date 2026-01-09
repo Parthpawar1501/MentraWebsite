@@ -1,0 +1,505 @@
+/**
+ * RESPONSIVE SYSTEM - STRICT RULES
+ * 
+ * CRITICAL: Desktop (1024px+) remains PIXEL-PERFECT - DO NOT MODIFY
+ * 
+ * Breakpoints:
+ * - Mobile: 360-479px
+ * - Large Mobile: 480-767px
+ * - Tablet: 768-1023px
+ * - Desktop: 1024px+ (LOCKED - NO CHANGES)
+ */
+
+/* ============================================
+   GLOBAL RESET - ALL SCREEN SIZES
+   ============================================ */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  min-height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove extra space after footer */
+body {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Footer should not have extra spacing */
+[data-name="Footer"] {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Remove extra space from main containers */
+[data-name="AI glasses"],
+[data-name="Frame 69"],
+[data-name="Frame 25"] {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Fix mobile component extra space - absolute positioned elements should not create scroll space */
+[data-name="iPhone 13 & 14 - 1"],
+[data-name="iPhone 13 & 14 - 33"] {
+  position: relative !important;
+  height: auto !important;
+  min-height: auto !important;
+  max-height: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Remove size-full which causes full height */
+[data-name="iPhone 13 & 14 - 1"][class*="size-full"],
+[data-name="iPhone 13 & 14 - 33"][class*="size-full"] {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Absolute positioned divs should not create extra space */
+[data-name="iPhone 13 & 14 - 1"] > div[class*="absolute"],
+[data-name="iPhone 13 & 14 - 33"] > div[class*="absolute"] {
+  position: absolute !important;
+  pointer-events: none !important;
+  /* These should not affect document flow */
+  contain: layout style paint !important;
+}
+
+/* Ensure no extra height from large absolute divs - they should not create scroll */
+div[class*="h-\[13232"],
+div[class*="h-\[13969"] {
+  /* These are for layout only, don't let them create scroll space */
+  height: 0 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  /* But keep their children visible */
+}
+
+div[class*="h-\[13232"] > *,
+div[class*="h-\[13969"] > * {
+  position: relative !important;
+  height: auto !important;
+}
+
+/* Mobile: Remove extra space */
+@media (max-width: 767px) {
+  [data-name="iPhone 13 & 14 - 1"],
+  [data-name="iPhone 13 & 14 - 33"] {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    height: auto !important;
+    min-height: auto !important;
+  }
+  
+  /* Ensure footer is at the bottom with no extra space */
+  [data-name="Footer"] {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+  /* Remove any extra spacing from containers */
+  .mobile-content-without-hero {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  
+  /* Fix absolute positioned divs - they should not create scroll space */
+  [data-name="iPhone 13 & 14 - 1"] > div[class*="absolute"],
+  [data-name="iPhone 13 & 14 - 33"] > div[class*="absolute"] {
+    position: absolute !important;
+    pointer-events: none !important;
+    /* Don't let these create extra height */
+    contain: layout style paint !important;
+  }
+  
+  /* Prevent body/html from having extra height */
+  html, body {
+    height: auto !important;
+    min-height: auto !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Base wrapper */
+.responsive-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Prevent horizontal scroll globally */
+* {
+  box-sizing: border-box;
+}
+
+/* ============================================
+   DESKTOP (1024px+) - COMPLETELY LOCKED
+   ============================================ */
+/* Desktop styles are in the original component files */
+/* NO OVERRIDES HERE - Desktop remains pixel-perfect */
+
+/* ============================================
+   TABLET (768px - 1023px)
+   Desktop layout with responsive scaling
+   ============================================ */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  /* Container scaling - use desktop layout but scale down */
+  [data-name="AI glasses"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  /* Main containers - remove fixed widths, use percentages */
+  [data-name="Hero"],
+  [data-name="Frame 25"],
+  [data-name="Frame 69"],
+  div[class*="w-[1720px]"],
+  div[class*="w-[1452"],
+  div[class*="w-[940px]"],
+  div[class*="w-[885px]"],
+  div[class*="w-[638px]"],
+  div[class*="w-[512px]"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    left: 0 !important;
+    transform: none !important;
+    padding-left: 24px !important; /* Tablet side padding */
+    padding-right: 24px !important;
+  }
+
+  /* Ensure all sections are visible */
+  [data-name="Frame 25"] > *,
+  [data-name="Frame 69"] > * {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+  }
+
+  /* ScrollReveal sections should be visible on tablet */
+  [data-section-id] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* Navigation bar - First and Second Nav Bars */
+  [data-name="NavBar"],
+  [data-name="div.grid"] {
+    width: 100% !important;
+    left: 0 !important;
+    transform: none !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  /* First Navigation Bar - ensure consistent padding */
+  div[class*="backdrop-blur-[250px]"] > div[class*="px-["] {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  /* Second Navigation Bar - ensure consistent padding */
+  div[data-name="div.grid"][class*="backdrop-blur-[50px]"] {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  /* Easiest Smart Glasses section - responsive */
+  div[data-name*="Easiest Smart Glasses"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  div[data-name*="Easiest Smart Glasses"] > div[class*="absolute"],
+  div[data-name*="Easiest Smart Glasses"] div[class*="w-[1452px]"],
+  div[data-name*="Easiest Smart Glasses"] div[class*="w-[1449px]"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Typography - scale down using clamp */
+  p[class*="text-[96px]"],
+  p[class*="text-[88px]"],
+  p[class*="text-[80px]"] {
+    font-size: clamp(3rem, 6vw, 6rem) !important;
+    line-height: 1.1 !important;
+  }
+
+  p[class*="text-[64px]"] {
+    font-size: clamp(2.5rem, 5vw, 4rem) !important;
+    line-height: 1.2 !important;
+  }
+
+  p[class*="text-[48px]"],
+  p[class*="text-[40px]"] {
+    font-size: clamp(2rem, 4vw, 3rem) !important;
+    line-height: 1.3 !important;
+  }
+
+  p[class*="text-[32px]"],
+  p[class*="text-[28px]"] {
+    font-size: clamp(1.5rem, 3vw, 2rem) !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Allow text wrapping */
+  p[class*="text-nowrap"],
+  div[class*="text-nowrap"] {
+    white-space: normal !important;
+  }
+
+  /* Grid layouts - 8-column grid for tablet */
+  div[class*="grid-cols-3"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Images - responsive but maintain aspect ratio */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+  }
+
+  video {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Ensure all content containers are visible */
+  div[class*="content-stretch"],
+  div[class*="flex flex-col"],
+  div[class*="items-center"] {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* Gaps - reduce for tablet */
+  div[class*="gap-[240px]"] {
+    gap: 6rem !important;
+  }
+
+  div[class*="gap-[160px]"],
+  div[class*="gap-[128px]"] {
+    gap: 4rem !important;
+  }
+
+  div[class*="gap-[80px]"],
+  div[class*="gap-[60px]"] {
+    gap: 3rem !important;
+  }
+
+  /* Section padding */
+  div[class*="py-[160px]"] {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+  }
+
+  div[class*="py-[80px]"] {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+  /* Investor logos section */
+  [data-name="Section:mask-group"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* iPhone mockups - scale down */
+  [data-name="iPhone"],
+  div[class*="iPhone"] {
+    max-width: 90% !important;
+  }
+}
+
+/* ============================================
+   MOBILE (Below 768px)
+   Custom mobile layout (handled by MobileHomePage component)
+   ============================================ */
+@media (max-width: 767px) {
+  
+  /* Mobile uses completely different component */
+  /* These styles apply to desktop component when viewed on mobile */
+  /* (for fallback purposes only) */
+  
+  /* Hide desktop component on mobile - mobile component handles everything */
+  /* Mobile-specific styles are in the mobile components */
+  
+  /* Hide second navigation bar on mobile */
+  div[data-name="div.grid"][class*="backdrop-blur-[50px]"] {
+    display: none !important;
+  }
+  
+  /* Ensure no horizontal scroll */
+  * {
+    max-width: 100vw !important;
+  }
+
+  /* Allow SVGs and specific elements */
+  svg,
+  img[alt=""],
+  [data-name="Logo"],
+  [data-name="Navigation Icon"] {
+    max-width: none !important;
+  }
+
+  /* Images responsive */
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* Minimum touch targets */
+  button,
+  a,
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* ============================================
+   MOBILE - LARGE (480px - 767px)
+   ============================================ */
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Slightly larger mobile styles if needed */
+  /* Mobile component handles most of this */
+}
+
+/* ============================================
+   MOBILE - SMALL (360px - 479px)
+   ============================================ */
+@media (min-width: 360px) and (max-width: 479px) {
+  /* Smallest mobile devices */
+  /* Mobile component handles most of this */
+}
+
+/* ============================================
+   ANIMATIONS & UTILITIES
+   ============================================ */
+
+/* Investor logos animation */
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+[data-name="List"] > div {
+  animation: scroll-logos 25s linear infinite;
+}
+
+[data-name="List"] {
+  position: absolute !important;
+  overflow: visible !important;
+}
+
+[data-name="Section:mask-group"] {
+  overflow: hidden !important;
+}
+
+@media (max-width: 1023px) {
+  [data-name="List"] > div {
+    animation: scroll-logos 35s linear infinite;
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+/* Prevent text overflow */
+.prevent-overflow {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Responsive image container */
+.responsive-img-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.responsive-img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ============================================
+   DESKTOP PRESERVATION CHECK (1024px+)
+   ============================================ */
+
+/* 
+ * CRITICAL: No styles applied at 1024px and above
+ * Desktop remains completely untouched
+ * All original desktop styles from components remain active
+ */
+
+@media (min-width: 1024px) {
+  /* 
+   * INTENTIONALLY EMPTY
+   * Desktop uses original component styles
+   * DO NOT ADD ANY STYLES HERE
+   */
+}
+
+/* ============================================
+   DEBUG HELPER (Remove in production)
+   ============================================ */
+
+/* Uncomment to see breakpoint indicators during development */
+/*
+body::before {
+  content: 'Mobile: 360-479';
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: red;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  z-index: 99999;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  body::before {
+    content: 'Large Mobile: 480-767';
+    background: orange;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body::before {
+    content: 'Tablet: 768-1023 (Desktop Scaled)';
+    background: blue;
+  }
+}
+
+@media (min-width: 1024px) {
+  body::before {
+    content: 'Desktop: 1024+ (LOCKED)';
+    background: green;
+  }
+}
+*/

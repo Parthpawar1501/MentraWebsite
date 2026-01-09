@@ -1,0 +1,19 @@
+/* Red Hat Display */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap');
+
+/* Manrope */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+/* SF Pro Display (fallback to system fonts) */
+@font-face {
+  font-family: 'SF_Pro_Display';
+  src: local('SF Pro Display'), local('-apple-system'), local('BlinkMacSystemFont');
+  font-weight: 400 700;
+}
+
+/* SF Pro (fallback to system fonts) */
+@font-face {
+  font-family: 'SF_Pro';
+  src: local('SF Pro'), local('-apple-system'), local('BlinkMacSystemFont');
+  font-weight: 400 700;
+}
