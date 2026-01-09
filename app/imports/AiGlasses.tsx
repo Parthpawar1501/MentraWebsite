@@ -911,7 +911,7 @@ function Video() {
           setVideoLoaded(false);
         }}
         >
-          <source src="/assets/BuyingAdvice.mov" type="video/quicktime" />
+          <source src="/assets/BuyingAdvice.mp4" type="video/mp4" />
         </video>
       </div>
     </div>
@@ -1118,7 +1118,7 @@ function Group12() {
             setVideoLoaded(false);
           }}
         >
-          <source src="/assets/Birthday%20party.mov" type="video/quicktime" />
+          <source src="/assets/Birthday party.mp4" type="video/mp4" />
         </video>
       </div>
       <Frame116 />
@@ -2559,7 +2559,7 @@ function Frame111() {
             setVideoLoaded(false);
           }}
         >
-          <source src="/assets/Music%20Video.mov" type="video/quicktime" />
+          <source src="/assets/Music Video.mp4" type="video/mp4" />
         </video>
       </div>
     </div>
@@ -2711,7 +2711,7 @@ function Video1() {
           setVideoLoaded(false);
         }}
       >
-        <source src="/assets/Cooking.mov" type="video/quicktime" />
+          <source src="/assets/Cooking.mp4" type="video/mp4" />
       </video>
     </div>
   );
@@ -3250,7 +3250,7 @@ function Video2() {
           setVideoLoaded(false);
         }}
       >
-        <source src="/assets/Driving.mov" type="video/quicktime" />
+          <source src="/assets/Driving.mp4" type="video/mp4" />
       </video>
     </div>
   );
