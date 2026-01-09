@@ -4,8 +4,21 @@ import ScrollReveal from '../components/ScrollReveal';
 import GetYourMentraGlassesSection from '../imports/Frame1984078261';
 import Footer from '../imports/Frame1984078270-14-8211';
 import {useState} from 'react';
-import imgImage163 from "/assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png";
-import imgImage172 from "/assets/551715d6dae135191779e906c9df5ddb3d719234.png";
+// Hero section image
+import imgAboutHero from "/assets/551715d6dae135191779e906c9df5ddb3d719234.png";
+// Our Roots section image
+import imgAboutRoots from "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png";
+// Our Mission section image
+import imgAboutMission from "/assets/941ea41c22412686984c524708231da6edbd53ad.png";
+// Open Source Future section image
+import imgAboutOpenSource from "/assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png";
+// Team carousel images
+import imgTeam1 from "/assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png";
+import imgTeam2 from "/assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png";
+// News section images
+import imgNews1 from "/assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png";
+import imgNews2 from "/assets/51d7d50f9b381f963c3ef047a3dd22f068b8e016.png";
+import imgNews3 from "/assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png";
 
 export const meta: MetaFunction = () => {
   return [
@@ -22,12 +35,12 @@ export default function AboutPage() {
 
   const teamMembers = [
     {
-      image: imgImage163,
+      image: imgTeam1,
       title: "Mentra AI",
       description: "With high-definition video capabilities and a sleek design, the Mentra Live Camera Glasses are not just a gadget,",
     },
     {
-      image: imgImage163,
+      image: imgTeam2,
       title: "Mentra AI",
       description: "With high-definition video capabilities and a sleek design, the Mentra Live Camera Glasses are not just a gadget.",
     },
@@ -35,17 +48,17 @@ export default function AboutPage() {
 
   const newsItems = [
     {
-      image: imgImage163,
+      image: imgNews1,
       title: "Mentra AI",
       description: "With high-definition video capabilities and a sleek design, the Mentra Live Camera Glasses are not just a gadget, but a lifestyle accessory that enhances your experiences.",
     },
     {
-      image: imgImage163,
+      image: imgNews2,
       title: "Mentra AI",
       description: "With high-definition video capabilities and a sleek design, the Mentra Live Camera Glasses are not just a gadget, but a lifestyle accessory that enhances your experiences.",
     },
     {
-      image: imgImage163,
+      image: imgNews3,
       title: "Mentra AI",
       description: "With high-definition video capabilities and a sleek design, the Mentra Live Camera Glasses are not just a gadget, but a lifestyle accessory that enhances your experiences.",
     },
@@ -59,7 +72,7 @@ export default function AboutPage() {
         <ScrollReveal direction="fade" delay={0} duration={0.8}>
           <div className="content-stretch flex items-center gap-[80px] pb-[80px] pt-[40px] px-0 relative shrink-0 w-full max-w-[1454px] mb-0">
             <div className="h-[641px] relative rounded-[24px] shrink-0 w-[687px]" data-name="Rectangle 161123840">
-              <img alt="About Mentra hero" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgImage172} />
+              <img alt="About Mentra hero" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgAboutHero} />
             </div>
             <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-name="Frame 1984078194">
               <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[40px] not-italic relative shrink-0 text-[#0d0c0d] text-[28px] tracking-[0.3px]">About Us</p>
@@ -92,7 +105,7 @@ export default function AboutPage() {
             </div>
             <div className="h-[641px] relative shrink-0 w-[1454px]" data-name="Rectangle 161123840">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="Our Roots" className="absolute h-[148.49%] left-[-0.62%] max-w-none top-[-24.25%] w-[100.62%]" src={imgImage172} />
+                <img alt="Our Roots" className="absolute h-[148.49%] left-[-0.62%] max-w-none top-[-24.25%] w-[100.62%]" src={imgAboutRoots} />
               </div>
             </div>
             {/* Timeline */}
@@ -189,7 +202,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="h-[641px] relative rounded-[24px] shrink-0 w-[822px]" data-name="Rectangle 161123840">
-              <img alt="Our Mission" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgImage172} />
+              <img alt="Our Mission" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgAboutMission} />
             </div>
           </div>
         </ScrollReveal>
@@ -198,7 +211,7 @@ export default function AboutPage() {
         <ScrollReveal direction="up" delay={400} distance={40} duration={0.8}>
           <div className="content-stretch flex items-start gap-[80px] pb-[80px] pt-0 px-0 relative shrink-0 w-full max-w-[1454px] mb-0" data-name="Frame 1618873013">
             <div className="h-[641px] relative rounded-[24px] shrink-0 w-[687px]" data-name="Rectangle 161123840">
-              <img alt="Open Source Future" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgImage172} />
+              <img alt="Open Source Future" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgAboutOpenSource} />
             </div>
             <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-[687px]" data-name="Frame 1984078194">
               <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[57.333px] not-italic relative shrink-0 text-[#0a0a0a] text-[57.333px] mb-0">Open Source Future</p>

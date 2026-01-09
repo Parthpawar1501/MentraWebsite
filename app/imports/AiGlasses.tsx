@@ -6622,7 +6622,7 @@ export default function AiGlasses() {
 
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative w-full" data-name="AI glasses" style={{ minHeight: 'auto' }}>
-      <div className="fixed top-0 left-0 right-0 z-50 pointer-events-auto flex flex-col">
+      <div className="fixed top-0 left-0 right-0 z-[9999] pointer-events-auto flex flex-col" style={{ zIndex: 9999 }}>
         <DivGrid9 onDropdownChange={setIsDropdownActive} />
         {isSecondNavSticky && !isDropdownActive && (
           <div 

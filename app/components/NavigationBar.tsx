@@ -81,7 +81,7 @@ function AIGlassesDropdown() {
   const navigate = useNavigate();
   
   return (
-    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex gap-[40px] items-start left-[259px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[60] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up">
+    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex gap-[40px] items-start left-[259px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" style={{ zIndex: 10000 }}>
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[205.33px]" data-name="div.grid">
         <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative shrink-0 w-[205.33px]" data-name="Link">
           <p 
@@ -117,11 +117,17 @@ function AIGlassesDropdown() {
 
 // Apps and OS Dropdown Content
 function AppsOSDropdown() {
+  const navigate = useNavigate();
   return (
-    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[421px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[60] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up">
+    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[421px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" style={{ zIndex: 10000 }}>
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[205.33px]" data-name="div.grid">
         <div className="content-stretch flex items-start pb-px pl-0 pr-[89.33px] pt-0 relative shrink-0 w-[205.33px] group" data-name="Link">
-          <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[31.873px] not-italic relative shrink-0 text-[#0a0a0a] text-[20px] text-center text-nowrap cursor-pointer hover:text-[#00b869] transition-all duration-300 group-hover:translate-x-1">MentraOS</p>
+          <p 
+            className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[31.873px] not-italic relative shrink-0 text-[#0a0a0a] text-[20px] text-center text-nowrap cursor-pointer hover:text-[#00b869] transition-all duration-300 group-hover:translate-x-1"
+            onClick={() => navigate('/os')}
+          >
+            MentraOS
+          </p>
         </div>
         <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative shrink-0 w-[205.33px] group" data-name="Link">
           <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[31.873px] not-italic relative shrink-0 text-[#0a0a0a] text-[20px] text-center text-nowrap cursor-pointer hover:text-[#00b869] transition-all duration-300 group-hover:translate-x-1">Mentra MiniApp Store</p>
@@ -141,7 +147,7 @@ function AppsOSDropdown() {
 function CompanyDropdown() {
   const navigate = useNavigate();
   return (
-    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[603px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[60] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up">
+    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[603px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" style={{ zIndex: 10000 }}>
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-name="div.grid">
         <div className="relative shrink-0 w-[122px] group" data-name="Link">
           <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative w-full" onClick={() => navigate('/about')}>
@@ -160,7 +166,7 @@ function CompanyDropdown() {
 function CommunityDropdown() {
   const navigate = useNavigate();
   return (
-    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[753px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[60] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up">
+    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[753px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" style={{ zIndex: 10000 }}>
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-name="div.grid">
         <div className="relative shrink-0 w-[122px] group" data-name="Link">
           <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative w-full">
@@ -277,19 +283,20 @@ export default function NavigationBar({ onDropdownChange }: NavigationBarProps =
 
   return (
     <div 
-      className={`overflow-visible w-full relative transition-all duration-500 ${
+      className={`overflow-visible w-full relative transition-all duration-500 z-[9999] ${
         shouldBeTransparent
           ? 'shadow-none' 
           : 'backdrop-blur-[50px] backdrop-filter shadow-[0px_4px_30px_5px_rgba(0,0,0,0.05)]'
       }`}
       onMouseLeave={handleMouseLeave}
+      style={{ zIndex: 9999 }}
     >
       {/* Main Navbar */}
-      <div className={`content-stretch flex flex-col items-start overflow-clip px-[133.778px] py-[24px] w-full transition-all duration-500 relative ${
+      <div className={`content-stretch flex flex-col items-start overflow-visible px-[133.778px] py-[24px] w-full transition-all duration-500 relative ${
         shouldBeTransparent
           ? 'bg-transparent' 
           : 'backdrop-blur-[250px] backdrop-filter bg-[rgba(255,255,255,0.85)]'
-      }`}>
+      }`} style={{ zIndex: 9999 }}>
         {/* Subtle dark gradient overlay when transparent (only on home page when no dropdown) */}
         {shouldBeTransparent && (
           <div 
@@ -299,7 +306,7 @@ export default function NavigationBar({ onDropdownChange }: NavigationBarProps =
             }}
           />
         )}
-        <div className="content-stretch flex items-start justify-between relative shrink-0 w-full z-10">
+        <div className="content-stretch flex items-start justify-between relative shrink-0 w-full z-[9999]">
           {/* Left side - Logo and Nav Items */}
           <div className="content-stretch flex gap-[38.222px] items-center justify-center relative shrink-0">
             <MentraLogo textColor={textColor} />

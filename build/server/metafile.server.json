@@ -60,12 +60,7 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/05bb44a8bc60f1b1e394508505cc2adbe09dfe93.png": {
+    "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -75,22 +70,12 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/2cc255a03f12e9620932efdedf23b34e8544f98f.png": {
+    "../../../../../assets/fc649cd21fa2fac60c9eba2a97d1cc1b3148b755.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/af81160268ba6fe50a749109b97cfd9476c5cc3a.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-image197.png": {
+    "../../../../../assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -100,17 +85,52 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png": {
+    "../../../../../assets/af81160268ba6fe50a749109b97cfd9476c5cc3a.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png": {
+    "../../../../../assets/2cc255a03f12e9620932efdedf23b34e8544f98f.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png": {
+    "../../../../../assets/05bb44a8bc60f1b1e394508505cc2adbe09dfe93.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-social2.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-social3.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-social4.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-social1.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-social5.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -120,12 +140,62 @@
       "format": "esm",
       "imports": []
     },
+    "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
     "../../../../../assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
+    "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
     "../../../../../assets/08d2f54624f59fd5915df0f824ac8912a6b993e1.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-circle.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -140,7 +210,12 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/prescription-circle.png": {
+    "../../../../../assets/prescription-image197.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-ellipse2342.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -160,97 +235,12 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
     "../../../../../assets/prescription-group1597880443.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/prescription-ellipse2342.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-social1.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-social2.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-social5.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-social4.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/fc649cd21fa2fac60c9eba2a97d1cc1b3148b755.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/2effc128444e041451979989499c0686570d87f7.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/beec97f1ce8672b28fedcb27ec869008225d63ad.png": {
+    "../../../../../assets/3615eb4fbb5a58b0fc7abfd28a711c7fb1706054.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -260,22 +250,12 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/f734081f870e6b04cf83f45d1c14e6d5bee6f83e.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/3d7abe0690d911f88227459f66b04bf69d9f1ed0.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
     "../../../../../assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/ffe36e87ab0a3e6ca1bd46752e7b4c2b208e0c73.png": {
+    "../../../../../assets/beec97f1ce8672b28fedcb27ec869008225d63ad.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -285,12 +265,7 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/cf4cc7823f786cdb33e8f7055653555a3a0b3e9a.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/c87d88f2e837fcee49720b01dc635b6b7ca00131.png": {
+    "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -300,7 +275,12 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png": {
+    "../../../../../assets/d7ab4d4bf07a9bf1bfcaa426805829cbbd1f328b.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/ffe36e87ab0a3e6ca1bd46752e7b4c2b208e0c73.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -310,12 +290,17 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/d7ab4d4bf07a9bf1bfcaa426805829cbbd1f328b.png": {
+    "../../../../../assets/2effc128444e041451979989499c0686570d87f7.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/3615eb4fbb5a58b0fc7abfd28a711c7fb1706054.png": {
+    "../../../../../assets/cf4cc7823f786cdb33e8f7055653555a3a0b3e9a.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/b25f0c59f8288e24474be7af805b56e31c7edc68.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -330,12 +315,12 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/1ac159eb98cb2cb45357653e433c61e999682f88.png": {
+    "../../../../../assets/1596bbfeb60ef296048aa6a59fc891c99c1c0156.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/1596bbfeb60ef296048aa6a59fc891c99c1c0156.png": {
+    "../../../../../assets/1ac159eb98cb2cb45357653e433c61e999682f88.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -345,12 +330,22 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/b25f0c59f8288e24474be7af805b56e31c7edc68.png": {
+    "../../../../../assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/prescription-social3.png": {
+    "../../../../../assets/c87d88f2e837fcee49720b01dc635b6b7ca00131.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/f734081f870e6b04cf83f45d1c14e6d5bee6f83e.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/3d7abe0690d911f88227459f66b04bf69d9f1ed0.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -360,17 +355,12 @@
       "format": "esm",
       "imports": []
     },
+    "../../../../../assets/3e716864cf4047bbadc5979533465dade88d3530.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
     "../../../../../assets/a8433f4b35a1441680fe369aac4998a92c083850.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/a941107cc55205e46c84f3250b368b3cec1c522c.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -380,8 +370,8 @@
       "format": "esm",
       "imports": []
     },
-    "app/styles/responsive-fixed.css?url": {
-      "bytes": 330,
+    "../../../../../assets/a941107cc55205e46c84f3250b368b3cec1c522c.png": {
+      "bytes": 48,
       "format": "esm",
       "imports": []
     },
@@ -390,28 +380,23 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/3e716864cf4047bbadc5979533465dade88d3530.png": {
+    "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
     "\u0000virtual:remix/server-manifest": {
-      "bytes": 6862,
+      "bytes": 7114,
       "format": "esm",
       "imports": []
     },
-    "app/styles/mentra-live.css?url": {
-      "bytes": 315,
-      "format": "esm",
-      "imports": []
-    },
-    "app/styles/mobile-responsive.css?url": {
-      "bytes": 333,
-      "format": "esm",
-      "imports": []
-    },
-    "app/styles/mobile-mentra-live.css?url": {
-      "bytes": 336,
+    "app/styles/responsive-fixed.css?url": {
+      "bytes": 330,
       "format": "esm",
       "imports": []
     },
@@ -425,10 +410,336 @@
       "format": "esm",
       "imports": []
     },
+    "app/styles/mobile-responsive.css?url": {
+      "bytes": 333,
+      "format": "esm",
+      "imports": []
+    },
     "app/styles/index.css?url": {
       "bytes": 297,
       "format": "esm",
       "imports": []
+    },
+    "app/styles/mentra-live.css?url": {
+      "bytes": 315,
+      "format": "esm",
+      "imports": []
+    },
+    "app/styles/mobile-mentra-live.css?url": {
+      "bytes": 336,
+      "format": "esm",
+      "imports": []
+    },
+    "app/styles/global-improvements.css?url": {
+      "bytes": 339,
+      "format": "esm",
+      "imports": []
+    },
+    "app/routes/health.tsx": {
+      "bytes": 417,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        }
+      ]
+    },
+    "app/routes/prescriptions.tsx": {
+      "bytes": 419,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/imports/Prescriptions.tsx",
+          "kind": "import-statement",
+          "original": "../imports/Prescriptions"
+        }
+      ]
+    },
+    "app/routes/technology.tsx": {
+      "bytes": 9051,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
+        }
+      ]
+    },
+    "app/routes/support.tsx": {
+      "bytes": 11247,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
+        }
+      ]
+    },
+    "app/routes/api.cart.ts": {
+      "bytes": 2338,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/shopify.server"
+        },
+        {
+          "path": "app/lib/cart.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/cart.server"
+        }
+      ]
+    },
+    "app/routes/collections.$handle.tsx": {
+      "bytes": 4579,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/shopify.server"
+        }
+      ]
+    },
+    "app/routes/contact.tsx": {
+      "bytes": 9303,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
+        },
+        {
+          "path": "app/components/ui/sonner.tsx",
+          "kind": "import-statement",
+          "original": "../components/ui/sonner"
+        },
+        {
+          "path": "sonner",
+          "kind": "import-statement",
+          "original": "sonner"
+        }
+      ]
+    },
+    "app/routes/cart.tsx": {
+      "bytes": 2709,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/shopify.server"
+        },
+        {
+          "path": "app/lib/cart.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/cart.server"
+        }
+      ]
+    },
+    "app/routes/_index.tsx": {
+      "bytes": 1591,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "app/imports/AiGlasses.tsx",
+          "kind": "import-statement",
+          "original": "../imports/AiGlasses"
+        },
+        {
+          "path": "app/components/mobile/MobileHomePage.tsx",
+          "kind": "import-statement",
+          "original": "../components/mobile/MobileHomePage"
+        },
+        {
+          "path": "app/components/ui/sonner.tsx",
+          "kind": "import-statement",
+          "original": "../components/ui/sonner"
+        }
+      ]
+    },
+    "app/routes/products.$handle.tsx": {
+      "bytes": 4502,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/shopify.server"
+        },
+        {
+          "path": "app/imports/MentraLive.tsx",
+          "kind": "import-statement",
+          "original": "../imports/MentraLive"
+        },
+        {
+          "path": "app/components/EnhancedMobileMentraLive.tsx",
+          "kind": "import-statement",
+          "original": "../components/EnhancedMobileMentraLive"
+        },
+        {
+          "path": "app/components/ui/sonner.tsx",
+          "kind": "import-statement",
+          "original": "../components/ui/sonner"
+        },
+        {
+          "path": "app/contexts/CartContext.tsx",
+          "kind": "import-statement",
+          "original": "../contexts/CartContext"
+        }
+      ]
+    },
+    "app/root.tsx": {
+      "bytes": 1489,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "app/styles/index.css?url",
+          "kind": "import-statement",
+          "original": "./styles/index.css?url"
+        },
+        {
+          "path": "app/styles/responsive-fixed.css?url",
+          "kind": "import-statement",
+          "original": "./styles/responsive-fixed.css?url"
+        },
+        {
+          "path": "app/styles/mobile-responsive.css?url",
+          "kind": "import-statement",
+          "original": "./styles/mobile-responsive.css?url"
+        },
+        {
+          "path": "app/styles/mentra-live.css?url",
+          "kind": "import-statement",
+          "original": "./styles/mentra-live.css?url"
+        },
+        {
+          "path": "app/styles/mobile-mentra-live.css?url",
+          "kind": "import-statement",
+          "original": "./styles/mobile-mentra-live.css?url"
+        },
+        {
+          "path": "app/styles/animations.css?url",
+          "kind": "import-statement",
+          "original": "./styles/animations.css?url"
+        },
+        {
+          "path": "app/styles/global-improvements.css?url",
+          "kind": "import-statement",
+          "original": "./styles/global-improvements.css?url"
+        },
+        {
+          "path": "app/styles/responsive-padding.css?url",
+          "kind": "import-statement",
+          "original": "./styles/responsive-padding.css?url"
+        }
+      ]
     },
     "\u0000virtual:remix/server-build": {
       "bytes": 4473,
@@ -516,8 +827,89 @@
         }
       ]
     },
-    "app/styles/global-improvements.css?url": {
-      "bytes": 339,
+    "app/routes/about.tsx": {
+      "bytes": 21390,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
+        },
+        {
+          "path": "app/components/ScrollReveal.tsx",
+          "kind": "import-statement",
+          "original": "../components/ScrollReveal"
+        },
+        {
+          "path": "app/imports/Frame1984078261.tsx",
+          "kind": "import-statement",
+          "original": "../imports/Frame1984078261"
+        },
+        {
+          "path": "app/imports/Frame1984078270-14-8211.tsx",
+          "kind": "import-statement",
+          "original": "../imports/Frame1984078270-14-8211"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "../../../../../assets/551715d6dae135191779e906c9df5ddb3d719234.png",
+          "kind": "import-statement",
+          "original": "/assets/551715d6dae135191779e906c9df5ddb3d719234.png"
+        },
+        {
+          "path": "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png",
+          "kind": "import-statement",
+          "original": "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png"
+        },
+        {
+          "path": "../../../../../assets/941ea41c22412686984c524708231da6edbd53ad.png",
+          "kind": "import-statement",
+          "original": "/assets/941ea41c22412686984c524708231da6edbd53ad.png"
+        },
+        {
+          "path": "../../../../../assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png",
+          "kind": "import-statement",
+          "original": "/assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png"
+        },
+        {
+          "path": "../../../../../assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png",
+          "kind": "import-statement",
+          "original": "/assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png"
+        },
+        {
+          "path": "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png",
+          "kind": "import-statement",
+          "original": "/assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png"
+        },
+        {
+          "path": "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png",
+          "kind": "import-statement",
+          "original": "/assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png"
+        },
+        {
+          "path": "../../../../../assets/51d7d50f9b381f963c3ef047a3dd22f068b8e016.png",
+          "kind": "import-statement",
+          "original": "/assets/51d7d50f9b381f963c3ef047a3dd22f068b8e016.png"
+        },
+        {
+          "path": "../../../../../assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png",
+          "kind": "import-statement",
+          "original": "/assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png"
+        }
+      ]
+    },
+    "app/imports/svg-mxqnixecfi.ts": {
+      "bytes": 8861,
       "format": "esm",
       "imports": []
     },
@@ -528,11 +920,6 @@
     },
     "app/lib/cart.server.ts": {
       "bytes": 3197,
-      "format": "esm",
-      "imports": []
-    },
-    "app/imports/svg-mxqnixecfi.ts": {
-      "bytes": 8861,
       "format": "esm",
       "imports": []
     },
@@ -547,8 +934,8 @@
         }
       ]
     },
-    "app/root.tsx": {
-      "bytes": 1489,
+    "app/components/ProductImageGallery.tsx": {
+      "bytes": 3218,
       "format": "esm",
       "imports": [
         {
@@ -557,74 +944,14 @@
           "original": "react/jsx-runtime"
         },
         {
-          "path": "@remix-run/react",
+          "path": "react",
           "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "app/styles/index.css?url",
-          "kind": "import-statement",
-          "original": "./styles/index.css?url"
-        },
-        {
-          "path": "app/styles/responsive-fixed.css?url",
-          "kind": "import-statement",
-          "original": "./styles/responsive-fixed.css?url"
-        },
-        {
-          "path": "app/styles/mobile-responsive.css?url",
-          "kind": "import-statement",
-          "original": "./styles/mobile-responsive.css?url"
-        },
-        {
-          "path": "app/styles/mentra-live.css?url",
-          "kind": "import-statement",
-          "original": "./styles/mentra-live.css?url"
-        },
-        {
-          "path": "app/styles/mobile-mentra-live.css?url",
-          "kind": "import-statement",
-          "original": "./styles/mobile-mentra-live.css?url"
-        },
-        {
-          "path": "app/styles/animations.css?url",
-          "kind": "import-statement",
-          "original": "./styles/animations.css?url"
-        },
-        {
-          "path": "app/styles/global-improvements.css?url",
-          "kind": "import-statement",
-          "original": "./styles/global-improvements.css?url"
-        },
-        {
-          "path": "app/styles/responsive-padding.css?url",
-          "kind": "import-statement",
-          "original": "./styles/responsive-padding.css?url"
+          "original": "react"
         }
       ]
     },
-    "app/imports/svg-716j1jt04l.ts": {
-      "bytes": 177,
-      "format": "esm",
-      "imports": []
-    },
-    "app/imports/svg-2rip6vyh9r.ts": {
-      "bytes": 7907,
-      "format": "esm",
-      "imports": []
-    },
-    "app/imports/svg-ys0r4kxewm.ts": {
-      "bytes": 1469,
-      "format": "esm",
-      "imports": []
-    },
-    "app/imports/svg-5nkvx.tsx": {
-      "bytes": 1542,
-      "format": "esm",
-      "imports": []
-    },
-    "app/imports/Frame1984078232.tsx": {
-      "bytes": 4442,
+    "app/components/ScrollReveal.tsx": {
+      "bytes": 4161,
       "format": "esm",
       "imports": [
         {
@@ -633,29 +960,14 @@
           "original": "react/jsx-runtime"
         },
         {
-          "path": "app/imports/svg-716j1jt04l.ts",
+          "path": "react",
           "kind": "import-statement",
-          "original": "./svg-716j1jt04l"
-        },
-        {
-          "path": "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png",
-          "kind": "import-statement",
-          "original": "/assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png"
+          "original": "react"
         }
       ]
     },
-    "app/imports/svg-saoyw.tsx": {
-      "bytes": 1543,
-      "format": "esm",
-      "imports": []
-    },
-    "app/imports/svg-nrlb2kvmui.ts": {
-      "bytes": 33340,
-      "format": "esm",
-      "imports": []
-    },
-    "app/imports/Frame1984078242-12-7749.tsx": {
-      "bytes": 2254,
+    "app/contexts/CartContext.tsx": {
+      "bytes": 1882,
       "format": "esm",
       "imports": [
         {
@@ -664,21 +976,27 @@
           "original": "react/jsx-runtime"
         },
         {
-          "path": "@remix-run/react",
+          "path": "react",
           "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "../../../../../assets/588337c215139582e6c05119cb943a3d72e06856.png",
-          "kind": "import-statement",
-          "original": "/assets/588337c215139582e6c05119cb943a3d72e06856.png"
+          "original": "react"
         }
       ]
     },
-    "app/imports/svg-3zy3oopzfy.ts": {
-      "bytes": 51550,
+    "app/components/PlayPauseControl.tsx": {
+      "bytes": 2362,
       "format": "esm",
-      "imports": []
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        }
+      ]
     },
     "app/components/FAQSection.tsx": {
       "bytes": 12553,
@@ -696,71 +1014,8 @@
         }
       ]
     },
-    "app/components/StickyPurchaseSection.tsx": {
-      "bytes": 4109,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "app/contexts/CartContext.tsx",
-          "kind": "import-statement",
-          "original": "../contexts/CartContext"
-        },
-        {
-          "path": "sonner",
-          "kind": "import-statement",
-          "original": "sonner"
-        }
-      ]
-    },
-    "app/imports/svg-ipg91.tsx": {
-      "bytes": 11265,
-      "format": "esm",
-      "imports": []
-    },
     "app/components/ProductAccordion.tsx": {
       "bytes": 2893,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        }
-      ]
-    },
-    "app/routes/technology.tsx": {
-      "bytes": 9051,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/components/NavigationBar.tsx",
-          "kind": "import-statement",
-          "original": "../components/NavigationBar"
-        }
-      ]
-    },
-    "app/components/ScrollReveal.tsx": {
-      "bytes": 4161,
       "format": "esm",
       "imports": [
         {
@@ -796,127 +1051,8 @@
         }
       ]
     },
-    "app/imports/svg-vm45n54l9.ts": {
-      "bytes": 60626,
-      "format": "esm",
-      "imports": []
-    },
-    "app/imports/svg-uc2tkx0skx.ts": {
-      "bytes": 33338,
-      "format": "esm",
-      "imports": []
-    },
-    "app/components/mobile/MobileHomePage.tsx": {
-      "bytes": 309,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/components/mobile/NewMobileHomePage.tsx",
-          "kind": "import-statement",
-          "original": "./NewMobileHomePage"
-        }
-      ]
-    },
-    "app/components/mobile/MobileHeroSection.tsx": {
-      "bytes": 2460,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png",
-          "kind": "import-statement",
-          "original": "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png"
-        },
-        {
-          "path": "app/imports/svg-nrlb2kvmui.ts",
-          "kind": "import-statement",
-          "original": "../../imports/svg-nrlb2kvmui"
-        }
-      ]
-    },
-    "app/components/mobile/MobileInvestorLogos.tsx": {
-      "bytes": 3767,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "../../../../../assets/941ea41c22412686984c524708231da6edbd53ad.png",
-          "kind": "import-statement",
-          "original": "/assets/941ea41c22412686984c524708231da6edbd53ad.png"
-        },
-        {
-          "path": "../../../../../assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png",
-          "kind": "import-statement",
-          "original": "/assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png"
-        },
-        {
-          "path": "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png",
-          "kind": "import-statement",
-          "original": "/assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png"
-        },
-        {
-          "path": "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png",
-          "kind": "import-statement",
-          "original": "/assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png"
-        },
-        {
-          "path": "../../../../../assets/51d7d50f9b381f963c3ef047a3dd22f068b8e016.png",
-          "kind": "import-statement",
-          "original": "/assets/51d7d50f9b381f963c3ef047a3dd22f068b8e016.png"
-        },
-        {
-          "path": "../../../../../assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png",
-          "kind": "import-statement",
-          "original": "/assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png"
-        },
-        {
-          "path": "../../../../../assets/08d2f54624f59fd5915df0f824ac8912a6b993e1.png",
-          "kind": "import-statement",
-          "original": "/assets/08d2f54624f59fd5915df0f824ac8912a6b993e1.png"
-        },
-        {
-          "path": "../../../../../assets/50b9de801dda0227d238cfab2648fdf555f1b62a.png",
-          "kind": "import-statement",
-          "original": "/assets/50b9de801dda0227d238cfab2648fdf555f1b62a.png"
-        },
-        {
-          "path": "app/imports/svg-5nkvx.tsx",
-          "kind": "import-statement",
-          "original": "../../imports/svg-5nkvx"
-        }
-      ]
-    },
-    "app/imports/svg-mxsfu.tsx": {
-      "bytes": 1542,
-      "format": "esm",
-      "imports": []
-    },
-    "app/components/mobile/MobileProductHeader.tsx": {
-      "bytes": 698,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        }
-      ]
-    },
-    "app/components/PlayPauseControl.tsx": {
-      "bytes": 2362,
+    "app/components/StickyPurchaseSection.tsx": {
+      "bytes": 4109,
       "format": "esm",
       "imports": [
         {
@@ -928,179 +1064,21 @@
           "path": "react",
           "kind": "import-statement",
           "original": "react"
-        }
-      ]
-    },
-    "app/routes/prescriptions.tsx": {
-      "bytes": 419,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/imports/Prescriptions.tsx",
-          "kind": "import-statement",
-          "original": "../imports/Prescriptions"
-        }
-      ]
-    },
-    "app/components/ProductImageGallery.tsx": {
-      "bytes": 3218,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        }
-      ]
-    },
-    "app/components/mobile/MobileSizeSelector.tsx": {
-      "bytes": 2090,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        }
-      ]
-    },
-    "app/components/ui/sonner.tsx": {
-      "bytes": 571,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "next-themes",
-          "kind": "import-statement",
-          "original": "next-themes"
-        },
-        {
-          "path": "sonner",
-          "kind": "import-statement",
-          "original": "sonner"
-        }
-      ]
-    },
-    "app/imports/Frame1984078261.tsx": {
-      "bytes": 5028,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "../../../../../assets/ce9d30db427efae4ba3239e016519c678813f304.png",
-          "kind": "import-statement",
-          "original": "/assets/ce9d30db427efae4ba3239e016519c678813f304.png"
-        }
-      ]
-    },
-    "app/imports/IPhone13143.tsx": {
-      "bytes": 10173,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/imports/svg-ys0r4kxewm.ts",
-          "kind": "import-statement",
-          "original": "./svg-ys0r4kxewm"
-        },
-        {
-          "path": "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png",
-          "kind": "import-statement",
-          "original": "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png"
-        }
-      ]
-    },
-    "app/routes/collections.$handle.tsx": {
-      "bytes": 4579,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        },
-        {
-          "path": "app/lib/shopify.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/shopify.server"
-        }
-      ]
-    },
-    "app/components/mobile/MobilePurchaseSection.tsx": {
-      "bytes": 6713,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "lucide-react",
-          "kind": "import-statement",
-          "original": "lucide-react"
-        },
-        {
-          "path": "sonner",
-          "kind": "import-statement",
-          "original": "sonner"
         },
         {
           "path": "app/contexts/CartContext.tsx",
           "kind": "import-statement",
-          "original": "../../contexts/CartContext"
+          "original": "../contexts/CartContext"
+        },
+        {
+          "path": "sonner",
+          "kind": "import-statement",
+          "original": "sonner"
         }
       ]
     },
     "app/components/NavigationBar.tsx": {
-      "bytes": 21020,
+      "bytes": 21334,
       "format": "esm",
       "imports": [
         {
@@ -1130,8 +1108,8 @@
         }
       ]
     },
-    "app/routes/products.$handle.tsx": {
-      "bytes": 4502,
+    "app/routes/buy.tsx": {
+      "bytes": 3994,
       "format": "esm",
       "imports": [
         {
@@ -1262,95 +1240,6 @@
         }
       ]
     },
-    "app/routes/health.tsx": {
-      "bytes": 417,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        }
-      ]
-    },
-    "app/imports/Frame1984078270-14-8211.tsx": {
-      "bytes": 14322,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/imports/svg-4mnhiia8zl.ts",
-          "kind": "import-statement",
-          "original": "./svg-4mnhiia8zl"
-        },
-        {
-          "path": "../../../../../assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png",
-          "kind": "import-statement",
-          "original": "/assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png"
-        }
-      ]
-    },
-    "app/imports/Frame1618873011-12-7678.tsx": {
-      "bytes": 26201,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/imports/svg-2rip6vyh9r.ts",
-          "kind": "import-statement",
-          "original": "./svg-2rip6vyh9r"
-        },
-        {
-          "path": "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png",
-          "kind": "import-statement",
-          "original": "/assets/87807e2e657137af250f0f3412bc97ace74dc408.png"
-        },
-        {
-          "path": "../../../../../assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png",
-          "kind": "import-statement",
-          "original": "/assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png"
-        }
-      ]
-    },
-    "app/routes/cart.tsx": {
-      "bytes": 2709,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        },
-        {
-          "path": "app/lib/shopify.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/shopify.server"
-        },
-        {
-          "path": "app/lib/cart.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/cart.server"
-        }
-      ]
-    },
     "app/routes/os.tsx": {
       "bytes": 18466,
       "format": "esm",
@@ -1412,8 +1301,23 @@
         }
       ]
     },
-    "app/routes/support.tsx": {
-      "bytes": 11247,
+    "app/imports/svg-nrlb2kvmui.ts": {
+      "bytes": 33340,
+      "format": "esm",
+      "imports": []
+    },
+    "app/imports/svg-5nkvx.tsx": {
+      "bytes": 1542,
+      "format": "esm",
+      "imports": []
+    },
+    "app/imports/svg-ipg91.tsx": {
+      "bytes": 11265,
+      "format": "esm",
+      "imports": []
+    },
+    "app/imports/Frame1984078232.tsx": {
+      "bytes": 4442,
       "format": "esm",
       "imports": [
         {
@@ -1422,109 +1326,19 @@
           "original": "react/jsx-runtime"
         },
         {
-          "path": "app/components/NavigationBar.tsx",
+          "path": "app/imports/svg-716j1jt04l.ts",
           "kind": "import-statement",
-          "original": "../components/NavigationBar"
+          "original": "./svg-716j1jt04l"
+        },
+        {
+          "path": "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png",
+          "kind": "import-statement",
+          "original": "/assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png"
         }
       ]
     },
-    "app/components/mobile/MobileReviews.tsx": {
-      "bytes": 5572,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "lucide-react",
-          "kind": "import-statement",
-          "original": "lucide-react"
-        }
-      ]
-    },
-    "app/contexts/CartContext.tsx": {
-      "bytes": 1882,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        }
-      ]
-    },
-    "app/routes/api.cart.ts": {
-      "bytes": 2338,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        },
-        {
-          "path": "app/lib/shopify.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/shopify.server"
-        },
-        {
-          "path": "app/lib/cart.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/cart.server"
-        }
-      ]
-    },
-    "app/components/mobile/MobileColorSelector.tsx": {
-      "bytes": 2208,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "lucide-react",
-          "kind": "import-statement",
-          "original": "lucide-react"
-        }
-      ]
-    },
-    "app/components/mobile/MobileProductImage.tsx": {
-      "bytes": 4081,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "../../../../../assets/83fb1abc62c74b98254b83e1c995957305d9c32a.png",
-          "kind": "import-statement",
-          "original": "/assets/83fb1abc62c74b98254b83e1c995957305d9c32a.png"
-        }
-      ]
-    },
-    "app/entry.server.tsx": {
-      "bytes": 1015,
+    "app/imports/Frame1984078242-12-7749.tsx": {
+      "bytes": 2254,
       "format": "esm",
       "imports": [
         {
@@ -1538,127 +1352,29 @@
           "original": "@remix-run/react"
         },
         {
-          "path": "isbot",
+          "path": "../../../../../assets/588337c215139582e6c05119cb943a3d72e06856.png",
           "kind": "import-statement",
-          "original": "isbot"
-        },
-        {
-          "path": "react-dom/server.browser",
-          "kind": "import-statement",
-          "original": "react-dom/server.browser"
+          "original": "/assets/588337c215139582e6c05119cb943a3d72e06856.png"
         }
       ]
     },
-    "app/routes/_index.tsx": {
-      "bytes": 1591,
+    "app/imports/svg-2rip6vyh9r.ts": {
+      "bytes": 7907,
       "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "app/imports/AiGlasses.tsx",
-          "kind": "import-statement",
-          "original": "../imports/AiGlasses"
-        },
-        {
-          "path": "app/components/mobile/MobileHomePage.tsx",
-          "kind": "import-statement",
-          "original": "../components/mobile/MobileHomePage"
-        },
-        {
-          "path": "app/components/ui/sonner.tsx",
-          "kind": "import-statement",
-          "original": "../components/ui/sonner"
-        }
-      ]
+      "imports": []
     },
-    "app/components/mobile/NewMobileHomePage.tsx": {
-      "bytes": 15089,
+    "app/imports/svg-vm45n54l9.ts": {
+      "bytes": 60626,
       "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "app/imports/IPhone13143.tsx",
-          "kind": "import-statement",
-          "original": "../../imports/IPhone13143"
-        },
-        {
-          "path": "app/imports/IPhone13141-33-9010.tsx",
-          "kind": "import-statement",
-          "original": "../../imports/IPhone13141-33-9010"
-        }
-      ]
+      "imports": []
     },
-    "app/routes/about.tsx": {
-      "bytes": 20671,
+    "app/imports/svg-716j1jt04l.ts": {
+      "bytes": 177,
       "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/components/NavigationBar.tsx",
-          "kind": "import-statement",
-          "original": "../components/NavigationBar"
-        },
-        {
-          "path": "app/components/ScrollReveal.tsx",
-          "kind": "import-statement",
-          "original": "../components/ScrollReveal"
-        },
-        {
-          "path": "app/imports/Frame1984078261.tsx",
-          "kind": "import-statement",
-          "original": "../imports/Frame1984078261"
-        },
-        {
-          "path": "app/imports/Frame1984078270-14-8211.tsx",
-          "kind": "import-statement",
-          "original": "../imports/Frame1984078270-14-8211"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "../../../../../assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png",
-          "kind": "import-statement",
-          "original": "/assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png"
-        },
-        {
-          "path": "../../../../../assets/551715d6dae135191779e906c9df5ddb3d719234.png",
-          "kind": "import-statement",
-          "original": "/assets/551715d6dae135191779e906c9df5ddb3d719234.png"
-        }
-      ]
+      "imports": []
     },
-    "app/routes/buy.tsx": {
-      "bytes": 3994,
+    "app/imports/Frame1984078261.tsx": {
+      "bytes": 5028,
       "format": "esm",
       "imports": [
         {
@@ -1672,39 +1388,92 @@
           "original": "@remix-run/react"
         },
         {
-          "path": "react",
+          "path": "../../../../../assets/ce9d30db427efae4ba3239e016519c678813f304.png",
           "kind": "import-statement",
-          "original": "react"
+          "original": "/assets/ce9d30db427efae4ba3239e016519c678813f304.png"
+        }
+      ]
+    },
+    "app/imports/svg-saoyw.tsx": {
+      "bytes": 1543,
+      "format": "esm",
+      "imports": []
+    },
+    "app/imports/svg-ys0r4kxewm.ts": {
+      "bytes": 1469,
+      "format": "esm",
+      "imports": []
+    },
+    "app/imports/Frame1618873011-12-7678.tsx": {
+      "bytes": 26201,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
         },
         {
-          "path": "@remix-run/node",
+          "path": "app/imports/svg-2rip6vyh9r.ts",
           "kind": "import-statement",
-          "original": "@remix-run/node"
+          "original": "./svg-2rip6vyh9r"
         },
         {
-          "path": "app/lib/shopify.server.ts",
+          "path": "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png",
           "kind": "import-statement",
-          "original": "../lib/shopify.server"
+          "original": "/assets/87807e2e657137af250f0f3412bc97ace74dc408.png"
         },
         {
-          "path": "app/imports/MentraLive.tsx",
+          "path": "../../../../../assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png",
           "kind": "import-statement",
-          "original": "../imports/MentraLive"
+          "original": "/assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png"
+        }
+      ]
+    },
+    "app/imports/svg-3zy3oopzfy.ts": {
+      "bytes": 51550,
+      "format": "esm",
+      "imports": []
+    },
+    "app/imports/IPhone13143.tsx": {
+      "bytes": 10173,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
         },
         {
-          "path": "app/components/EnhancedMobileMentraLive.tsx",
+          "path": "app/imports/svg-ys0r4kxewm.ts",
           "kind": "import-statement",
-          "original": "../components/EnhancedMobileMentraLive"
+          "original": "./svg-ys0r4kxewm"
         },
         {
-          "path": "app/components/ui/sonner.tsx",
+          "path": "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png",
           "kind": "import-statement",
-          "original": "../components/ui/sonner"
+          "original": "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png"
+        }
+      ]
+    },
+    "app/components/mobile/MobileHeroSection.tsx": {
+      "bytes": 2460,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
         },
         {
-          "path": "app/contexts/CartContext.tsx",
+          "path": "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png",
           "kind": "import-statement",
-          "original": "../contexts/CartContext"
+          "original": "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png"
+        },
+        {
+          "path": "app/imports/svg-nrlb2kvmui.ts",
+          "kind": "import-statement",
+          "original": "../../imports/svg-nrlb2kvmui"
         }
       ]
     },
@@ -1804,6 +1573,251 @@
         }
       ]
     },
+    "app/imports/svg-mxsfu.tsx": {
+      "bytes": 1542,
+      "format": "esm",
+      "imports": []
+    },
+    "app/imports/svg-uc2tkx0skx.ts": {
+      "bytes": 33338,
+      "format": "esm",
+      "imports": []
+    },
+    "app/components/mobile/MobileProductHeader.tsx": {
+      "bytes": 698,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        }
+      ]
+    },
+    "app/components/mobile/MobileSizeSelector.tsx": {
+      "bytes": 2090,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        }
+      ]
+    },
+    "app/components/mobile/MobileHomePage.tsx": {
+      "bytes": 309,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/components/mobile/NewMobileHomePage.tsx",
+          "kind": "import-statement",
+          "original": "./NewMobileHomePage"
+        }
+      ]
+    },
+    "app/components/mobile/MobileReviews.tsx": {
+      "bytes": 5572,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        }
+      ]
+    },
+    "app/components/ui/sonner.tsx": {
+      "bytes": 571,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "next-themes",
+          "kind": "import-statement",
+          "original": "next-themes"
+        },
+        {
+          "path": "sonner",
+          "kind": "import-statement",
+          "original": "sonner"
+        }
+      ]
+    },
+    "app/imports/Frame1984078270-14-8211.tsx": {
+      "bytes": 14322,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/imports/svg-4mnhiia8zl.ts",
+          "kind": "import-statement",
+          "original": "./svg-4mnhiia8zl"
+        },
+        {
+          "path": "../../../../../assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png",
+          "kind": "import-statement",
+          "original": "/assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png"
+        }
+      ]
+    },
+    "app/components/mobile/MobileProductImage.tsx": {
+      "bytes": 4081,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "../../../../../assets/83fb1abc62c74b98254b83e1c995957305d9c32a.png",
+          "kind": "import-statement",
+          "original": "/assets/83fb1abc62c74b98254b83e1c995957305d9c32a.png"
+        }
+      ]
+    },
+    "app/entry.server.tsx": {
+      "bytes": 1015,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "isbot",
+          "kind": "import-statement",
+          "original": "isbot"
+        },
+        {
+          "path": "react-dom/server.browser",
+          "kind": "import-statement",
+          "original": "react-dom/server.browser"
+        }
+      ]
+    },
+    "app/components/mobile/MobilePurchaseSection.tsx": {
+      "bytes": 6713,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        },
+        {
+          "path": "sonner",
+          "kind": "import-statement",
+          "original": "sonner"
+        },
+        {
+          "path": "app/contexts/CartContext.tsx",
+          "kind": "import-statement",
+          "original": "../../contexts/CartContext"
+        }
+      ]
+    },
+    "app/components/mobile/MobileInvestorLogos.tsx": {
+      "bytes": 3767,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "../../../../../assets/941ea41c22412686984c524708231da6edbd53ad.png",
+          "kind": "import-statement",
+          "original": "/assets/941ea41c22412686984c524708231da6edbd53ad.png"
+        },
+        {
+          "path": "../../../../../assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png",
+          "kind": "import-statement",
+          "original": "/assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png"
+        },
+        {
+          "path": "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png",
+          "kind": "import-statement",
+          "original": "/assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png"
+        },
+        {
+          "path": "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png",
+          "kind": "import-statement",
+          "original": "/assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png"
+        },
+        {
+          "path": "../../../../../assets/51d7d50f9b381f963c3ef047a3dd22f068b8e016.png",
+          "kind": "import-statement",
+          "original": "/assets/51d7d50f9b381f963c3ef047a3dd22f068b8e016.png"
+        },
+        {
+          "path": "../../../../../assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png",
+          "kind": "import-statement",
+          "original": "/assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png"
+        },
+        {
+          "path": "../../../../../assets/08d2f54624f59fd5915df0f824ac8912a6b993e1.png",
+          "kind": "import-statement",
+          "original": "/assets/08d2f54624f59fd5915df0f824ac8912a6b993e1.png"
+        },
+        {
+          "path": "../../../../../assets/50b9de801dda0227d238cfab2648fdf555f1b62a.png",
+          "kind": "import-statement",
+          "original": "/assets/50b9de801dda0227d238cfab2648fdf555f1b62a.png"
+        },
+        {
+          "path": "app/imports/svg-5nkvx.tsx",
+          "kind": "import-statement",
+          "original": "../../imports/svg-5nkvx"
+        }
+      ]
+    },
     "app/components/mobile/MobileProductFeatures.tsx": {
       "bytes": 5289,
       "format": "esm",
@@ -1825,8 +1839,8 @@
         }
       ]
     },
-    "app/routes/contact.tsx": {
-      "bytes": 9303,
+    "app/components/mobile/MobileColorSelector.tsx": {
+      "bytes": 2208,
       "format": "esm",
       "imports": [
         {
@@ -1840,19 +1854,40 @@
           "original": "react"
         },
         {
-          "path": "app/components/NavigationBar.tsx",
+          "path": "lucide-react",
           "kind": "import-statement",
-          "original": "../components/NavigationBar"
+          "original": "lucide-react"
+        }
+      ]
+    },
+    "app/components/mobile/NewMobileHomePage.tsx": {
+      "bytes": 15089,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
         },
         {
-          "path": "app/components/ui/sonner.tsx",
+          "path": "react",
           "kind": "import-statement",
-          "original": "../components/ui/sonner"
+          "original": "react"
         },
         {
-          "path": "sonner",
+          "path": "@remix-run/react",
           "kind": "import-statement",
-          "original": "sonner"
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "app/imports/IPhone13143.tsx",
+          "kind": "import-statement",
+          "original": "../../imports/IPhone13143"
+        },
+        {
+          "path": "app/imports/IPhone13141-33-9010.tsx",
+          "kind": "import-statement",
+          "original": "../../imports/IPhone13141-33-9010"
         }
       ]
     },
@@ -1932,8 +1967,89 @@
         }
       ]
     },
+    "app/imports/Frame1984078268-12-5215.tsx": {
+      "bytes": 140543,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "app/imports/svg-3zy3oopzfy.ts",
+          "kind": "import-statement",
+          "original": "./svg-3zy3oopzfy"
+        },
+        {
+          "path": "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png",
+          "kind": "import-statement",
+          "original": "/assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png"
+        },
+        {
+          "path": "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png",
+          "kind": "import-statement",
+          "original": "/assets/87807e2e657137af250f0f3412bc97ace74dc408.png"
+        },
+        {
+          "path": "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png",
+          "kind": "import-statement",
+          "original": "/assets/70e6cef7e4932d4c2243766935472439652bd8c4.png"
+        },
+        {
+          "path": "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png",
+          "kind": "import-statement",
+          "original": "/assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png"
+        },
+        {
+          "path": "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png",
+          "kind": "import-statement",
+          "original": "/assets/abdad8eaad56932f17e7be015156a9766ea96468.png"
+        },
+        {
+          "path": "../../../../../assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png",
+          "kind": "import-statement",
+          "original": "/assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png"
+        },
+        {
+          "path": "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png",
+          "kind": "import-statement",
+          "original": "/assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png"
+        },
+        {
+          "path": "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png",
+          "kind": "import-statement",
+          "original": "/assets/4aa0f66338ded8cd287b268854f957731bb94819.png"
+        },
+        {
+          "path": "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png",
+          "kind": "import-statement",
+          "original": "/assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png"
+        },
+        {
+          "path": "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png",
+          "kind": "import-statement",
+          "original": "/assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png"
+        },
+        {
+          "path": "../../../../../assets/d6791b252af01a97aceae470966482200d57a519.png",
+          "kind": "import-statement",
+          "original": "/assets/d6791b252af01a97aceae470966482200d57a519.png"
+        },
+        {
+          "path": "app/imports/svg-ipg91.tsx",
+          "kind": "import-statement",
+          "original": "./svg-ipg91"
+        }
+      ]
+    },
     "app/imports/AiGlasses.tsx": {
-      "bytes": 280120,
+      "bytes": 280149,
       "format": "esm",
       "imports": [
         {
@@ -2193,87 +2309,6 @@
         }
       ]
     },
-    "app/imports/Frame1984078268-12-5215.tsx": {
-      "bytes": 140543,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "app/imports/svg-3zy3oopzfy.ts",
-          "kind": "import-statement",
-          "original": "./svg-3zy3oopzfy"
-        },
-        {
-          "path": "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png",
-          "kind": "import-statement",
-          "original": "/assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png"
-        },
-        {
-          "path": "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png",
-          "kind": "import-statement",
-          "original": "/assets/87807e2e657137af250f0f3412bc97ace74dc408.png"
-        },
-        {
-          "path": "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png",
-          "kind": "import-statement",
-          "original": "/assets/70e6cef7e4932d4c2243766935472439652bd8c4.png"
-        },
-        {
-          "path": "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png",
-          "kind": "import-statement",
-          "original": "/assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png"
-        },
-        {
-          "path": "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png",
-          "kind": "import-statement",
-          "original": "/assets/abdad8eaad56932f17e7be015156a9766ea96468.png"
-        },
-        {
-          "path": "../../../../../assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png",
-          "kind": "import-statement",
-          "original": "/assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png"
-        },
-        {
-          "path": "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png",
-          "kind": "import-statement",
-          "original": "/assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png"
-        },
-        {
-          "path": "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png",
-          "kind": "import-statement",
-          "original": "/assets/4aa0f66338ded8cd287b268854f957731bb94819.png"
-        },
-        {
-          "path": "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png",
-          "kind": "import-statement",
-          "original": "/assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png"
-        },
-        {
-          "path": "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png",
-          "kind": "import-statement",
-          "original": "/assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png"
-        },
-        {
-          "path": "../../../../../assets/d6791b252af01a97aceae470966482200d57a519.png",
-          "kind": "import-statement",
-          "original": "/assets/d6791b252af01a97aceae470966482200d57a519.png"
-        },
-        {
-          "path": "app/imports/svg-ipg91.tsx",
-          "kind": "import-statement",
-          "original": "./svg-ipg91"
-        }
-      ]
-    },
     "app/imports/IPhone13141-33-9010.tsx": {
       "bytes": 206310,
       "format": "esm",
@@ -2462,7 +2497,7 @@
         "routes"
       ],
       "entryPoint": "\u0000virtual:remix/server-build",
-      "bytes": 875150,
+      "bytes": 875606,
       "inputs": {
         "react/jsx-runtime": {
           "bytesInOutput": 0
@@ -2500,47 +2535,89 @@
         "../../../../../assets/9a963214ace78fd0483d27dbd9f4de789b523526.png": {
           "bytesInOutput": 0
         },
-        "../../../../../assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png": {
-          "bytesInOutput": 60
-        },
-        "../../../../../assets/05bb44a8bc60f1b1e394508505cc2adbe09dfe93.png": {
-          "bytesInOutput": 60
+        "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png": {
+          "bytesInOutput": 51
         },
         "../../../../../assets/8f0cdf4c2da39ff534ce0450cd8e54bbbc05b84e.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/2cc255a03f12e9620932efdedf23b34e8544f98f.png": {
-          "bytesInOutput": 53
+        "../../../../../assets/fc649cd21fa2fac60c9eba2a97d1cc1b3148b755.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png": {
+          "bytesInOutput": 60
+        },
+        "../../../../../assets/941ea41c22412686984c524708231da6edbd53ad.png": {
+          "bytesInOutput": 58
         },
         "../../../../../assets/af81160268ba6fe50a749109b97cfd9476c5cc3a.png": {
           "bytesInOutput": 74
         },
-        "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png": {
+        "../../../../../assets/2cc255a03f12e9620932efdedf23b34e8544f98f.png": {
+          "bytesInOutput": 53
+        },
+        "../../../../../assets/05bb44a8bc60f1b1e394508505cc2adbe09dfe93.png": {
+          "bytesInOutput": 60
+        },
+        "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/prescription-image197.png": {
-          "bytesInOutput": 54
+        "../../../../../assets/prescription-social2.png": {
+          "bytesInOutput": 53
         },
-        "../../../../../assets/941ea41c22412686984c524708231da6edbd53ad.png": {
-          "bytesInOutput": 54
+        "../../../../../assets/prescription-social3.png": {
+          "bytesInOutput": 53
         },
-        "../../../../../assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png": {
-          "bytesInOutput": 54
+        "../../../../../assets/prescription-social4.png": {
+          "bytesInOutput": 53
         },
-        "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png": {
-          "bytesInOutput": 54
+        "../../../../../assets/prescription-social1.png": {
+          "bytesInOutput": 53
         },
-        "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png": {
-          "bytesInOutput": 54
+        "../../../../../assets/prescription-social5.png": {
+          "bytesInOutput": 53
+        },
+        "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png": {
+          "bytesInOutput": 56
         },
         "../../../../../assets/51d7d50f9b381f963c3ef047a3dd22f068b8e016.png": {
-          "bytesInOutput": 54
+          "bytesInOutput": 51
+        },
+        "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png": {
+          "bytesInOutput": 58
+        },
+        "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png": {
+          "bytesInOutput": 52
         },
         "../../../../../assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png": {
-          "bytesInOutput": 54
+          "bytesInOutput": 51
+        },
+        "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png": {
+          "bytesInOutput": 63
+        },
+        "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png": {
+          "bytesInOutput": 53
+        },
+        "../../../../../assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png": {
+          "bytesInOutput": 53
+        },
+        "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png": {
+          "bytesInOutput": 53
+        },
+        "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png": {
+          "bytesInOutput": 53
+        },
+        "../../../../../assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png": {
+          "bytesInOutput": 61
+        },
+        "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png": {
+          "bytesInOutput": 79
         },
         "../../../../../assets/08d2f54624f59fd5915df0f824ac8912a6b993e1.png": {
           "bytesInOutput": 54
+        },
+        "../../../../../assets/prescription-circle.png": {
+          "bytesInOutput": 52
         },
         "../../../../../assets/50b9de801dda0227d238cfab2648fdf555f1b62a.png": {
           "bytesInOutput": 54
@@ -2548,8 +2625,11 @@
         "../../../../../assets/83fb1abc62c74b98254b83e1c995957305d9c32a.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/prescription-circle.png": {
-          "bytesInOutput": 52
+        "../../../../../assets/prescription-image197.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/prescription-ellipse2342.png": {
+          "bytesInOutput": 57
         },
         "../../../../../assets/prescription-image199.png": {
           "bytesInOutput": 54
@@ -2560,101 +2640,47 @@
         "../../../../../assets/prescription-image201.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png": {
-          "bytesInOutput": 79
-        },
         "../../../../../assets/prescription-group1597880443.png": {
           "bytesInOutput": 61
         },
-        "../../../../../assets/prescription-ellipse2342.png": {
-          "bytesInOutput": 57
-        },
-        "../../../../../assets/prescription-social1.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/prescription-social2.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/prescription-social5.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/prescription-social4.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png": {
-          "bytesInOutput": 58
-        },
-        "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png": {
-          "bytesInOutput": 63
-        },
-        "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png": {
-          "bytesInOutput": 52
-        },
-        "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/fc649cd21fa2fac60c9eba2a97d1cc1b3148b755.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/2effc128444e041451979989499c0686570d87f7.png": {
-          "bytesInOutput": 63
-        },
-        "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png": {
-          "bytesInOutput": 56
-        },
-        "../../../../../assets/beec97f1ce8672b28fedcb27ec869008225d63ad.png": {
-          "bytesInOutput": 75
+        "../../../../../assets/3615eb4fbb5a58b0fc7abfd28a711c7fb1706054.png": {
+          "bytesInOutput": 62
         },
         "../../../../../assets/d6791b252af01a97aceae470966482200d57a519.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/f734081f870e6b04cf83f45d1c14e6d5bee6f83e.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/3d7abe0690d911f88227459f66b04bf69d9f1ed0.png": {
           "bytesInOutput": 54
         },
         "../../../../../assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/ffe36e87ab0a3e6ca1bd46752e7b4c2b208e0c73.png": {
-          "bytesInOutput": 54
+        "../../../../../assets/beec97f1ce8672b28fedcb27ec869008225d63ad.png": {
+          "bytesInOutput": 75
         },
         "../../../../../assets/588337c215139582e6c05119cb943a3d72e06856.png": {
           "bytesInOutput": 79
         },
-        "../../../../../assets/cf4cc7823f786cdb33e8f7055653555a3a0b3e9a.png": {
-          "bytesInOutput": 75
-        },
-        "../../../../../assets/c87d88f2e837fcee49720b01dc635b6b7ca00131.png": {
-          "bytesInOutput": 57
+        "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png": {
+          "bytesInOutput": 62
         },
         "../../../../../assets/ce9d30db427efae4ba3239e016519c678813f304.png": {
           "bytesInOutput": 83
         },
-        "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png": {
-          "bytesInOutput": 62
-        },
-        "../../../../../assets/551715d6dae135191779e906c9df5ddb3d719234.png": {
-          "bytesInOutput": 54
-        },
         "../../../../../assets/d7ab4d4bf07a9bf1bfcaa426805829cbbd1f328b.png": {
           "bytesInOutput": 57
         },
-        "../../../../../assets/3615eb4fbb5a58b0fc7abfd28a711c7fb1706054.png": {
-          "bytesInOutput": 62
+        "../../../../../assets/ffe36e87ab0a3e6ca1bd46752e7b4c2b208e0c73.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/551715d6dae135191779e906c9df5ddb3d719234.png": {
+          "bytesInOutput": 55
+        },
+        "../../../../../assets/2effc128444e041451979989499c0686570d87f7.png": {
+          "bytesInOutput": 63
+        },
+        "../../../../../assets/cf4cc7823f786cdb33e8f7055653555a3a0b3e9a.png": {
+          "bytesInOutput": 75
+        },
+        "../../../../../assets/b25f0c59f8288e24474be7af805b56e31c7edc68.png": {
+          "bytesInOutput": 75
         },
         "../../../../../assets/5b09a182c8ae50681aedd4971de18969898c817a.png": {
           "bytesInOutput": 75
@@ -2662,56 +2688,56 @@
         "../../../../../assets/32a9ff6e981da2df4cd2e967afe95e0f9a67dc91.png": {
           "bytesInOutput": 75
         },
-        "../../../../../assets/1ac159eb98cb2cb45357653e433c61e999682f88.png": {
+        "../../../../../assets/1596bbfeb60ef296048aa6a59fc891c99c1c0156.png": {
           "bytesInOutput": 75
         },
-        "../../../../../assets/1596bbfeb60ef296048aa6a59fc891c99c1c0156.png": {
+        "../../../../../assets/1ac159eb98cb2cb45357653e433c61e999682f88.png": {
           "bytesInOutput": 75
         },
         "../../../../../assets/2afc690a732b84e519b27b2a480affa124e71122.png": {
           "bytesInOutput": 75
         },
-        "../../../../../assets/b25f0c59f8288e24474be7af805b56e31c7edc68.png": {
-          "bytesInOutput": 75
+        "../../../../../assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png": {
+          "bytesInOutput": 54
         },
-        "../../../../../assets/prescription-social3.png": {
-          "bytesInOutput": 53
+        "../../../../../assets/c87d88f2e837fcee49720b01dc635b6b7ca00131.png": {
+          "bytesInOutput": 57
+        },
+        "../../../../../assets/f734081f870e6b04cf83f45d1c14e6d5bee6f83e.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/3d7abe0690d911f88227459f66b04bf69d9f1ed0.png": {
+          "bytesInOutput": 54
         },
         "../../../../../assets/9da11aee800379f79fd3147ec9d54ed8009c3fa4.png": {
           "bytesInOutput": 60
         },
+        "../../../../../assets/3e716864cf4047bbadc5979533465dade88d3530.png": {
+          "bytesInOutput": 74
+        },
         "../../../../../assets/a8433f4b35a1441680fe369aac4998a92c083850.png": {
           "bytesInOutput": 61
         },
-        "../../../../../assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png": {
+        "../../../../../assets/d66a36d3845c317ef1833158c9ee74b81c7e24fe.png": {
           "bytesInOutput": 54
         },
         "../../../../../assets/a941107cc55205e46c84f3250b368b3cec1c522c.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/d66a36d3845c317ef1833158c9ee74b81c7e24fe.png": {
-          "bytesInOutput": 54
-        },
-        "app/styles/responsive-fixed.css?url": {
-          "bytesInOutput": 238
-        },
         "../../../../../assets/fee02fdb7f4f31d5a6832fc866cf44818a0de5be.png": {
           "bytesInOutput": 74
         },
-        "../../../../../assets/3e716864cf4047bbadc5979533465dade88d3530.png": {
-          "bytesInOutput": 74
+        "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png": {
+          "bytesInOutput": 51
+        },
+        "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png": {
+          "bytesInOutput": 56
         },
         "\u0000virtual:remix/server-manifest": {
-          "bytesInOutput": 6196
+          "bytesInOutput": 6448
         },
-        "app/styles/mentra-live.css?url": {
-          "bytesInOutput": 223
-        },
-        "app/styles/mobile-responsive.css?url": {
-          "bytesInOutput": 241
-        },
-        "app/styles/mobile-mentra-live.css?url": {
-          "bytesInOutput": 243
+        "app/styles/responsive-fixed.css?url": {
+          "bytesInOutput": 238
         },
         "app/styles/responsive-padding.css?url": {
           "bytesInOutput": 244
@@ -2719,14 +2745,62 @@
         "app/styles/animations.css?url": {
           "bytesInOutput": 221
         },
+        "app/styles/mobile-responsive.css?url": {
+          "bytesInOutput": 241
+        },
         "app/styles/index.css?url": {
           "bytesInOutput": 207
+        },
+        "app/styles/mentra-live.css?url": {
+          "bytesInOutput": 223
+        },
+        "app/styles/mobile-mentra-live.css?url": {
+          "bytesInOutput": 243
+        },
+        "app/styles/global-improvements.css?url": {
+          "bytesInOutput": 247
+        },
+        "app/routes/health.tsx": {
+          "bytesInOutput": 214
+        },
+        "app/routes/prescriptions.tsx": {
+          "bytesInOutput": 228
+        },
+        "app/routes/technology.tsx": {
+          "bytesInOutput": 7723
+        },
+        "app/routes/support.tsx": {
+          "bytesInOutput": 9548
+        },
+        "app/routes/api.cart.ts": {
+          "bytesInOutput": 1101
+        },
+        "app/routes/collections.$handle.tsx": {
+          "bytesInOutput": 2948
+        },
+        "app/routes/contact.tsx": {
+          "bytesInOutput": 6406
+        },
+        "app/routes/cart.tsx": {
+          "bytesInOutput": 1710
+        },
+        "app/routes/_index.tsx": {
+          "bytesInOutput": 643
+        },
+        "app/routes/products.$handle.tsx": {
+          "bytesInOutput": 2466
+        },
+        "app/root.tsx": {
+          "bytesInOutput": 666
         },
         "\u0000virtual:remix/server-build": {
           "bytesInOutput": 1967
         },
-        "app/styles/global-improvements.css?url": {
-          "bytesInOutput": 247
+        "app/routes/about.tsx": {
+          "bytesInOutput": 17686
+        },
+        "app/imports/svg-mxqnixecfi.ts": {
+          "bytesInOutput": 8427
         },
         "app/imports/svg-4mnhiia8zl.ts": {
           "bytesInOutput": 477
@@ -2734,149 +2808,116 @@
         "app/lib/cart.server.ts": {
           "bytesInOutput": 2390
         },
-        "app/imports/svg-mxqnixecfi.ts": {
-          "bytesInOutput": 8427
-        },
         "app/lib/shopify.server.ts": {
           "bytesInOutput": 1340
-        },
-        "app/root.tsx": {
-          "bytesInOutput": 666
-        },
-        "app/imports/svg-716j1jt04l.ts": {
-          "bytesInOutput": 176
-        },
-        "app/imports/svg-2rip6vyh9r.ts": {
-          "bytesInOutput": 7876
-        },
-        "app/imports/svg-ys0r4kxewm.ts": {
-          "bytesInOutput": 1454
-        },
-        "app/imports/svg-5nkvx.tsx": {
-          "bytesInOutput": 866
-        },
-        "app/imports/Frame1984078232.tsx": {
-          "bytesInOutput": 3953
-        },
-        "app/imports/svg-saoyw.tsx": {
-          "bytesInOutput": 1523
-        },
-        "app/imports/svg-nrlb2kvmui.ts": {
-          "bytesInOutput": 793
-        },
-        "app/imports/Frame1984078242-12-7749.tsx": {
-          "bytesInOutput": 2031
-        },
-        "app/imports/svg-3zy3oopzfy.ts": {
-          "bytesInOutput": 51411
-        },
-        "app/components/FAQSection.tsx": {
-          "bytesInOutput": 9310
-        },
-        "app/components/StickyPurchaseSection.tsx": {
-          "bytesInOutput": 3052
-        },
-        "app/imports/svg-ipg91.tsx": {
-          "bytesInOutput": 11257
-        },
-        "app/components/ProductAccordion.tsx": {
-          "bytesInOutput": 1937
-        },
-        "app/routes/technology.tsx": {
-          "bytesInOutput": 7723
-        },
-        "app/components/ScrollReveal.tsx": {
-          "bytesInOutput": 1472
-        },
-        "app/components/MobileNavigationBar.tsx": {
-          "bytesInOutput": 1376
-        },
-        "app/imports/svg-vm45n54l9.ts": {
-          "bytesInOutput": 21973
-        },
-        "app/imports/svg-uc2tkx0skx.ts": {
-          "bytesInOutput": 33229
-        },
-        "app/components/mobile/MobileHomePage.tsx": {
-          "bytesInOutput": 60
-        },
-        "app/components/mobile/MobileHeroSection.tsx": {
-          "bytesInOutput": 1854
-        },
-        "app/components/mobile/MobileInvestorLogos.tsx": {
-          "bytesInOutput": 2298
-        },
-        "app/imports/svg-mxsfu.tsx": {
-          "bytesInOutput": 1518
-        },
-        "app/components/mobile/MobileProductHeader.tsx": {
-          "bytesInOutput": 595
-        },
-        "app/components/PlayPauseControl.tsx": {
-          "bytesInOutput": 1257
-        },
-        "app/routes/prescriptions.tsx": {
-          "bytesInOutput": 228
         },
         "app/components/ProductImageGallery.tsx": {
           "bytesInOutput": 2138
         },
-        "app/components/mobile/MobileSizeSelector.tsx": {
-          "bytesInOutput": 1362
-        },
-        "app/components/ui/sonner.tsx": {
-          "bytesInOutput": 242
-        },
-        "app/imports/Frame1984078261.tsx": {
-          "bytesInOutput": 4513
-        },
-        "app/imports/IPhone13143.tsx": {
-          "bytesInOutput": 9665
-        },
-        "app/routes/collections.$handle.tsx": {
-          "bytesInOutput": 2948
-        },
-        "app/components/mobile/MobilePurchaseSection.tsx": {
-          "bytesInOutput": 4649
-        },
-        "app/components/NavigationBar.tsx": {
-          "bytesInOutput": 14974
-        },
-        "app/routes/products.$handle.tsx": {
-          "bytesInOutput": 2466
-        },
-        "app/components/EnhancedMobileMentraLive.tsx": {
-          "bytesInOutput": 3247
-        },
-        "app/routes/health.tsx": {
-          "bytesInOutput": 214
-        },
-        "app/imports/Frame1984078270-14-8211.tsx": {
-          "bytesInOutput": 13486
-        },
-        "app/imports/Frame1618873011-12-7678.tsx": {
-          "bytesInOutput": 25281
-        },
-        "app/routes/cart.tsx": {
-          "bytesInOutput": 1710
-        },
-        "app/routes/os.tsx": {
-          "bytesInOutput": 14763
-        },
-        "app/routes/support.tsx": {
-          "bytesInOutput": 9548
-        },
-        "app/components/mobile/MobileReviews.tsx": {
-          "bytesInOutput": 3887
+        "app/components/ScrollReveal.tsx": {
+          "bytesInOutput": 1472
         },
         "app/contexts/CartContext.tsx": {
           "bytesInOutput": 841
         },
-        "app/routes/api.cart.ts": {
-          "bytesInOutput": 1101
+        "app/components/PlayPauseControl.tsx": {
+          "bytesInOutput": 1257
         },
-        "app/components/mobile/MobileColorSelector.tsx": {
-          "bytesInOutput": 1395
+        "app/components/FAQSection.tsx": {
+          "bytesInOutput": 9310
+        },
+        "app/components/ProductAccordion.tsx": {
+          "bytesInOutput": 1937
+        },
+        "app/components/MobileNavigationBar.tsx": {
+          "bytesInOutput": 1376
+        },
+        "app/components/StickyPurchaseSection.tsx": {
+          "bytesInOutput": 3052
+        },
+        "app/components/NavigationBar.tsx": {
+          "bytesInOutput": 15161
+        },
+        "app/routes/buy.tsx": {
+          "bytesInOutput": 2250
+        },
+        "app/components/EnhancedMobileMentraLive.tsx": {
+          "bytesInOutput": 3247
+        },
+        "app/routes/os.tsx": {
+          "bytesInOutput": 14763
+        },
+        "app/imports/svg-nrlb2kvmui.ts": {
+          "bytesInOutput": 793
+        },
+        "app/imports/svg-5nkvx.tsx": {
+          "bytesInOutput": 866
+        },
+        "app/imports/svg-ipg91.tsx": {
+          "bytesInOutput": 11257
+        },
+        "app/imports/Frame1984078232.tsx": {
+          "bytesInOutput": 3953
+        },
+        "app/imports/Frame1984078242-12-7749.tsx": {
+          "bytesInOutput": 2031
+        },
+        "app/imports/svg-2rip6vyh9r.ts": {
+          "bytesInOutput": 7876
+        },
+        "app/imports/svg-vm45n54l9.ts": {
+          "bytesInOutput": 21973
+        },
+        "app/imports/svg-716j1jt04l.ts": {
+          "bytesInOutput": 176
+        },
+        "app/imports/Frame1984078261.tsx": {
+          "bytesInOutput": 4513
+        },
+        "app/imports/svg-saoyw.tsx": {
+          "bytesInOutput": 1523
+        },
+        "app/imports/svg-ys0r4kxewm.ts": {
+          "bytesInOutput": 1454
+        },
+        "app/imports/Frame1618873011-12-7678.tsx": {
+          "bytesInOutput": 25281
+        },
+        "app/imports/svg-3zy3oopzfy.ts": {
+          "bytesInOutput": 51411
+        },
+        "app/imports/IPhone13143.tsx": {
+          "bytesInOutput": 9667
+        },
+        "app/components/mobile/MobileHeroSection.tsx": {
+          "bytesInOutput": 1856
+        },
+        "app/imports/Prescriptions.tsx": {
+          "bytesInOutput": 23746
+        },
+        "app/imports/svg-mxsfu.tsx": {
+          "bytesInOutput": 1518
+        },
+        "app/imports/svg-uc2tkx0skx.ts": {
+          "bytesInOutput": 33229
+        },
+        "app/components/mobile/MobileProductHeader.tsx": {
+          "bytesInOutput": 595
+        },
+        "app/components/mobile/MobileSizeSelector.tsx": {
+          "bytesInOutput": 1362
+        },
+        "app/components/mobile/MobileHomePage.tsx": {
+          "bytesInOutput": 60
+        },
+        "app/components/mobile/MobileReviews.tsx": {
+          "bytesInOutput": 3887
+        },
+        "app/components/ui/sonner.tsx": {
+          "bytesInOutput": 242
+        },
+        "app/imports/Frame1984078270-14-8211.tsx": {
+          "bytesInOutput": 13486
         },
         "app/components/mobile/MobileProductImage.tsx": {
           "bytesInOutput": 2598
@@ -2884,38 +2925,32 @@
         "app/entry.server.tsx": {
           "bytesInOutput": 335
         },
-        "app/routes/_index.tsx": {
-          "bytesInOutput": 643
+        "app/components/mobile/MobilePurchaseSection.tsx": {
+          "bytesInOutput": 4649
         },
-        "app/components/mobile/NewMobileHomePage.tsx": {
-          "bytesInOutput": 9534
-        },
-        "app/routes/about.tsx": {
-          "bytesInOutput": 17684
-        },
-        "app/routes/buy.tsx": {
-          "bytesInOutput": 2250
-        },
-        "app/imports/Prescriptions.tsx": {
-          "bytesInOutput": 23746
+        "app/components/mobile/MobileInvestorLogos.tsx": {
+          "bytesInOutput": 2297
         },
         "app/components/mobile/MobileProductFeatures.tsx": {
           "bytesInOutput": 3692
         },
-        "app/routes/contact.tsx": {
-          "bytesInOutput": 6406
+        "app/components/mobile/MobileColorSelector.tsx": {
+          "bytesInOutput": 1395
+        },
+        "app/components/mobile/NewMobileHomePage.tsx": {
+          "bytesInOutput": 9534
         },
         "app/imports/MentraLive.tsx": {
           "bytesInOutput": 67296
         },
-        "app/imports/AiGlasses.tsx": {
-          "bytesInOutput": 143978
-        },
         "app/imports/Frame1984078268-12-5215.tsx": {
           "bytesInOutput": 127704
         },
+        "app/imports/AiGlasses.tsx": {
+          "bytesInOutput": 143988
+        },
         "app/imports/IPhone13141-33-9010.tsx": {
-          "bytesInOutput": 193397
+          "bytesInOutput": 193390
         }
       }
     }
