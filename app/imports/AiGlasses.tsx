@@ -2384,8 +2384,8 @@ function Frame111() {
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0">
       <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[57.333px] not-italic relative shrink-0 text-[#0a0a0a] text-[40px] text-center text-nowrap">Hear your audio, hear the world.</p>
       <div className="h-[497px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Music Video 1">
-        <video autoPlay muted className="absolute max-w-none object-cover rounded-[24px] size-full" controlsList="nodownload" loop playsInline>
-          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4" />
+        <video autoPlay muted className="absolute max-w-none object-cover rounded-[24px] size-full" controlsList="nodownload" loop playsInline aria-label="Hear your audio, hear the world demonstration video">
+          <source src="/assets/Music Video.mov" type="video/quicktime" />
         </video>
       </div>
     </div>
@@ -2477,7 +2477,19 @@ function Frame131() {
 function Video1() {
   return (
     <div className="h-[469px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Video 5">
-      <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo5} />
+      {/* Fallback image */}
+      <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo5} aria-hidden="true" />
+      {/* Video overlay */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
+        aria-label="Take calls demonstration video"
+      >
+        <source src="/assets/Cooking.mov" type="video/quicktime" />
+      </video>
     </div>
   );
 }
@@ -2955,7 +2967,19 @@ function Frame156() {
 function Video2() {
   return (
     <div className="h-[469px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Video 7">
-      <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo7} />
+      {/* Fallback image */}
+      <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo7} aria-hidden="true" />
+      {/* Video overlay */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
+        aria-label="AI reminders demonstration video"
+      >
+        <source src="/assets/Driving.mov" type="video/quicktime" />
+      </video>
     </div>
   );
 }
