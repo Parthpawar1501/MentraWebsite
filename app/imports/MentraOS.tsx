@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "@remix-run/react";
-// NavigationBar removed - using shared Header from root.tsx
+import NavigationBar from "../components/NavigationBar";
 import ScrollReveal from "../components/ScrollReveal";
 import svgPaths from "./svg-he4ft5xlu0";
 import Footer from "./Frame1984078270-14-8211";
@@ -618,7 +618,7 @@ function MailingListSection() {
 export default function MentraOS() {
   return (
     <div className="bg-white content-stretch flex flex-col items-center relative size-full" data-name="MentraOS">
-      {/* NavigationBar removed - using shared Header from root.tsx */}
+      <NavigationBar />
       <div className="content-stretch flex flex-col gap-[80px] items-center justify-center overflow-clip px-[133.778px] py-[90px] relative shrink-0 w-full">
         <div className="content-stretch flex flex-col gap-[80px] items-center pb-[80px] pt-0 px-0 relative shrink-0 w-full max-w-[1452px]">
           <ScrollReveal direction="fade" delay={0} duration={0.8}>

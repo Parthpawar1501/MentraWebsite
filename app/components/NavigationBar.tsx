@@ -139,11 +139,12 @@ function AppsOSDropdown() {
 
 // Company Dropdown Content
 function CompanyDropdown() {
+  const navigate = useNavigate();
   return (
     <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[603px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[60] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up">
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-name="div.grid">
         <div className="relative shrink-0 w-[122px] group" data-name="Link">
-          <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative w-full">
+          <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative w-full" onClick={() => navigate('/about')}>
             <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[31.873px] not-italic relative shrink-0 text-[#0a0a0a] text-[20px] text-center text-nowrap cursor-pointer hover:text-[#00b869] transition-all duration-300 group-hover:translate-x-1">About Mentra</p>
           </div>
         </div>
@@ -157,6 +158,7 @@ function CompanyDropdown() {
 
 // Community Dropdown Content
 function CommunityDropdown() {
+  const navigate = useNavigate();
   return (
     <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[753px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[60] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up">
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-name="div.grid">
@@ -168,7 +170,7 @@ function CommunityDropdown() {
         <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative shrink-0 w-[205.33px] group" data-name="Link">
           <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[31.873px] not-italic relative shrink-0 text-[#0a0a0a] text-[20px] text-center text-nowrap cursor-pointer hover:text-[#00b869] transition-all duration-300 group-hover:translate-x-1">Socials</p>
         </div>
-        <div className="content-stretch flex items-start pb-px pl-0 pr-[89.33px] pt-0 relative shrink-0 w-[155px] group" data-name="Link">
+        <div className="content-stretch flex items-start pb-px pl-0 pr-[89.33px] pt-0 relative shrink-0 w-[155px] group" data-name="Link" onClick={() => navigate('/contact')}>
           <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[31.873px] not-italic relative shrink-0 text-[#0a0a0a] text-[20px] text-center text-nowrap cursor-pointer hover:text-[#00b869] transition-all duration-300 group-hover:translate-x-1">Contact Us</p>
         </div>
       </div>

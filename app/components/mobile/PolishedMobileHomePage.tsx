@@ -176,7 +176,7 @@ export default function PolishedMobileHomePage() {
 
                 {/* About */}
                 <button
-                  onClick={() => setMenuOpen(false)}
+                  onClick={() => { setMenuOpen(false); navigate('/about'); }}
                   className="w-full text-left px-4 py-3.5 rounded-lg hover:bg-gray-50 active:bg-gray-100 transition-colors group"
                 >
                   <span className="font-['Red_Hat_Display:Regular',sans-serif] text-base text-gray-600 group-hover:text-[#00b869]">
@@ -186,7 +186,7 @@ export default function PolishedMobileHomePage() {
 
                 {/* Technology */}
                 <button
-                  onClick={() => setMenuOpen(false)}
+                  onClick={() => { setMenuOpen(false); navigate('/technology'); }}
                   className="w-full text-left px-4 py-3.5 rounded-lg hover:bg-gray-50 active:bg-gray-100 transition-colors group"
                 >
                   <span className="font-['Red_Hat_Display:Regular',sans-serif] text-base text-gray-600 group-hover:text-[#00b869]">
@@ -196,7 +196,7 @@ export default function PolishedMobileHomePage() {
 
                 {/* Support */}
                 <button
-                  onClick={() => setMenuOpen(false)}
+                  onClick={() => { setMenuOpen(false); navigate('/support'); }}
                   className="w-full text-left px-4 py-3.5 rounded-lg hover:bg-gray-50 active:bg-gray-100 transition-colors group"
                 >
                   <span className="font-['Red_Hat_Display:Regular',sans-serif] text-base text-gray-600 group-hover:text-[#00b869]">

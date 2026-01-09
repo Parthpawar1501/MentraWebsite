@@ -1,0 +1,209 @@
+import type {MetaFunction} from '@remix-run/node';
+import NavigationBar from '../components/NavigationBar';
+
+export const meta: MetaFunction = () => {
+  return [
+    {title: 'Support - Mentra Smart Glasses'},
+    {name: 'description', content: 'Get help and support for your Mentra Live smart glasses. Find FAQs, troubleshooting guides, and contact our support team.'},
+    {property: 'og:title', content: 'Support - Mentra Smart Glasses'},
+    {property: 'og:description', content: 'Get help and support for your Mentra Live smart glasses.'},
+    {property: 'og:type', content: 'website'},
+  ];
+};
+
+export default function SupportPage() {
+  return (
+    <div className="min-h-screen bg-white">
+      <NavigationBar />
+      
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16 md:py-24">
+        {/* Hero Section */}
+        <div className="text-center mb-16">
+          <h1 className="font-['Red_Hat_Display:Bold',sans-serif] text-4xl md:text-5xl lg:text-6xl text-[#0a0a0a] mb-6">
+            Support Center
+          </h1>
+          <p className="font-['Red_Hat_Display:Regular',sans-serif] text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+            We're here to help you get the most out of your Mentra Live smart glasses
+          </p>
+        </div>
+
+        {/* Quick Links */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+          <a 
+            href="#faq" 
+            className="p-6 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group"
+          >
+            <div className="w-12 h-12 bg-[#00b869] rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-2">
+              FAQs
+            </h3>
+            <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700">
+              Find answers to common questions
+            </p>
+          </a>
+
+          <a 
+            href="#troubleshooting" 
+            className="p-6 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group"
+          >
+            <div className="w-12 h-12 bg-[#00b869] rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-2">
+              Troubleshooting
+            </h3>
+            <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700">
+              Solutions to common issues
+            </p>
+          </a>
+
+          <a 
+            href="/contact" 
+            className="p-6 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group"
+          >
+            <div className="w-12 h-12 bg-[#00b869] rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            </div>
+            <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-2">
+              Contact Us
+            </h3>
+            <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700">
+              Get in touch with our team
+            </p>
+          </a>
+        </div>
+
+        {/* FAQ Section */}
+        <div id="faq" className="mb-16">
+          <h2 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-3xl md:text-4xl text-[#0a0a0a] mb-8">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-6">
+            <div className="p-6 bg-gray-50 rounded-lg">
+              <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-3">
+                How do I set up my Mentra Live glasses?
+              </h3>
+              <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700">
+                Download the Mentra app from the App Store or Google Play, pair your glasses via Bluetooth, and follow the setup wizard. The process takes just a few minutes.
+              </p>
+            </div>
+
+            <div className="p-6 bg-gray-50 rounded-lg">
+              <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-3">
+                Can I use prescription lenses with Mentra Live?
+              </h3>
+              <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700">
+                Yes! Mentra Live frames are prescription-ready. You can take them to any optician to have your prescription lenses installed.
+              </p>
+            </div>
+
+            <div className="p-6 bg-gray-50 rounded-lg">
+              <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-3">
+                How long does the battery last?
+              </h3>
+              <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700">
+                Battery life varies by usage: 10+ hours of mixed use, 5+ hours of music playback, 40+ minutes of live streaming, or 1+ hours of video recording.
+              </p>
+            </div>
+
+            <div className="p-6 bg-gray-50 rounded-lg">
+              <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-3">
+                What apps are available for Mentra Live?
+              </h3>
+              <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700">
+                The Mentra app store features a growing library of MiniApps including translation tools, note-taking apps, streaming apps, and more. New apps are added regularly.
+              </p>
+            </div>
+
+            <div className="p-6 bg-gray-50 rounded-lg">
+              <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-3">
+                Is my data private?
+              </h3>
+              <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700">
+                Absolutely. Your data belongs to you. We don't sell your information or use it for advertising. All data processing happens on-device when possible, and you control what data is shared with apps.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Troubleshooting Section */}
+        <div id="troubleshooting" className="mb-16">
+          <h2 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-3xl md:text-4xl text-[#0a0a0a] mb-8">
+            Troubleshooting
+          </h2>
+          <div className="space-y-6">
+            <div className="p-6 bg-gray-50 rounded-lg">
+              <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-3">
+                Glasses won't connect to my phone
+              </h3>
+              <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700 mb-2">
+                Try these steps:
+              </p>
+              <ol className="list-decimal list-inside space-y-1 font-['Red_Hat_Display:Regular',sans-serif] text-gray-700 ml-4">
+                <li>Make sure Bluetooth is enabled on your phone</li>
+                <li>Restart both your glasses and the Mentra app</li>
+                <li>Remove the glasses from your Bluetooth devices and pair again</li>
+                <li>Check that your glasses are charged</li>
+              </ol>
+            </div>
+
+            <div className="p-6 bg-gray-50 rounded-lg">
+              <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-3">
+                Battery draining quickly
+              </h3>
+              <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700 mb-2">
+                To extend battery life:
+              </p>
+              <ul className="list-disc list-inside space-y-1 font-['Red_Hat_Display:Regular',sans-serif] text-gray-700 ml-4">
+                <li>Reduce screen brightness in the app</li>
+                <li>Close unused apps running in the background</li>
+                <li>Disable live streaming when not needed</li>
+                <li>Use the charging case when not in use</li>
+              </ul>
+            </div>
+
+            <div className="p-6 bg-gray-50 rounded-lg">
+              <h3 className="font-['Red_Hat_Display:SemiBold',sans-serif] text-xl text-[#0a0a0a] mb-3">
+                Camera not working
+              </h3>
+              <p className="font-['Red_Hat_Display:Regular',sans-serif] text-gray-700 mb-2">
+                Troubleshooting steps:
+              </p>
+              <ol className="list-decimal list-inside space-y-1 font-['Red_Hat_Display:Regular',sans-serif] text-gray-700 ml-4">
+                <li>Check camera permissions in the Mentra app settings</li>
+                <li>Restart the app and try again</li>
+                <li>Ensure the camera lens is clean</li>
+                <li>Update the Mentra app to the latest version</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact CTA */}
+        <div className="text-center bg-[#00b869] rounded-2xl p-12 text-white">
+          <h2 className="font-['Red_Hat_Display:Bold',sans-serif] text-3xl md:text-4xl mb-4">
+            Still Need Help?
+          </h2>
+          <p className="font-['Red_Hat_Display:Regular',sans-serif] text-lg mb-8 opacity-90">
+            Our support team is here to assist you
+          </p>
+          <a 
+            href="/contact" 
+            className="inline-block bg-white text-[#00b869] px-8 py-4 rounded-full font-['Red_Hat_Display:SemiBold',sans-serif] hover:bg-gray-100 transition-colors"
+          >
+            Contact Support
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import svgPaths from "./svg-mxqnixecfi";
-// NavigationBar removed - using shared Header from root.tsx
+import NavigationBar from "../components/NavigationBar";
 import { AccordionSection } from "../components/ProductAccordion";
 import { ProductImageGallery } from "../components/ProductImageGallery";
 import { StickyPurchaseSection } from "../components/StickyPurchaseSection";
@@ -1742,7 +1742,7 @@ export default function MentraLive({ product, variantId, fetcher }: MentraLivePr
 
   return (
     <div className="bg-white content-stretch flex flex-col items-start relative size-full" data-name="Mentra Live">
-      {/* NavigationBar removed - using shared Header from root.tsx */}
+      <NavigationBar />
       <ScrollReveal direction="fade" duration={0.8}>
         <Frame26 />
       </ScrollReveal>

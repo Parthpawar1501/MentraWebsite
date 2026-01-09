@@ -20,7 +20,7 @@
       "format": "esm",
       "imports": []
     },
-    "react": {
+    "@shopify/hydrogen": {
       "bytes": 0,
       "format": "esm",
       "imports": []
@@ -30,12 +30,7 @@
       "format": "esm",
       "imports": []
     },
-    "@shopify/hydrogen": {
-      "bytes": 0,
-      "format": "esm",
-      "imports": []
-    },
-    "next-themes": {
+    "react": {
       "bytes": 0,
       "format": "esm",
       "imports": []
@@ -46,6 +41,11 @@
       "imports": []
     },
     "lucide-react": {
+      "bytes": 0,
+      "format": "esm",
+      "imports": []
+    },
+    "next-themes": {
       "bytes": 0,
       "format": "esm",
       "imports": []
@@ -75,6 +75,11 @@
       "format": "esm",
       "imports": []
     },
+    "../../../../../assets/fc649cd21fa2fac60c9eba2a97d1cc1b3148b755.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
     "../../../../../assets/8f0cdf4c2da39ff534ce0450cd8e54bbbc05b84e.png": {
       "bytes": 48,
       "format": "esm",
@@ -85,17 +90,12 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/fc649cd21fa2fac60c9eba2a97d1cc1b3148b755.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
     "../../../../../assets/af81160268ba6fe50a749109b97cfd9476c5cc3a.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png": {
+    "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -110,17 +110,12 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/83fb1abc62c74b98254b83e1c995957305d9c32a.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
     "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -130,67 +125,12 @@
       "format": "esm",
       "imports": []
     },
+    "../../../../../assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
     "../../../../../assets/08d2f54624f59fd5915df0f824ac8912a6b993e1.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-image201.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-image197.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-circle.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-image199.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-group1597880443.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-ellipse2342.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-social1.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-image198.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -200,22 +140,57 @@
       "format": "esm",
       "imports": []
     },
+    "../../../../../assets/83fb1abc62c74b98254b83e1c995957305d9c32a.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-image197.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-image199.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-image198.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-image201.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-circle.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-ellipse2342.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-group1597880443.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/prescription-social1.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
     "../../../../../assets/prescription-social2.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -230,12 +205,52 @@
       "format": "esm",
       "imports": []
     },
+    "../../../../../assets/prescription-social5.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
     "../../../../../assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png": {
+    "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -250,17 +265,12 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/beec97f1ce8672b28fedcb27ec869008225d63ad.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
     "../../../../../assets/588337c215139582e6c05119cb943a3d72e06856.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/9da11aee800379f79fd3147ec9d54ed8009c3fa4.png": {
+    "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -275,27 +285,7 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/f734081f870e6b04cf83f45d1c14e6d5bee6f83e.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
     "../../../../../assets/551715d6dae135191779e906c9df5ddb3d719234.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/c87d88f2e837fcee49720b01dc635b6b7ca00131.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/3d7abe0690d911f88227459f66b04bf69d9f1ed0.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/5b09a182c8ae50681aedd4971de18969898c817a.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -305,17 +295,7 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/1ac159eb98cb2cb45357653e433c61e999682f88.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
     "../../../../../assets/d7ab4d4bf07a9bf1bfcaa426805829cbbd1f328b.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/2afc690a732b84e519b27b2a480affa124e71122.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -330,12 +310,57 @@
       "format": "esm",
       "imports": []
     },
+    "../../../../../assets/beec97f1ce8672b28fedcb27ec869008225d63ad.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/5b09a182c8ae50681aedd4971de18969898c817a.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
     "../../../../../assets/b25f0c59f8288e24474be7af805b56e31c7edc68.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
     },
     "../../../../../assets/1596bbfeb60ef296048aa6a59fc891c99c1c0156.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/1ac159eb98cb2cb45357653e433c61e999682f88.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/2afc690a732b84e519b27b2a480affa124e71122.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/c87d88f2e837fcee49720b01dc635b6b7ca00131.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/f734081f870e6b04cf83f45d1c14e6d5bee6f83e.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/3d7abe0690d911f88227459f66b04bf69d9f1ed0.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/9da11aee800379f79fd3147ec9d54ed8009c3fa4.png": {
+      "bytes": 48,
+      "format": "esm",
+      "imports": []
+    },
+    "../../../../../assets/3e716864cf4047bbadc5979533465dade88d3530.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -355,17 +380,7 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/3e716864cf4047bbadc5979533465dade88d3530.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
     "../../../../../assets/a8433f4b35a1441680fe369aac4998a92c083850.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png": {
       "bytes": 48,
       "format": "esm",
       "imports": []
@@ -375,23 +390,23 @@
       "format": "esm",
       "imports": []
     },
-    "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png": {
-      "bytes": 48,
-      "format": "esm",
-      "imports": []
-    },
-    "../../../../../assets/prescription-social5.png": {
-      "bytes": 48,
+    "\u0000virtual:remix/server-manifest": {
+      "bytes": 6042,
       "format": "esm",
       "imports": []
     },
     "app/styles/mentra-live.css?url": {
       "bytes": 315,
+      "format": "esm",
+      "imports": []
+    },
+    "app/styles/index.css?url": {
+      "bytes": 297,
+      "format": "esm",
+      "imports": []
+    },
+    "app/styles/responsive-fixed.css?url": {
+      "bytes": 330,
       "format": "esm",
       "imports": []
     },
@@ -405,23 +420,8 @@
       "format": "esm",
       "imports": []
     },
-    "app/styles/index.css?url": {
-      "bytes": 297,
-      "format": "esm",
-      "imports": []
-    },
-    "\u0000virtual:remix/server-manifest": {
-      "bytes": 10522,
-      "format": "esm",
-      "imports": []
-    },
-    "app/styles/responsive-fixed.css?url": {
-      "bytes": 330,
-      "format": "esm",
-      "imports": []
-    },
-    "app/styles/global-improvements.css?url": {
-      "bytes": 339,
+    "app/styles/animations.css?url": {
+      "bytes": 312,
       "format": "esm",
       "imports": []
     },
@@ -430,13 +430,13 @@
       "format": "esm",
       "imports": []
     },
-    "app/styles/animations.css?url": {
-      "bytes": 312,
+    "app/styles/global-improvements.css?url": {
+      "bytes": 339,
       "format": "esm",
       "imports": []
     },
     "\u0000virtual:remix/server-build": {
-      "bytes": 7181,
+      "bytes": 4473,
       "format": "esm",
       "imports": [
         {
@@ -450,39 +450,9 @@
           "original": "/app/root.tsx"
         },
         {
-          "path": "app/routes/ai-glasses.prescription-lenses.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/ai-glasses.prescription-lenses.tsx"
-        },
-        {
-          "path": "app/routes/ai-glasses.mentra-live.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/ai-glasses.mentra-live.tsx"
-        },
-        {
-          "path": "app/routes/apps-os.miniapp-store.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/apps-os.miniapp-store.tsx"
-        },
-        {
           "path": "app/routes/collections.$handle.tsx",
           "kind": "import-statement",
           "original": "/app/routes/collections.$handle.tsx"
-        },
-        {
-          "path": "app/routes/community.socials.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/community.socials.tsx"
-        },
-        {
-          "path": "app/routes/apps-os.download.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/apps-os.download.tsx"
-        },
-        {
-          "path": "app/routes/apps-os.mentraos.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/apps-os.mentraos.tsx"
         },
         {
           "path": "app/routes/products.$handle.tsx",
@@ -495,19 +465,9 @@
           "original": "/app/routes/prescriptions.tsx"
         },
         {
-          "path": "app/routes/about.mentra.tsx",
+          "path": "app/routes/technology.tsx",
           "kind": "import-statement",
-          "original": "/app/routes/about.mentra.tsx"
-        },
-        {
-          "path": "app/routes/ai-glasses.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/ai-glasses.tsx"
-        },
-        {
-          "path": "app/routes/community.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/community.tsx"
+          "original": "/app/routes/technology.tsx"
         },
         {
           "path": "app/routes/api.cart.ts",
@@ -515,14 +475,14 @@
           "original": "/app/routes/api.cart.ts"
         },
         {
-          "path": "app/routes/apps-os.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/apps-os.tsx"
-        },
-        {
           "path": "app/routes/contact.tsx",
           "kind": "import-statement",
           "original": "/app/routes/contact.tsx"
+        },
+        {
+          "path": "app/routes/support.tsx",
+          "kind": "import-statement",
+          "original": "/app/routes/support.tsx"
         },
         {
           "path": "app/routes/_index.tsx",
@@ -538,11 +498,6 @@
           "path": "app/routes/about.tsx",
           "kind": "import-statement",
           "original": "/app/routes/about.tsx"
-        },
-        {
-          "path": "app/routes/blog.tsx",
-          "kind": "import-statement",
-          "original": "/app/routes/blog.tsx"
         },
         {
           "path": "app/routes/cart.tsx",
@@ -566,13 +521,13 @@
         }
       ]
     },
-    "app/imports/svg-4mnhiia8zl.ts": {
-      "bytes": 482,
+    "app/lib/cart.server.ts": {
+      "bytes": 3197,
       "format": "esm",
       "imports": []
     },
-    "app/components/ProductAccordion.tsx": {
-      "bytes": 2893,
+    "app/routes/prescriptions.tsx": {
+      "bytes": 419,
       "format": "esm",
       "imports": [
         {
@@ -581,14 +536,14 @@
           "original": "react/jsx-runtime"
         },
         {
-          "path": "react",
+          "path": "app/imports/Prescriptions.tsx",
           "kind": "import-statement",
-          "original": "react"
+          "original": "../imports/Prescriptions"
         }
       ]
     },
-    "app/components/FAQSection.tsx": {
-      "bytes": 12553,
+    "app/routes/technology.tsx": {
+      "bytes": 9051,
       "format": "esm",
       "imports": [
         {
@@ -597,78 +552,9 @@
           "original": "react/jsx-runtime"
         },
         {
-          "path": "react",
+          "path": "app/components/NavigationBar.tsx",
           "kind": "import-statement",
-          "original": "react"
-        }
-      ]
-    },
-    "app/components/ProductImageGallery.tsx": {
-      "bytes": 3218,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        }
-      ]
-    },
-    "app/components/VideoPlayPause.tsx": {
-      "bytes": 2485,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        }
-      ]
-    },
-    "app/components/ScrollReveal.tsx": {
-      "bytes": 4161,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        }
-      ]
-    },
-    "app/components/MobileNavigationBar.tsx": {
-      "bytes": 2122,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "lucide-react",
-          "kind": "import-statement",
-          "original": "lucide-react"
+          "original": "../components/NavigationBar"
         }
       ]
     },
@@ -698,8 +584,39 @@
         }
       ]
     },
-    "app/root.tsx": {
-      "bytes": 1550,
+    "app/routes/_index.tsx": {
+      "bytes": 1591,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "app/imports/AiGlasses.tsx",
+          "kind": "import-statement",
+          "original": "../imports/AiGlasses"
+        },
+        {
+          "path": "app/components/mobile/MobileHomePage.tsx",
+          "kind": "import-statement",
+          "original": "../components/mobile/MobileHomePage"
+        },
+        {
+          "path": "app/components/ui/sonner.tsx",
+          "kind": "import-statement",
+          "original": "../components/ui/sonner"
+        }
+      ]
+    },
+    "app/routes/products.$handle.tsx": {
+      "bytes": 4502,
       "format": "esm",
       "imports": [
         {
@@ -713,9 +630,55 @@
           "original": "@remix-run/react"
         },
         {
-          "path": "app/components/Header.tsx",
+          "path": "react",
           "kind": "import-statement",
-          "original": "./components/Header"
+          "original": "react"
+        },
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/shopify.server"
+        },
+        {
+          "path": "app/imports/MentraLive.tsx",
+          "kind": "import-statement",
+          "original": "../imports/MentraLive"
+        },
+        {
+          "path": "app/components/EnhancedMobileMentraLive.tsx",
+          "kind": "import-statement",
+          "original": "../components/EnhancedMobileMentraLive"
+        },
+        {
+          "path": "app/components/ui/sonner.tsx",
+          "kind": "import-statement",
+          "original": "../components/ui/sonner"
+        },
+        {
+          "path": "app/contexts/CartContext.tsx",
+          "kind": "import-statement",
+          "original": "../contexts/CartContext"
+        }
+      ]
+    },
+    "app/root.tsx": {
+      "bytes": 1489,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
         },
         {
           "path": "app/styles/index.css?url",
@@ -764,13 +727,35 @@
       "format": "esm",
       "imports": []
     },
-    "app/imports/svg-he4ft5xlu0.ts": {
-      "bytes": 24876,
+    "app/imports/svg-4mnhiia8zl.ts": {
+      "bytes": 482,
       "format": "esm",
       "imports": []
     },
-    "app/imports/Frame1984078270-14-8211.tsx": {
-      "bytes": 14322,
+    "app/routes/health.tsx": {
+      "bytes": 417,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        }
+      ]
+    },
+    "app/lib/shopify.server.ts": {
+      "bytes": 2300,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "@shopify/hydrogen",
+          "kind": "import-statement",
+          "original": "@shopify/hydrogen"
+        }
+      ]
+    },
+    "app/routes/os.tsx": {
+      "bytes": 405,
       "format": "esm",
       "imports": [
         {
@@ -779,14 +764,302 @@
           "original": "react/jsx-runtime"
         },
         {
-          "path": "app/imports/svg-4mnhiia8zl.ts",
+          "path": "app/imports/MentraOS.tsx",
           "kind": "import-statement",
-          "original": "./svg-4mnhiia8zl"
+          "original": "../imports/MentraOS"
+        }
+      ]
+    },
+    "app/routes/about.tsx": {
+      "bytes": 6517,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
         },
         {
-          "path": "../../../../../assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png",
+          "path": "app/components/NavigationBar.tsx",
           "kind": "import-statement",
-          "original": "/assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png"
+          "original": "../components/NavigationBar"
+        }
+      ]
+    },
+    "app/contexts/CartContext.tsx": {
+      "bytes": 1882,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        }
+      ]
+    },
+    "app/routes/support.tsx": {
+      "bytes": 11247,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
+        }
+      ]
+    },
+    "app/components/ProductAccordion.tsx": {
+      "bytes": 2893,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        }
+      ]
+    },
+    "app/components/ProductImageGallery.tsx": {
+      "bytes": 3218,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        }
+      ]
+    },
+    "app/components/ScrollReveal.tsx": {
+      "bytes": 4161,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        }
+      ]
+    },
+    "app/components/FAQSection.tsx": {
+      "bytes": 12553,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        }
+      ]
+    },
+    "app/routes/api.cart.ts": {
+      "bytes": 2338,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/shopify.server"
+        },
+        {
+          "path": "app/lib/cart.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/cart.server"
+        }
+      ]
+    },
+    "app/components/MobileNavigationBar.tsx": {
+      "bytes": 2122,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        }
+      ]
+    },
+    "app/routes/collections.$handle.tsx": {
+      "bytes": 4579,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/shopify.server"
+        }
+      ]
+    },
+    "app/routes/cart.tsx": {
+      "bytes": 2709,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/shopify.server"
+        },
+        {
+          "path": "app/lib/cart.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/cart.server"
+        }
+      ]
+    },
+    "app/routes/contact.tsx": {
+      "bytes": 9303,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
+        },
+        {
+          "path": "app/components/ui/sonner.tsx",
+          "kind": "import-statement",
+          "original": "../components/ui/sonner"
+        },
+        {
+          "path": "sonner",
+          "kind": "import-statement",
+          "original": "sonner"
+        }
+      ]
+    },
+    "app/routes/buy.tsx": {
+      "bytes": 3994,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "@remix-run/node",
+          "kind": "import-statement",
+          "original": "@remix-run/node"
+        },
+        {
+          "path": "app/lib/shopify.server.ts",
+          "kind": "import-statement",
+          "original": "../lib/shopify.server"
+        },
+        {
+          "path": "app/imports/MentraLive.tsx",
+          "kind": "import-statement",
+          "original": "../imports/MentraLive"
+        },
+        {
+          "path": "app/components/EnhancedMobileMentraLive.tsx",
+          "kind": "import-statement",
+          "original": "../components/EnhancedMobileMentraLive"
+        },
+        {
+          "path": "app/components/ui/sonner.tsx",
+          "kind": "import-statement",
+          "original": "../components/ui/sonner"
+        },
+        {
+          "path": "app/contexts/CartContext.tsx",
+          "kind": "import-statement",
+          "original": "../contexts/CartContext"
         }
       ]
     },
@@ -871,13 +1144,13 @@
         }
       ]
     },
-    "app/imports/svg-5nkvx.tsx": {
-      "bytes": 1542,
+    "app/imports/svg-nrlb2kvmui.ts": {
+      "bytes": 33340,
       "format": "esm",
       "imports": []
     },
-    "app/imports/svg-nrlb2kvmui.ts": {
-      "bytes": 33340,
+    "app/imports/svg-5nkvx.tsx": {
+      "bytes": 1542,
       "format": "esm",
       "imports": []
     },
@@ -886,8 +1159,8 @@
       "format": "esm",
       "imports": []
     },
-    "app/components/Header.tsx": {
-      "bytes": 39010,
+    "app/components/NavigationBar.tsx": {
+      "bytes": 21020,
       "format": "esm",
       "imports": [
         {
@@ -917,44 +1190,8 @@
         }
       ]
     },
-    "app/imports/MentraOS.tsx": {
-      "bytes": 34942,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "app/components/ScrollReveal.tsx",
-          "kind": "import-statement",
-          "original": "../components/ScrollReveal"
-        },
-        {
-          "path": "app/imports/svg-he4ft5xlu0.ts",
-          "kind": "import-statement",
-          "original": "./svg-he4ft5xlu0"
-        },
-        {
-          "path": "app/imports/Frame1984078270-14-8211.tsx",
-          "kind": "import-statement",
-          "original": "./Frame1984078270-14-8211"
-        }
-      ]
-    },
     "app/imports/Prescriptions.tsx": {
-      "bytes": 27072,
+      "bytes": 27020,
       "format": "esm",
       "imports": [
         {
@@ -966,6 +1203,11 @@
           "path": "@remix-run/react",
           "kind": "import-statement",
           "original": "@remix-run/react"
+        },
+        {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
         },
         {
           "path": "app/components/ScrollReveal.tsx",
@@ -1045,7 +1287,7 @@
       ]
     },
     "app/imports/MentraLive.tsx": {
-      "bytes": 83885,
+      "bytes": 83833,
       "format": "esm",
       "imports": [
         {
@@ -1062,6 +1304,11 @@
           "path": "app/imports/svg-mxqnixecfi.ts",
           "kind": "import-statement",
           "original": "./svg-mxqnixecfi"
+        },
+        {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
         },
         {
           "path": "app/components/ProductAccordion.tsx",
@@ -1120,93 +1367,18 @@
       "format": "esm",
       "imports": []
     },
-    "app/routes/apps-os.miniapp-store.tsx": {
-      "bytes": 1458,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        }
-      ]
-    },
-    "app/routes/prescriptions.tsx": {
-      "bytes": 419,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/imports/Prescriptions.tsx",
-          "kind": "import-statement",
-          "original": "../imports/Prescriptions"
-        }
-      ]
-    },
     "app/imports/svg-716j1jt04l.ts": {
       "bytes": 177,
       "format": "esm",
       "imports": []
     },
-    "app/components/mobile/MobileHeroSection.tsx": {
-      "bytes": 2460,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png",
-          "kind": "import-statement",
-          "original": "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png"
-        },
-        {
-          "path": "app/imports/svg-nrlb2kvmui.ts",
-          "kind": "import-statement",
-          "original": "../../imports/svg-nrlb2kvmui"
-        }
-      ]
-    },
-    "app/routes/os.tsx": {
-      "bytes": 405,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/imports/MentraOS.tsx",
-          "kind": "import-statement",
-          "original": "../imports/MentraOS"
-        }
-      ]
-    },
-    "app/imports/svg-mxsfu.tsx": {
-      "bytes": 1542,
+    "app/imports/svg-saoyw.tsx": {
+      "bytes": 1543,
       "format": "esm",
       "imports": []
     },
-    "app/routes/blog.tsx": {
-      "bytes": 1420,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        }
-      ]
-    },
-    "app/contexts/CartContext.tsx": {
-      "bytes": 1882,
+    "app/components/mobile/MobileSizeSelector.tsx": {
+      "bytes": 2090,
       "format": "esm",
       "imports": [
         {
@@ -1218,74 +1390,6 @@
           "path": "react",
           "kind": "import-statement",
           "original": "react"
-        }
-      ]
-    },
-    "app/imports/svg-2rip6vyh9r.ts": {
-      "bytes": 7907,
-      "format": "esm",
-      "imports": []
-    },
-    "app/components/mobile/MobileColorSelector.tsx": {
-      "bytes": 2208,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "lucide-react",
-          "kind": "import-statement",
-          "original": "lucide-react"
-        }
-      ]
-    },
-    "app/routes/ai-glasses.tsx": {
-      "bytes": 1145,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "app/imports/AiGlasses.tsx",
-          "kind": "import-statement",
-          "original": "../imports/AiGlasses"
-        },
-        {
-          "path": "app/components/mobile/MobileHomePage.tsx",
-          "kind": "import-statement",
-          "original": "../components/mobile/MobileHomePage"
-        },
-        {
-          "path": "app/components/ui/sonner.tsx",
-          "kind": "import-statement",
-          "original": "../components/ui/sonner"
-        }
-      ]
-    },
-    "app/routes/ai-glasses.mentra-live.tsx": {
-      "bytes": 121,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
         }
       ]
     },
@@ -1310,8 +1414,13 @@
         }
       ]
     },
-    "app/imports/Frame1984078261.tsx": {
-      "bytes": 5028,
+    "app/imports/svg-uc2tkx0skx.ts": {
+      "bytes": 33338,
+      "format": "esm",
+      "imports": []
+    },
+    "app/components/ui/sonner.tsx": {
+      "bytes": 571,
       "format": "esm",
       "imports": [
         {
@@ -1320,14 +1429,77 @@
           "original": "react/jsx-runtime"
         },
         {
-          "path": "@remix-run/react",
+          "path": "next-themes",
           "kind": "import-statement",
-          "original": "@remix-run/react"
+          "original": "next-themes"
         },
         {
-          "path": "../../../../../assets/ce9d30db427efae4ba3239e016519c678813f304.png",
+          "path": "sonner",
           "kind": "import-statement",
-          "original": "/assets/ce9d30db427efae4ba3239e016519c678813f304.png"
+          "original": "sonner"
+        }
+      ]
+    },
+    "app/imports/svg-mxsfu.tsx": {
+      "bytes": 1542,
+      "format": "esm",
+      "imports": []
+    },
+    "app/components/mobile/MobileHomePage.tsx": {
+      "bytes": 309,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/components/mobile/NewMobileHomePage.tsx",
+          "kind": "import-statement",
+          "original": "./NewMobileHomePage"
+        }
+      ]
+    },
+    "app/components/mobile/MobileColorSelector.tsx": {
+      "bytes": 2208,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        }
+      ]
+    },
+    "app/components/mobile/MobileHeroSection.tsx": {
+      "bytes": 2460,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png",
+          "kind": "import-statement",
+          "original": "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png"
+        },
+        {
+          "path": "app/imports/svg-nrlb2kvmui.ts",
+          "kind": "import-statement",
+          "original": "../../imports/svg-nrlb2kvmui"
         }
       ]
     },
@@ -1352,43 +1524,15 @@
         }
       ]
     },
+    "app/imports/svg-3zy3oopzfy.ts": {
+      "bytes": 51550,
+      "format": "esm",
+      "imports": []
+    },
     "app/imports/svg-ys0r4kxewm.ts": {
       "bytes": 1469,
       "format": "esm",
       "imports": []
-    },
-    "app/routes/community.socials.tsx": {
-      "bytes": 2666,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        }
-      ]
-    },
-    "app/routes/apps-os.download.tsx": {
-      "bytes": 1553,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        }
-      ]
-    },
-    "app/routes/about.mentra.tsx": {
-      "bytes": 1970,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        }
-      ]
     },
     "app/components/mobile/MobileProductHeader.tsx": {
       "bytes": 698,
@@ -1401,8 +1545,8 @@
         }
       ]
     },
-    "app/components/mobile/MobileHomePage.tsx": {
-      "bytes": 309,
+    "app/imports/Frame1984078261.tsx": {
+      "bytes": 5028,
       "format": "esm",
       "imports": [
         {
@@ -1411,9 +1555,87 @@
           "original": "react/jsx-runtime"
         },
         {
-          "path": "app/components/mobile/NewMobileHomePage.tsx",
+          "path": "@remix-run/react",
           "kind": "import-statement",
-          "original": "./NewMobileHomePage"
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "../../../../../assets/ce9d30db427efae4ba3239e016519c678813f304.png",
+          "kind": "import-statement",
+          "original": "/assets/ce9d30db427efae4ba3239e016519c678813f304.png"
+        }
+      ]
+    },
+    "app/components/mobile/MobilePurchaseSection.tsx": {
+      "bytes": 6713,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        },
+        {
+          "path": "sonner",
+          "kind": "import-statement",
+          "original": "sonner"
+        },
+        {
+          "path": "app/contexts/CartContext.tsx",
+          "kind": "import-statement",
+          "original": "../../contexts/CartContext"
+        }
+      ]
+    },
+    "app/imports/svg-2rip6vyh9r.ts": {
+      "bytes": 7907,
+      "format": "esm",
+      "imports": []
+    },
+    "app/components/mobile/MobileReviews.tsx": {
+      "bytes": 5572,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
+        }
+      ]
+    },
+    "app/imports/Frame1984078270-14-8211.tsx": {
+      "bytes": 14322,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/imports/svg-4mnhiia8zl.ts",
+          "kind": "import-statement",
+          "original": "./svg-4mnhiia8zl"
+        },
+        {
+          "path": "../../../../../assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png",
+          "kind": "import-statement",
+          "original": "/assets/b9f2d5b23bcac5129eeedec01451f80a93d424f9.png"
         }
       ]
     },
@@ -1459,316 +1681,6 @@
         }
       ]
     },
-    "app/lib/cart.server.ts": {
-      "bytes": 3197,
-      "format": "esm",
-      "imports": []
-    },
-    "app/imports/svg-saoyw.tsx": {
-      "bytes": 1543,
-      "format": "esm",
-      "imports": []
-    },
-    "app/routes/about.tsx": {
-      "bytes": 1744,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        }
-      ]
-    },
-    "app/lib/shopify.server.ts": {
-      "bytes": 2300,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "@shopify/hydrogen",
-          "kind": "import-statement",
-          "original": "@shopify/hydrogen"
-        }
-      ]
-    },
-    "app/components/mobile/MobileSizeSelector.tsx": {
-      "bytes": 2090,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        }
-      ]
-    },
-    "app/routes/apps-os.tsx": {
-      "bytes": 716,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/imports/MentraOS.tsx",
-          "kind": "import-statement",
-          "original": "../imports/MentraOS"
-        },
-        {
-          "path": "app/components/ui/sonner.tsx",
-          "kind": "import-statement",
-          "original": "../components/ui/sonner"
-        }
-      ]
-    },
-    "app/components/mobile/MobileProductFeatures.tsx": {
-      "bytes": 5289,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "lucide-react",
-          "kind": "import-statement",
-          "original": "lucide-react"
-        }
-      ]
-    },
-    "app/routes/apps-os.mentraos.tsx": {
-      "bytes": 729,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/imports/MentraOS.tsx",
-          "kind": "import-statement",
-          "original": "../imports/MentraOS"
-        },
-        {
-          "path": "app/components/ui/sonner.tsx",
-          "kind": "import-statement",
-          "original": "../components/ui/sonner"
-        }
-      ]
-    },
-    "app/imports/Frame1618873011-12-7678.tsx": {
-      "bytes": 26201,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "app/imports/svg-2rip6vyh9r.ts",
-          "kind": "import-statement",
-          "original": "./svg-2rip6vyh9r"
-        },
-        {
-          "path": "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png",
-          "kind": "import-statement",
-          "original": "/assets/87807e2e657137af250f0f3412bc97ace74dc408.png"
-        },
-        {
-          "path": "../../../../../assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png",
-          "kind": "import-statement",
-          "original": "/assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png"
-        }
-      ]
-    },
-    "app/routes/_index.tsx": {
-      "bytes": 1591,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "app/imports/AiGlasses.tsx",
-          "kind": "import-statement",
-          "original": "../imports/AiGlasses"
-        },
-        {
-          "path": "app/components/mobile/MobileHomePage.tsx",
-          "kind": "import-statement",
-          "original": "../components/mobile/MobileHomePage"
-        },
-        {
-          "path": "app/components/ui/sonner.tsx",
-          "kind": "import-statement",
-          "original": "../components/ui/sonner"
-        }
-      ]
-    },
-    "app/routes/cart.tsx": {
-      "bytes": 2709,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        },
-        {
-          "path": "app/lib/shopify.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/shopify.server"
-        },
-        {
-          "path": "app/lib/cart.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/cart.server"
-        }
-      ]
-    },
-    "app/imports/svg-uc2tkx0skx.ts": {
-      "bytes": 33338,
-      "format": "esm",
-      "imports": []
-    },
-    "app/routes/ai-glasses.prescription-lenses.tsx": {
-      "bytes": 114,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        }
-      ]
-    },
-    "app/routes/health.tsx": {
-      "bytes": 417,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        }
-      ]
-    },
-    "app/components/mobile/MobileReviews.tsx": {
-      "bytes": 5572,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "lucide-react",
-          "kind": "import-statement",
-          "original": "lucide-react"
-        }
-      ]
-    },
-    "app/components/ui/sonner.tsx": {
-      "bytes": 571,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "next-themes",
-          "kind": "import-statement",
-          "original": "next-themes"
-        },
-        {
-          "path": "sonner",
-          "kind": "import-statement",
-          "original": "sonner"
-        }
-      ]
-    },
-    "app/routes/api.cart.ts": {
-      "bytes": 2338,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        },
-        {
-          "path": "app/lib/shopify.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/shopify.server"
-        },
-        {
-          "path": "app/lib/cart.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/cart.server"
-        }
-      ]
-    },
-    "app/routes/collections.$handle.tsx": {
-      "bytes": 4579,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        },
-        {
-          "path": "app/lib/shopify.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/shopify.server"
-        }
-      ]
-    },
     "app/entry.server.tsx": {
       "bytes": 1015,
       "format": "esm",
@@ -1792,170 +1704,6 @@
           "path": "react-dom/server.browser",
           "kind": "import-statement",
           "original": "react-dom/server.browser"
-        }
-      ]
-    },
-    "app/components/mobile/NewMobileHomePage.tsx": {
-      "bytes": 15007,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "app/imports/IPhone13143.tsx",
-          "kind": "import-statement",
-          "original": "../../imports/IPhone13143"
-        },
-        {
-          "path": "app/imports/IPhone13141-33-9010.tsx",
-          "kind": "import-statement",
-          "original": "../../imports/IPhone13141-33-9010"
-        }
-      ]
-    },
-    "app/components/mobile/MobilePurchaseSection.tsx": {
-      "bytes": 6713,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "lucide-react",
-          "kind": "import-statement",
-          "original": "lucide-react"
-        },
-        {
-          "path": "sonner",
-          "kind": "import-statement",
-          "original": "sonner"
-        },
-        {
-          "path": "app/contexts/CartContext.tsx",
-          "kind": "import-statement",
-          "original": "../../contexts/CartContext"
-        }
-      ]
-    },
-    "app/routes/products.$handle.tsx": {
-      "bytes": 4502,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        },
-        {
-          "path": "app/lib/shopify.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/shopify.server"
-        },
-        {
-          "path": "app/imports/MentraLive.tsx",
-          "kind": "import-statement",
-          "original": "../imports/MentraLive"
-        },
-        {
-          "path": "app/components/EnhancedMobileMentraLive.tsx",
-          "kind": "import-statement",
-          "original": "../components/EnhancedMobileMentraLive"
-        },
-        {
-          "path": "app/components/ui/sonner.tsx",
-          "kind": "import-statement",
-          "original": "../components/ui/sonner"
-        },
-        {
-          "path": "app/contexts/CartContext.tsx",
-          "kind": "import-statement",
-          "original": "../contexts/CartContext"
-        }
-      ]
-    },
-    "app/routes/buy.tsx": {
-      "bytes": 3994,
-      "format": "esm",
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "original": "react/jsx-runtime"
-        },
-        {
-          "path": "@remix-run/react",
-          "kind": "import-statement",
-          "original": "@remix-run/react"
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "original": "react"
-        },
-        {
-          "path": "@remix-run/node",
-          "kind": "import-statement",
-          "original": "@remix-run/node"
-        },
-        {
-          "path": "app/lib/shopify.server.ts",
-          "kind": "import-statement",
-          "original": "../lib/shopify.server"
-        },
-        {
-          "path": "app/imports/MentraLive.tsx",
-          "kind": "import-statement",
-          "original": "../imports/MentraLive"
-        },
-        {
-          "path": "app/components/EnhancedMobileMentraLive.tsx",
-          "kind": "import-statement",
-          "original": "../components/EnhancedMobileMentraLive"
-        },
-        {
-          "path": "app/components/ui/sonner.tsx",
-          "kind": "import-statement",
-          "original": "../components/ui/sonner"
-        },
-        {
-          "path": "app/contexts/CartContext.tsx",
-          "kind": "import-statement",
-          "original": "../contexts/CartContext"
         }
       ]
     },
@@ -2015,30 +1763,127 @@
         }
       ]
     },
-    "app/imports/svg-3zy3oopzfy.ts": {
-      "bytes": 51550,
+    "app/imports/svg-he4ft5xlu0.ts": {
+      "bytes": 24876,
       "format": "esm",
       "imports": []
     },
-    "app/routes/community.tsx": {
-      "bytes": 2005,
+    "app/components/mobile/MobileProductFeatures.tsx": {
+      "bytes": 5289,
       "format": "esm",
       "imports": [
         {
           "path": "react/jsx-runtime",
           "kind": "import-statement",
           "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "lucide-react",
+          "kind": "import-statement",
+          "original": "lucide-react"
         }
       ]
     },
-    "app/routes/contact.tsx": {
-      "bytes": 2552,
+    "app/components/mobile/NewMobileHomePage.tsx": {
+      "bytes": 15089,
       "format": "esm",
       "imports": [
         {
           "path": "react/jsx-runtime",
           "kind": "import-statement",
           "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "app/imports/IPhone13143.tsx",
+          "kind": "import-statement",
+          "original": "../../imports/IPhone13143"
+        },
+        {
+          "path": "app/imports/IPhone13141-33-9010.tsx",
+          "kind": "import-statement",
+          "original": "../../imports/IPhone13141-33-9010"
+        }
+      ]
+    },
+    "app/imports/MentraOS.tsx": {
+      "bytes": 34890,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "original": "react"
+        },
+        {
+          "path": "@remix-run/react",
+          "kind": "import-statement",
+          "original": "@remix-run/react"
+        },
+        {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
+        },
+        {
+          "path": "app/components/ScrollReveal.tsx",
+          "kind": "import-statement",
+          "original": "../components/ScrollReveal"
+        },
+        {
+          "path": "app/imports/svg-he4ft5xlu0.ts",
+          "kind": "import-statement",
+          "original": "./svg-he4ft5xlu0"
+        },
+        {
+          "path": "app/imports/Frame1984078270-14-8211.tsx",
+          "kind": "import-statement",
+          "original": "./Frame1984078270-14-8211"
+        }
+      ]
+    },
+    "app/imports/Frame1618873011-12-7678.tsx": {
+      "bytes": 26201,
+      "format": "esm",
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "original": "react/jsx-runtime"
+        },
+        {
+          "path": "app/imports/svg-2rip6vyh9r.ts",
+          "kind": "import-statement",
+          "original": "./svg-2rip6vyh9r"
+        },
+        {
+          "path": "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png",
+          "kind": "import-statement",
+          "original": "/assets/87807e2e657137af250f0f3412bc97ace74dc408.png"
+        },
+        {
+          "path": "../../../../../assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png",
+          "kind": "import-statement",
+          "original": "/assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png"
         }
       ]
     },
@@ -2124,7 +1969,7 @@
       ]
     },
     "app/imports/AiGlasses.tsx": {
-      "bytes": 270030,
+      "bytes": 268661,
       "format": "esm",
       "imports": [
         {
@@ -2173,6 +2018,11 @@
           "original": "./Frame1984078261"
         },
         {
+          "path": "app/components/NavigationBar.tsx",
+          "kind": "import-statement",
+          "original": "../components/NavigationBar"
+        },
+        {
           "path": "app/components/ScrollReveal.tsx",
           "kind": "import-statement",
           "original": "../components/ScrollReveal"
@@ -2181,11 +2031,6 @@
           "path": "app/components/FAQSection.tsx",
           "kind": "import-statement",
           "original": "../components/FAQSection"
-        },
-        {
-          "path": "app/components/VideoPlayPause.tsx",
-          "kind": "import-statement",
-          "original": "../components/VideoPlayPause"
         },
         {
           "path": "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png",
@@ -2548,12 +2393,12 @@
         "@remix-run/react",
         "isbot",
         "react-dom/server.browser",
-        "react",
         "@remix-run/node",
         "@shopify/hydrogen",
-        "next-themes",
+        "react",
         "sonner",
-        "lucide-react"
+        "lucide-react",
+        "next-themes"
       ],
       "exports": [
         "assets",
@@ -2567,7 +2412,7 @@
         "routes"
       ],
       "entryPoint": "\u0000virtual:remix/server-build",
-      "bytes": 894752,
+      "bytes": 892251,
       "inputs": {
         "react/jsx-runtime": {
           "bytesInOutput": 0
@@ -2581,22 +2426,22 @@
         "react-dom/server.browser": {
           "bytesInOutput": 0
         },
-        "react": {
+        "@shopify/hydrogen": {
           "bytesInOutput": 0
         },
         "@remix-run/node": {
           "bytesInOutput": 0
         },
-        "@shopify/hydrogen": {
-          "bytesInOutput": 0
-        },
-        "next-themes": {
+        "react": {
           "bytesInOutput": 0
         },
         "sonner": {
           "bytesInOutput": 0
         },
         "lucide-react": {
+          "bytesInOutput": 0
+        },
+        "next-themes": {
           "bytesInOutput": 0
         },
         "../../../../../assets/d4857403a2c706ebbb1c4753b2da9302c5308c44.png": {
@@ -2614,19 +2459,19 @@
         "../../../../../assets/05bb44a8bc60f1b1e394508505cc2adbe09dfe93.png": {
           "bytesInOutput": 60
         },
+        "../../../../../assets/fc649cd21fa2fac60c9eba2a97d1cc1b3148b755.png": {
+          "bytesInOutput": 54
+        },
         "../../../../../assets/8f0cdf4c2da39ff534ce0450cd8e54bbbc05b84e.png": {
           "bytesInOutput": 54
         },
         "../../../../../assets/2cc255a03f12e9620932efdedf23b34e8544f98f.png": {
           "bytesInOutput": 53
         },
-        "../../../../../assets/fc649cd21fa2fac60c9eba2a97d1cc1b3148b755.png": {
-          "bytesInOutput": 54
-        },
         "../../../../../assets/af81160268ba6fe50a749109b97cfd9476c5cc3a.png": {
           "bytesInOutput": 74
         },
-        "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png": {
+        "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png": {
           "bytesInOutput": 54
         },
         "../../../../../assets/941ea41c22412686984c524708231da6edbd53ad.png": {
@@ -2635,70 +2480,55 @@
         "../../../../../assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/83fb1abc62c74b98254b83e1c995957305d9c32a.png": {
-          "bytesInOutput": 60
-        },
-        "../../../../../assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png": {
+        "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/bb07fd06e6c4321a583b7cfa3b338bcb8bd30d7b.png": {
+        "../../../../../assets/9afba06bbe7725ea0650b181366d51a6a3782f87.png": {
           "bytesInOutput": 54
         },
         "../../../../../assets/51d7d50f9b381f963c3ef047a3dd22f068b8e016.png": {
           "bytesInOutput": 54
         },
+        "../../../../../assets/b9a2e40afe9a6295c872f0043640730bdf2a4916.png": {
+          "bytesInOutput": 54
+        },
         "../../../../../assets/08d2f54624f59fd5915df0f824ac8912a6b993e1.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/prescription-image201.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/prescription-image197.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/prescription-circle.png": {
-          "bytesInOutput": 52
-        },
-        "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png": {
-          "bytesInOutput": 79
-        },
-        "../../../../../assets/prescription-image199.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/prescription-group1597880443.png": {
-          "bytesInOutput": 61
-        },
-        "../../../../../assets/prescription-ellipse2342.png": {
-          "bytesInOutput": 57
-        },
-        "../../../../../assets/prescription-social1.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/prescription-image198.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png": {
-          "bytesInOutput": 52
-        },
-        "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png": {
           "bytesInOutput": 54
         },
         "../../../../../assets/50b9de801dda0227d238cfab2648fdf555f1b62a.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/prescription-social2.png": {
+        "../../../../../assets/83fb1abc62c74b98254b83e1c995957305d9c32a.png": {
+          "bytesInOutput": 60
+        },
+        "../../../../../assets/prescription-image197.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/prescription-image199.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/prescription-image198.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/prescription-image201.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/8a115c324755836e9486c6f7e82fdd6305a3d005.png": {
+          "bytesInOutput": 79
+        },
+        "../../../../../assets/prescription-circle.png": {
+          "bytesInOutput": 52
+        },
+        "../../../../../assets/prescription-ellipse2342.png": {
+          "bytesInOutput": 57
+        },
+        "../../../../../assets/prescription-group1597880443.png": {
+          "bytesInOutput": 61
+        },
+        "../../../../../assets/prescription-social1.png": {
           "bytesInOutput": 53
         },
-        "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png": {
-          "bytesInOutput": 58
-        },
-        "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png": {
-          "bytesInOutput": 63
-        },
-        "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png": {
+        "../../../../../assets/prescription-social2.png": {
           "bytesInOutput": 53
         },
         "../../../../../assets/prescription-social3.png": {
@@ -2707,11 +2537,35 @@
         "../../../../../assets/prescription-social4.png": {
           "bytesInOutput": 53
         },
+        "../../../../../assets/prescription-social5.png": {
+          "bytesInOutput": 53
+        },
+        "../../../../../assets/bb33e0d2cb864e42c294ab94338c05b240f0946d.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/87807e2e657137af250f0f3412bc97ace74dc408.png": {
+          "bytesInOutput": 58
+        },
+        "../../../../../assets/70e6cef7e4932d4c2243766935472439652bd8c4.png": {
+          "bytesInOutput": 52
+        },
+        "../../../../../assets/5a7e62ffd689402a8393b12819b7b79490d26cb2.png": {
+          "bytesInOutput": 63
+        },
+        "../../../../../assets/abdad8eaad56932f17e7be015156a9766ea96468.png": {
+          "bytesInOutput": 53
+        },
         "../../../../../assets/958ed23fb8ec6769502b840d83ec3b97e482f40e.png": {
           "bytesInOutput": 53
         },
-        "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png": {
-          "bytesInOutput": 62
+        "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png": {
+          "bytesInOutput": 53
+        },
+        "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png": {
+          "bytesInOutput": 53
+        },
+        "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png": {
+          "bytesInOutput": 52
         },
         "../../../../../assets/d6791b252af01a97aceae470966482200d57a519.png": {
           "bytesInOutput": 54
@@ -2719,14 +2573,11 @@
         "../../../../../assets/d81ef731150eba7b1f372c64c17081bb7f42b009.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/beec97f1ce8672b28fedcb27ec869008225d63ad.png": {
-          "bytesInOutput": 75
-        },
         "../../../../../assets/588337c215139582e6c05119cb943a3d72e06856.png": {
           "bytesInOutput": 79
         },
-        "../../../../../assets/9da11aee800379f79fd3147ec9d54ed8009c3fa4.png": {
-          "bytesInOutput": 74
+        "../../../../../assets/0d7a9e419e1ca84eb84a7ee2129d581788c6164a.png": {
+          "bytesInOutput": 62
         },
         "../../../../../assets/ce9d30db427efae4ba3239e016519c678813f304.png": {
           "bytesInOutput": 83
@@ -2734,32 +2585,14 @@
         "../../../../../assets/ffe36e87ab0a3e6ca1bd46752e7b4c2b208e0c73.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/f734081f870e6b04cf83f45d1c14e6d5bee6f83e.png": {
-          "bytesInOutput": 54
-        },
         "../../../../../assets/551715d6dae135191779e906c9df5ddb3d719234.png": {
           "bytesInOutput": 54
-        },
-        "../../../../../assets/c87d88f2e837fcee49720b01dc635b6b7ca00131.png": {
-          "bytesInOutput": 57
-        },
-        "../../../../../assets/3d7abe0690d911f88227459f66b04bf69d9f1ed0.png": {
-          "bytesInOutput": 54
-        },
-        "../../../../../assets/5b09a182c8ae50681aedd4971de18969898c817a.png": {
-          "bytesInOutput": 75
         },
         "../../../../../assets/3615eb4fbb5a58b0fc7abfd28a711c7fb1706054.png": {
           "bytesInOutput": 62
         },
-        "../../../../../assets/1ac159eb98cb2cb45357653e433c61e999682f88.png": {
-          "bytesInOutput": 75
-        },
         "../../../../../assets/d7ab4d4bf07a9bf1bfcaa426805829cbbd1f328b.png": {
           "bytesInOutput": 57
-        },
-        "../../../../../assets/2afc690a732b84e519b27b2a480affa124e71122.png": {
-          "bytesInOutput": 75
         },
         "../../../../../assets/cf4cc7823f786cdb33e8f7055653555a3a0b3e9a.png": {
           "bytesInOutput": 75
@@ -2767,11 +2600,38 @@
         "../../../../../assets/32a9ff6e981da2df4cd2e967afe95e0f9a67dc91.png": {
           "bytesInOutput": 75
         },
+        "../../../../../assets/beec97f1ce8672b28fedcb27ec869008225d63ad.png": {
+          "bytesInOutput": 75
+        },
+        "../../../../../assets/5b09a182c8ae50681aedd4971de18969898c817a.png": {
+          "bytesInOutput": 75
+        },
         "../../../../../assets/b25f0c59f8288e24474be7af805b56e31c7edc68.png": {
           "bytesInOutput": 75
         },
         "../../../../../assets/1596bbfeb60ef296048aa6a59fc891c99c1c0156.png": {
           "bytesInOutput": 75
+        },
+        "../../../../../assets/1ac159eb98cb2cb45357653e433c61e999682f88.png": {
+          "bytesInOutput": 75
+        },
+        "../../../../../assets/2afc690a732b84e519b27b2a480affa124e71122.png": {
+          "bytesInOutput": 75
+        },
+        "../../../../../assets/c87d88f2e837fcee49720b01dc635b6b7ca00131.png": {
+          "bytesInOutput": 57
+        },
+        "../../../../../assets/f734081f870e6b04cf83f45d1c14e6d5bee6f83e.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/3d7abe0690d911f88227459f66b04bf69d9f1ed0.png": {
+          "bytesInOutput": 54
+        },
+        "../../../../../assets/9da11aee800379f79fd3147ec9d54ed8009c3fa4.png": {
+          "bytesInOutput": 74
+        },
+        "../../../../../assets/3e716864cf4047bbadc5979533465dade88d3530.png": {
+          "bytesInOutput": 74
         },
         "../../../../../assets/074ab71e7b858304b7b3d0cc93a375a063653b74.png": {
           "bytesInOutput": 54
@@ -2782,29 +2642,23 @@
         "../../../../../assets/a941107cc55205e46c84f3250b368b3cec1c522c.png": {
           "bytesInOutput": 54
         },
-        "../../../../../assets/3e716864cf4047bbadc5979533465dade88d3530.png": {
-          "bytesInOutput": 74
-        },
         "../../../../../assets/a8433f4b35a1441680fe369aac4998a92c083850.png": {
           "bytesInOutput": 61
-        },
-        "../../../../../assets/aa0b950f88cec6d5a04102195dd96239f7bae98c.png": {
-          "bytesInOutput": 53
         },
         "../../../../../assets/fee02fdb7f4f31d5a6832fc866cf44818a0de5be.png": {
           "bytesInOutput": 74
         },
-        "../../../../../assets/9d77be3f2640eae14e306f9ef7ab95ea7c90ec9d.png": {
-          "bytesInOutput": 52
-        },
-        "../../../../../assets/4aa0f66338ded8cd287b268854f957731bb94819.png": {
-          "bytesInOutput": 53
-        },
-        "../../../../../assets/prescription-social5.png": {
-          "bytesInOutput": 53
+        "\u0000virtual:remix/server-manifest": {
+          "bytesInOutput": 5376
         },
         "app/styles/mentra-live.css?url": {
           "bytesInOutput": 223
+        },
+        "app/styles/index.css?url": {
+          "bytesInOutput": 207
+        },
+        "app/styles/responsive-fixed.css?url": {
+          "bytesInOutput": 238
         },
         "app/styles/mobile-responsive.css?url": {
           "bytesInOutput": 241
@@ -2812,152 +2666,173 @@
         "app/styles/mobile-mentra-live.css?url": {
           "bytesInOutput": 243
         },
-        "app/styles/index.css?url": {
-          "bytesInOutput": 207
-        },
-        "\u0000virtual:remix/server-manifest": {
-          "bytesInOutput": 9435
-        },
-        "app/styles/responsive-fixed.css?url": {
-          "bytesInOutput": 238
-        },
-        "app/styles/global-improvements.css?url": {
-          "bytesInOutput": 247
+        "app/styles/animations.css?url": {
+          "bytesInOutput": 221
         },
         "app/styles/responsive-padding.css?url": {
           "bytesInOutput": 244
         },
-        "app/styles/animations.css?url": {
-          "bytesInOutput": 221
+        "app/styles/global-improvements.css?url": {
+          "bytesInOutput": 247
         },
         "\u0000virtual:remix/server-build": {
-          "bytesInOutput": 3304
+          "bytesInOutput": 1967
         },
-        "app/imports/svg-4mnhiia8zl.ts": {
-          "bytesInOutput": 477
-        },
-        "app/components/ProductAccordion.tsx": {
-          "bytesInOutput": 1937
-        },
-        "app/components/FAQSection.tsx": {
-          "bytesInOutput": 9310
-        },
-        "app/components/ProductImageGallery.tsx": {
-          "bytesInOutput": 2138
-        },
-        "app/components/VideoPlayPause.tsx": {
-          "bytesInOutput": 1217
-        },
-        "app/components/ScrollReveal.tsx": {
-          "bytesInOutput": 1472
-        },
-        "app/components/MobileNavigationBar.tsx": {
-          "bytesInOutput": 1376
-        },
-        "app/components/StickyPurchaseSection.tsx": {
-          "bytesInOutput": 3052
-        },
-        "app/root.tsx": {
-          "bytesInOutput": 683
-        },
-        "app/imports/svg-mxqnixecfi.ts": {
-          "bytesInOutput": 8427
-        },
-        "app/imports/svg-he4ft5xlu0.ts": {
-          "bytesInOutput": 21696
-        },
-        "app/imports/Frame1984078270-14-8211.tsx": {
-          "bytesInOutput": 13616
-        },
-        "app/components/EnhancedMobileMentraLive.tsx": {
-          "bytesInOutput": 3247
-        },
-        "app/imports/svg-5nkvx.tsx": {
-          "bytesInOutput": 866
-        },
-        "app/imports/svg-nrlb2kvmui.ts": {
-          "bytesInOutput": 793
-        },
-        "app/imports/svg-vm45n54l9.ts": {
-          "bytesInOutput": 21973
-        },
-        "app/components/Header.tsx": {
-          "bytesInOutput": 24675
-        },
-        "app/imports/MentraOS.tsx": {
-          "bytesInOutput": 29956
-        },
-        "app/imports/Prescriptions.tsx": {
-          "bytesInOutput": 23721
-        },
-        "app/imports/MentraLive.tsx": {
-          "bytesInOutput": 67274
-        },
-        "app/imports/svg-ipg91.tsx": {
-          "bytesInOutput": 11257
-        },
-        "app/routes/apps-os.miniapp-store.tsx": {
-          "bytesInOutput": 1206
+        "app/lib/cart.server.ts": {
+          "bytesInOutput": 2390
         },
         "app/routes/prescriptions.tsx": {
           "bytesInOutput": 228
         },
-        "app/imports/svg-716j1jt04l.ts": {
-          "bytesInOutput": 176
+        "app/routes/technology.tsx": {
+          "bytesInOutput": 7723
         },
-        "app/components/mobile/MobileHeroSection.tsx": {
-          "bytesInOutput": 1854
+        "app/components/StickyPurchaseSection.tsx": {
+          "bytesInOutput": 3052
+        },
+        "app/routes/_index.tsx": {
+          "bytesInOutput": 643
+        },
+        "app/routes/products.$handle.tsx": {
+          "bytesInOutput": 2466
+        },
+        "app/root.tsx": {
+          "bytesInOutput": 666
+        },
+        "app/imports/svg-mxqnixecfi.ts": {
+          "bytesInOutput": 8427
+        },
+        "app/imports/svg-4mnhiia8zl.ts": {
+          "bytesInOutput": 477
+        },
+        "app/routes/health.tsx": {
+          "bytesInOutput": 214
+        },
+        "app/lib/shopify.server.ts": {
+          "bytesInOutput": 1340
         },
         "app/routes/os.tsx": {
           "bytesInOutput": 222
         },
-        "app/imports/svg-mxsfu.tsx": {
-          "bytesInOutput": 1518
-        },
-        "app/routes/blog.tsx": {
-          "bytesInOutput": 1168
+        "app/routes/about.tsx": {
+          "bytesInOutput": 5472
         },
         "app/contexts/CartContext.tsx": {
           "bytesInOutput": 841
         },
-        "app/imports/svg-2rip6vyh9r.ts": {
-          "bytesInOutput": 7876
+        "app/routes/support.tsx": {
+          "bytesInOutput": 9548
         },
-        "app/components/mobile/MobileColorSelector.tsx": {
-          "bytesInOutput": 1395
+        "app/components/ProductAccordion.tsx": {
+          "bytesInOutput": 1937
         },
-        "app/routes/ai-glasses.tsx": {
-          "bytesInOutput": 650
+        "app/components/ProductImageGallery.tsx": {
+          "bytesInOutput": 2138
         },
-        "app/routes/ai-glasses.mentra-live.tsx": {
-          "bytesInOutput": 66
+        "app/components/ScrollReveal.tsx": {
+          "bytesInOutput": 1472
+        },
+        "app/components/FAQSection.tsx": {
+          "bytesInOutput": 9310
+        },
+        "app/routes/api.cart.ts": {
+          "bytesInOutput": 1101
+        },
+        "app/components/MobileNavigationBar.tsx": {
+          "bytesInOutput": 1376
+        },
+        "app/routes/collections.$handle.tsx": {
+          "bytesInOutput": 2948
+        },
+        "app/routes/cart.tsx": {
+          "bytesInOutput": 1710
+        },
+        "app/routes/contact.tsx": {
+          "bytesInOutput": 6406
+        },
+        "app/routes/buy.tsx": {
+          "bytesInOutput": 2250
+        },
+        "app/components/EnhancedMobileMentraLive.tsx": {
+          "bytesInOutput": 3247
+        },
+        "app/imports/svg-nrlb2kvmui.ts": {
+          "bytesInOutput": 793
+        },
+        "app/imports/svg-5nkvx.tsx": {
+          "bytesInOutput": 866
+        },
+        "app/imports/svg-vm45n54l9.ts": {
+          "bytesInOutput": 21973
+        },
+        "app/components/NavigationBar.tsx": {
+          "bytesInOutput": 14974
+        },
+        "app/imports/Prescriptions.tsx": {
+          "bytesInOutput": 23746
+        },
+        "app/imports/MentraLive.tsx": {
+          "bytesInOutput": 67300
+        },
+        "app/imports/svg-ipg91.tsx": {
+          "bytesInOutput": 11257
+        },
+        "app/imports/svg-716j1jt04l.ts": {
+          "bytesInOutput": 176
+        },
+        "app/imports/svg-saoyw.tsx": {
+          "bytesInOutput": 1523
+        },
+        "app/components/mobile/MobileSizeSelector.tsx": {
+          "bytesInOutput": 1362
         },
         "app/imports/Frame1984078232.tsx": {
           "bytesInOutput": 3953
         },
-        "app/imports/Frame1984078261.tsx": {
-          "bytesInOutput": 4513
+        "app/imports/svg-uc2tkx0skx.ts": {
+          "bytesInOutput": 33231
+        },
+        "app/components/ui/sonner.tsx": {
+          "bytesInOutput": 242
+        },
+        "app/imports/svg-mxsfu.tsx": {
+          "bytesInOutput": 1518
+        },
+        "app/components/mobile/MobileHomePage.tsx": {
+          "bytesInOutput": 60
+        },
+        "app/components/mobile/MobileColorSelector.tsx": {
+          "bytesInOutput": 1395
+        },
+        "app/components/mobile/MobileHeroSection.tsx": {
+          "bytesInOutput": 1854
         },
         "app/components/mobile/MobileProductImage.tsx": {
           "bytesInOutput": 2604
         },
+        "app/imports/svg-3zy3oopzfy.ts": {
+          "bytesInOutput": 51411
+        },
         "app/imports/svg-ys0r4kxewm.ts": {
           "bytesInOutput": 1454
-        },
-        "app/routes/community.socials.tsx": {
-          "bytesInOutput": 2128
-        },
-        "app/routes/apps-os.download.tsx": {
-          "bytesInOutput": 1271
-        },
-        "app/routes/about.mentra.tsx": {
-          "bytesInOutput": 1616
         },
         "app/components/mobile/MobileProductHeader.tsx": {
           "bytesInOutput": 595
         },
-        "app/components/mobile/MobileHomePage.tsx": {
-          "bytesInOutput": 60
+        "app/imports/Frame1984078261.tsx": {
+          "bytesInOutput": 4513
+        },
+        "app/components/mobile/MobilePurchaseSection.tsx": {
+          "bytesInOutput": 4649
+        },
+        "app/imports/svg-2rip6vyh9r.ts": {
+          "bytesInOutput": 7876
+        },
+        "app/components/mobile/MobileReviews.tsx": {
+          "bytesInOutput": 3887
+        },
+        "app/imports/Frame1984078270-14-8211.tsx": {
+          "bytesInOutput": 13486
         },
         "app/imports/Frame1984078242-12-7749.tsx": {
           "bytesInOutput": 2031
@@ -2965,95 +2840,35 @@
         "app/imports/IPhone13143.tsx": {
           "bytesInOutput": 9665
         },
-        "app/lib/cart.server.ts": {
-          "bytesInOutput": 2390
-        },
-        "app/imports/svg-saoyw.tsx": {
-          "bytesInOutput": 1523
-        },
-        "app/routes/about.tsx": {
-          "bytesInOutput": 1390
-        },
-        "app/lib/shopify.server.ts": {
-          "bytesInOutput": 1340
-        },
-        "app/components/mobile/MobileSizeSelector.tsx": {
-          "bytesInOutput": 1362
-        },
-        "app/routes/apps-os.tsx": {
-          "bytesInOutput": 431
-        },
-        "app/components/mobile/MobileProductFeatures.tsx": {
-          "bytesInOutput": 3692
-        },
-        "app/routes/apps-os.mentraos.tsx": {
-          "bytesInOutput": 444
-        },
-        "app/imports/Frame1618873011-12-7678.tsx": {
-          "bytesInOutput": 25281
-        },
-        "app/routes/_index.tsx": {
-          "bytesInOutput": 643
-        },
-        "app/routes/cart.tsx": {
-          "bytesInOutput": 1710
-        },
-        "app/imports/svg-uc2tkx0skx.ts": {
-          "bytesInOutput": 33229
-        },
-        "app/routes/ai-glasses.prescription-lenses.tsx": {
-          "bytesInOutput": 59
-        },
-        "app/routes/health.tsx": {
-          "bytesInOutput": 214
-        },
-        "app/components/mobile/MobileReviews.tsx": {
-          "bytesInOutput": 3887
-        },
-        "app/components/ui/sonner.tsx": {
-          "bytesInOutput": 242
-        },
-        "app/routes/api.cart.ts": {
-          "bytesInOutput": 1101
-        },
-        "app/routes/collections.$handle.tsx": {
-          "bytesInOutput": 2948
-        },
         "app/entry.server.tsx": {
           "bytesInOutput": 335
-        },
-        "app/components/mobile/NewMobileHomePage.tsx": {
-          "bytesInOutput": 9485
-        },
-        "app/components/mobile/MobilePurchaseSection.tsx": {
-          "bytesInOutput": 4649
-        },
-        "app/routes/products.$handle.tsx": {
-          "bytesInOutput": 2466
-        },
-        "app/routes/buy.tsx": {
-          "bytesInOutput": 2250
         },
         "app/components/mobile/MobileInvestorLogos.tsx": {
           "bytesInOutput": 2298
         },
-        "app/imports/svg-3zy3oopzfy.ts": {
-          "bytesInOutput": 51411
+        "app/imports/svg-he4ft5xlu0.ts": {
+          "bytesInOutput": 21694
         },
-        "app/routes/community.tsx": {
-          "bytesInOutput": 1607
+        "app/components/mobile/MobileProductFeatures.tsx": {
+          "bytesInOutput": 3692
         },
-        "app/routes/contact.tsx": {
-          "bytesInOutput": 2199
+        "app/components/mobile/NewMobileHomePage.tsx": {
+          "bytesInOutput": 9534
+        },
+        "app/imports/MentraOS.tsx": {
+          "bytesInOutput": 29897
+        },
+        "app/imports/Frame1618873011-12-7678.tsx": {
+          "bytesInOutput": 25281
         },
         "app/imports/Frame1984078268-12-5215.tsx": {
           "bytesInOutput": 127186
         },
         "app/imports/AiGlasses.tsx": {
-          "bytesInOutput": 139915
+          "bytesInOutput": 139349
         },
         "app/imports/IPhone13141-33-9010.tsx": {
-          "bytesInOutput": 193269
+          "bytesInOutput": 193569
         }
       }
     }

@@ -109,19 +109,19 @@ export default function EnhancedMobileHomePage() {
                   Mentra Live
                 </button>
                 <button 
-                  onClick={() => setMenuOpen(false)}
+                  onClick={() => { setMenuOpen(false); navigate('/about'); }}
                   className="text-left text-xl font-['Red_Hat_Display:SemiBold',sans-serif] hover:text-[#00b869] transition-colors py-2"
                 >
                   About
                 </button>
                 <button 
-                  onClick={() => setMenuOpen(false)}
+                  onClick={() => { setMenuOpen(false); navigate('/support'); }}
                   className="text-left text-xl font-['Red_Hat_Display:SemiBold',sans-serif] hover:text-[#00b869] transition-colors py-2"
                 >
                   Support
                 </button>
                 <button 
-                  onClick={() => setMenuOpen(false)}
+                  onClick={() => { setMenuOpen(false); navigate('/contact'); }}
                   className="text-left text-xl font-['Red_Hat_Display:SemiBold',sans-serif] hover:text-[#00b869] transition-colors py-2"
                 >
                   Contact
