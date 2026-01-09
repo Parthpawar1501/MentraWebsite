@@ -845,14 +845,15 @@ function Video() {
     <div className="[grid-area:1_/_1] h-[816.75px] ml-0 mt-0 relative w-[1452px]" data-name="Video 1">
       <div className="absolute inset-0 rounded-[24px]" data-name="video container">
         {/* Fallback image */}
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full" src={imgImage172} aria-hidden="true" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-0" src={imgImage172} aria-hidden="true" />
         {/* Video overlay */}
         <video
           autoPlay
           muted
           loop
           playsInline
-          className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
+          preload="auto"
+          className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-10"
           aria-label="See with AI demonstration video"
         >
           <source src="/assets/BuyingAdvice.mov" type="video/quicktime" />
@@ -1002,8 +1003,17 @@ function Group12() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       <div className="[grid-area:1_/_1] h-[815px] ml-0 mt-0 relative rounded-[24px] w-[1452px]" data-name="Birthday party 1">
-        <video autoPlay muted className="absolute max-w-none object-cover rounded-[24px] size-full" controlsList="nodownload" loop playsInline aria-label="Stream your world demonstration video">
-          <source src="/assets/Birthday party.mov" type="video/quicktime" />
+        <video 
+          autoPlay 
+          muted 
+          className="absolute max-w-none object-cover rounded-[24px] size-full z-10" 
+          controlsList="nodownload" 
+          loop 
+          playsInline 
+          preload="auto"
+          aria-label="Stream your world demonstration video"
+        >
+          <source src="/assets/Birthday%20party.mov" type="video/quicktime" />
         </video>
       </div>
       <Frame116 />
@@ -2384,8 +2394,17 @@ function Frame111() {
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0">
       <p className="font-['Red_Hat_Display:SemiBold',sans-serif] leading-[57.333px] not-italic relative shrink-0 text-[#0a0a0a] text-[40px] text-center text-nowrap">Hear your audio, hear the world.</p>
       <div className="h-[497px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Music Video 1">
-        <video autoPlay muted className="absolute max-w-none object-cover rounded-[24px] size-full" controlsList="nodownload" loop playsInline aria-label="Hear your audio, hear the world demonstration video">
-          <source src="/assets/Music Video.mov" type="video/quicktime" />
+        <video 
+          autoPlay 
+          muted 
+          className="absolute max-w-none object-cover rounded-[24px] size-full z-10" 
+          controlsList="nodownload" 
+          loop 
+          playsInline 
+          preload="auto"
+          aria-label="Hear your audio, hear the world demonstration video"
+        >
+          <source src="/assets/Music%20Video.mov" type="video/quicktime" />
         </video>
       </div>
     </div>
@@ -2478,14 +2497,15 @@ function Video1() {
   return (
     <div className="h-[469px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Video 5">
       {/* Fallback image */}
-      <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo5} aria-hidden="true" />
+      <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-0" src={imgVideo5} aria-hidden="true" />
       {/* Video overlay */}
       <video
         autoPlay
         muted
         loop
         playsInline
-        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
+        preload="auto"
+        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-10"
         aria-label="Take calls demonstration video"
       >
         <source src="/assets/Cooking.mov" type="video/quicktime" />
@@ -2968,14 +2988,15 @@ function Video2() {
   return (
     <div className="h-[469px] relative rounded-[24px] shrink-0 w-[885px]" data-name="Video 7">
       {/* Fallback image */}
-      <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo7} aria-hidden="true" />
+      <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-0" src={imgVideo7} aria-hidden="true" />
       {/* Video overlay */}
       <video
         autoPlay
         muted
         loop
         playsInline
-        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
+        preload="auto"
+        className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full z-10"
         aria-label="AI reminders demonstration video"
       >
         <source src="/assets/Driving.mov" type="video/quicktime" />
