@@ -1,0 +1,191 @@
+/* Mobile-specific styles for Mentra Live product page */
+
+/* Ensure smooth scrolling */
+@media (max-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Add padding to bottom to account for sticky purchase bar */
+  .mobile-mentra-live {
+    padding-bottom: 100px;
+  }
+
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Touch-friendly tap targets */
+  button,
+  a {
+    min-height: 44px;
+    min-width: 44px;
+    -webkit-tap-highlight-color: rgba(0, 184, 105, 0.2);
+  }
+
+  /* Smooth transitions for interactive elements */
+  button {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+
+  button:active {
+    transform: scale(0.98);
+  }
+
+  /* Accordion animations */
+  .accordion-content {
+    transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Product image gallery touch gestures */
+  .product-gallery {
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Fixed navigation shadow on scroll */
+  .mobile-nav-shadow {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Sticky purchase bar */
+  .sticky-purchase-bar {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  /* Toast notifications */
+  .toast {
+    max-width: calc(100vw - 32px);
+    word-wrap: break-word;
+  }
+
+  /* Color selector buttons */
+  .color-selector {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .color-option {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+  }
+
+  .color-option.selected {
+    border-color: #00b869;
+    transform: scale(1.1);
+  }
+
+  /* Responsive typography */
+  .mobile-heading-xl {
+    font-size: clamp(24px, 5vw, 34px);
+    line-height: 1.2;
+  }
+
+  .mobile-heading-lg {
+    font-size: clamp(20px, 4vw, 28px);
+    line-height: 1.3;
+  }
+
+  .mobile-body {
+    font-size: clamp(14px, 3vw, 16px);
+    line-height: 1.5;
+  }
+
+  /* Spacing utilities for mobile */
+  .mobile-section-spacing {
+    padding: 24px 16px;
+  }
+
+  /* Safe area insets for notched devices */
+  @supports (padding: max(0px)) {
+    .mobile-nav {
+      padding-top: max(12px, env(safe-area-inset-top));
+    }
+
+    .sticky-purchase-bar {
+      padding-bottom: max(16px, env(safe-area-inset-bottom));
+    }
+  }
+
+  /* Optimize video playback on mobile */
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Grid layouts responsive */
+  .mobile-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* Card shadows optimized for mobile */
+  .mobile-card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+
+  /* Loading states */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      #f0f0f0 25%,
+      #e0e0e0 50%,
+      #f0f0f0 75%
+    );
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  /* Focus states for accessibility */
+  *:focus-visible {
+    outline: 2px solid #00b869;
+    outline-offset: 2px;
+  }
+
+  /* Reduced motion for accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Tablet breakpoint adjustments */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mobile-section-spacing {
+    padding: 32px 24px;
+  }
+
+  .mobile-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
