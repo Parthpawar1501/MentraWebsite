@@ -843,8 +843,20 @@ function Header1() {
 function Video() {
   return (
     <div className="[grid-area:1_/_1] h-[816.75px] ml-0 mt-0 relative w-[1452px]" data-name="Video 1">
-      <div className="absolute inset-0 rounded-[24px]" data-name="image 172">
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full" src={imgImage172} />
+      <div className="absolute inset-0 rounded-[24px]" data-name="video container">
+        {/* Fallback image */}
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full" src={imgImage172} aria-hidden="true" />
+        {/* Video overlay */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[24px] size-full"
+          aria-label="See with AI demonstration video"
+        >
+          <source src="/assets/BuyingAdvice.mov" type="video/quicktime" />
+        </video>
       </div>
     </div>
   );
@@ -990,8 +1002,8 @@ function Group12() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       <div className="[grid-area:1_/_1] h-[815px] ml-0 mt-0 relative rounded-[24px] w-[1452px]" data-name="Birthday party 1">
-        <video autoPlay muted className="absolute max-w-none object-cover rounded-[24px] size-full" controlsList="nodownload" loop playsInline>
-          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+        <video autoPlay muted className="absolute max-w-none object-cover rounded-[24px] size-full" controlsList="nodownload" loop playsInline aria-label="Stream your world demonstration video">
+          <source src="/assets/Birthday party.mov" type="video/quicktime" />
         </video>
       </div>
       <Frame116 />
