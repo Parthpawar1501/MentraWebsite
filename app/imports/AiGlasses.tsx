@@ -9,6 +9,7 @@ import GetYourMentraGlassesSection from "./Frame1984078261";
 import NavigationBar from "../components/NavigationBar";
 import ScrollReveal from "../components/ScrollReveal";
 import FAQSection from "../components/FAQSection";
+import { PlayPauseControl } from "../components/PlayPauseControl";
 import imgImage171 from "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png";
 import imgImage178 from "/assets/941ea41c22412686984c524708231da6edbd53ad.png";
 import imgImage180 from "/assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png";
@@ -51,11 +52,46 @@ import imgImage165 from "/assets/a941107cc55205e46c84f3250b368b3cec1c522c.png";
 import imgDscf8443 from "/assets/8e57dce521036217fa2f2f693b14b65504a8833b.png";
 import { imgSection, imgScreenshot20251202At33629Pm1 } from "./svg-saoyw";
 
-function Hero() {
+function Hero({ videoRef }: { videoRef: React.RefObject<HTMLVideoElement> }) {
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Ensure video autoplays and is muted
+    video.muted = true;
+    video.playsInline = true;
+    
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch((error) => {
+        // Autoplay was prevented, but that's okay for accessibility
+        console.log("Video autoplay prevented:", error);
+      });
+    }
+  }, [videoRef]);
+
   return (
     <div className="absolute inset-0" data-name="Hero">
-      <div className="absolute inset-0" data-name="image 171">
-        <img alt="" className="absolute inset-0 w-full h-full object-cover pointer-events-none" src={imgImage171} />
+      <div className="absolute inset-0" data-name="video container">
+        {/* Fallback image */}
+        <img 
+          alt="" 
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none" 
+          src={imgImage171}
+          aria-hidden="true"
+        />
+        {/* Video overlay */}
+        <video
+          ref={videoRef}
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-label="Hero background video"
+        >
+          <source src="/assets/SuperHero-Video.mp4" type="video/mp4" />
+        </video>
       </div>
     </div>
   );
@@ -124,14 +160,20 @@ function Frame114() {
 }
 
 function Frame26({ heroRef }: { heroRef?: React.RefObject<HTMLDivElement> }) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  
   return (
     <div ref={heroRef} className="h-screen relative shrink-0 w-full">
-      <Hero />
+      <Hero videoRef={videoRef} />
       <div className="absolute left-0 right-0 bottom-[110px] flex flex-col items-center z-10 pointer-events-none">
         <Frame113 />
       </div>
       <div className="absolute bottom-[110px] right-[30px] z-10">
         <Frame114 />
+      </div>
+      {/* Play/Pause Control at bottom right */}
+      <div className="absolute bottom-[30px] right-[30px] z-20 pointer-events-auto">
+        <PlayPauseControl videoRef={videoRef} />
       </div>
       <div className="absolute bottom-0 left-0 right-0 z-40">
         <DivGrid7 />
