@@ -9,6 +9,7 @@ import GetYourMentraGlassesSection from "./Frame1984078261";
 // NavigationBar removed - using shared Header from root.tsx
 import ScrollReveal from "../components/ScrollReveal";
 import FAQSection from "../components/FAQSection";
+import VideoPlayPause from "../components/VideoPlayPause";
 import imgImage171 from "/assets/9bd13b993f4db0d7910a3e77d580330c8196cbda.png";
 import imgImage178 from "/assets/941ea41c22412686984c524708231da6edbd53ad.png";
 import imgImage180 from "/assets/04de4f892e4e3df51d41b04942dade53ac02ab7c.png";
@@ -51,11 +52,37 @@ import imgImage165 from "/assets/a941107cc55205e46c84f3250b368b3cec1c522c.png";
 import imgDscf8443 from "/assets/8e57dce521036217fa2f2f693b14b65504a8833b.png";
 import { imgSection, imgScreenshot20251202At33629Pm1 } from "./svg-saoyw";
 
-function Hero() {
+function Hero({ videoRef }: { videoRef?: React.RefObject<HTMLVideoElement> }) {
   return (
     <div className="absolute inset-0" data-name="Hero">
-      <div className="absolute inset-0" data-name="image 171">
-        <img alt="" className="absolute inset-0 w-full h-full object-cover pointer-events-none" src={imgImage171} />
+      <div className="absolute inset-0" data-name="video background">
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+          aria-label="Mentra AI Glasses hero video"
+          onError={(e) => {
+            // Fallback to image if video fails to load
+            const video = e.currentTarget;
+            const fallback = video.parentElement?.querySelector('img');
+            if (fallback) {
+              fallback.style.display = 'block';
+              video.style.display = 'none';
+            }
+          }}
+        >
+          <source src="/assets/SuperHero-Video.mp4" type="video/mp4" />
+        </video>
+        {/* Fallback image - hidden by default, shown if video fails */}
+        <img 
+          alt="Mentra AI Glasses Hero" 
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none" 
+          src={imgImage171}
+          style={{ display: 'none' }}
+        />
       </div>
     </div>
   );
@@ -123,15 +150,19 @@ function Frame114() {
   );
 }
 
-function Frame26({ heroRef }: { heroRef?: React.RefObject<HTMLDivElement> }) {
+function Frame26({ heroRef, videoRef }: { heroRef?: React.RefObject<HTMLDivElement>; videoRef?: React.RefObject<HTMLVideoElement> }) {
   return (
     <div ref={heroRef} className="h-screen relative shrink-0 w-full">
-      <Hero />
+      <Hero videoRef={videoRef} />
       <div className="absolute left-0 right-0 bottom-[110px] flex flex-col items-center z-10 pointer-events-none">
         <Frame113 />
       </div>
       <div className="absolute bottom-[110px] right-[30px] z-10">
         <Frame114 />
+      </div>
+      {/* Play/Pause Control - Bottom Right */}
+      <div className="absolute bottom-[30px] right-[30px] z-20">
+        <VideoPlayPause videoRef={videoRef || null} />
       </div>
       <div className="absolute bottom-0 left-0 right-0 z-40">
         <DivGrid7 />
@@ -6242,6 +6273,7 @@ export default function AiGlasses() {
   const [isSecondNavSticky, setIsSecondNavSticky] = useState(false);
   const [isDropdownActive, setIsDropdownActive] = useState(false);
   const heroRef = useRef<HTMLDivElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     const heroElement = heroRef.current;
@@ -6282,7 +6314,7 @@ export default function AiGlasses() {
           </div>
         )}
       </div>
-      <Frame26 heroRef={heroRef} />
+      <Frame26 heroRef={heroRef} videoRef={videoRef} />
       <ScrollReveal direction="up" delay={100} distance={60}>
         <Frame25 />
       </ScrollReveal>
