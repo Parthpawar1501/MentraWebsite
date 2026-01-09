@@ -2552,6 +2552,7 @@ function Frame37() {
 export default function Frame38() {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [activeSection, setActiveSection] = useState(0);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -2564,6 +2565,42 @@ export default function Frame38() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
+  useEffect(() => {
+    if (isMobile) return;
+
+    const handleScroll = () => {
+      if (!containerRef.current) return;
+      
+      const container = containerRef.current;
+      const containerRect = container.getBoundingClientRect();
+      const containerTop = containerRect.top;
+      const containerHeight = container.offsetHeight;
+      const viewportHeight = window.innerHeight;
+      
+      // Only calculate when container is in viewport
+      if (containerTop > viewportHeight || containerTop + containerHeight < 0) {
+        return;
+      }
+      
+      // Calculate which section should be visible based on scroll position
+      // Each section takes up 1/4 of the container height
+      const sectionHeight = containerHeight / 4;
+      const scrollOffset = -containerTop + viewportHeight * 0.3; // Start showing next section at 30% from top
+      const currentSection = Math.max(0, Math.min(3, Math.floor(scrollOffset / sectionHeight)));
+      
+      setActiveSection(currentSection);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener('resize', handleScroll, { passive: true });
+    handleScroll(); // Initial check
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleScroll);
+    };
+  }, [isMobile]);
+
   const sections = [
     { component: Frame36, name: "Easiest Smart Glasses/Variant6", step: 1 },
     { component: Frame37, name: "Easiest Smart Glasses/Variant5", step: 2 },
@@ -2574,11 +2611,10 @@ export default function Frame38() {
   return (
     <div 
       ref={containerRef}
-      className="relative w-full max-w-[1452px] mx-auto rounded-tl-[24px] rounded-tr-[24px] bg-white overflow-visible"
+      className="relative w-full max-w-[1452px] mx-auto rounded-tl-[24px] rounded-tr-[24px] bg-white overflow-hidden"
       data-name="Easiest Smart Glasses Container"
       style={!isMobile ? { 
-        minHeight: '3035.96px', // 4 sections * 758.99px each for sticky overlay effect
-        height: 'auto'
+        height: '3035.96px', // 4 sections * 758.99px each for scroll replacement effect
       } : {
         minHeight: 'auto'
       }}
@@ -2600,16 +2636,17 @@ export default function Frame38() {
           );
         }
         
-        // Desktop: Sticky overlay effect - all sections overlay on top of each other as you scroll
+        // Desktop: Only show one section at a time based on scroll position
+        const isActive = activeSection === index;
         return (
           <div
             key={index}
-            className="sticky top-0 w-full overflow-visible rounded-tl-[24px] rounded-tr-[24px]"
+            className="absolute top-0 left-0 w-full overflow-hidden rounded-tl-[24px] rounded-tr-[24px] transition-opacity duration-500"
             style={{ 
-              zIndex: 40 - index,
               height: '758.99px',
-              minHeight: '758.99px',
-              position: 'sticky'
+              opacity: isActive ? 1 : 0,
+              pointerEvents: isActive ? 'auto' : 'none',
+              zIndex: isActive ? 10 : 1
             }}
             data-name={section.name}
             data-step={section.step}

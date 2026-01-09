@@ -6317,7 +6317,7 @@ function Footer() {
 
 function Frame69() {
   return (
-    <div className="bg-white content-stretch flex flex-col gap-[240px] items-center pb-0 pt-[160px] px-0 relative shrink-0" style={{ paddingBottom: 0, marginBottom: 0 }}>
+    <div className="bg-white content-stretch flex flex-col gap-[240px] items-center pb-0 pt-[160px] px-0 relative shrink-0" style={{ paddingBottom: 0, marginBottom: 0, overflow: 'hidden' }}>
       <ScrollReveal direction="fade" delay={0} duration={0.8} threshold={0.05}>
         <Frame153 />
       </ScrollReveal>
@@ -6635,9 +6635,6 @@ export default function AiGlasses() {
       <Frame26 heroRef={heroRef} />
       <ScrollReveal direction="up" delay={100} distance={60}>
         <Frame25 />
-      </ScrollReveal>
-      <ScrollReveal direction="up" delay={200} distance={60}>
-        <Frame59 />
       </ScrollReveal>
     </div>
   );
