@@ -4,7 +4,7 @@ function Title() {
   return (
     <div className="h-[144px] relative shrink-0 w-[967px]" data-name="Title">
       <div className="absolute font-['Red_Hat_Display:Regular',sans-serif] inset-0 leading-[0] not-italic text-[#00b869] text-[64px] text-center">
-        <p className="leading-[72px] mb-0">
+        <p className="leading-[72px] mb-0 whitespace-nowrap">
           <span className="text-[#0a0a0a]">Your</span>
           <span>{` eyes, `}</span>
           <span className="text-[#0a0a0a]">your</span>
@@ -12,7 +12,7 @@ function Title() {
           <span className="text-[#0a0a0a]">your</span>
           <span>{` choice. `}</span>
         </p>
-        <p className="leading-[72px]">
+        <p className="leading-[72px] whitespace-nowrap">
           <span className="text-[#0a0a0a]">{`Your `}</span>
           <span>{`data, `}</span>
           <span className="text-[#0a0a0a]">your</span>

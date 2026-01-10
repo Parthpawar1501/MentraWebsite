@@ -77,11 +77,16 @@ function NavigationButton({ iconColor = "#FAFAFA" }: { iconColor?: string }) {
 }
 
 // AI Glasses Dropdown Content
-function AIGlassesDropdown() {
+function AIGlassesDropdown({ onMouseEnter, onMouseLeave }: { onMouseEnter?: () => void; onMouseLeave?: () => void }) {
   const navigate = useNavigate();
   
   return (
-    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex gap-[40px] items-start left-[259px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" style={{ zIndex: 10000 }}>
+    <div 
+      className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex gap-[40px] items-start left-[259px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" 
+      style={{ zIndex: 10000, marginTop: '-4px' }}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    >
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[205.33px]" data-name="div.grid">
         <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative shrink-0 w-[205.33px]" data-name="Link">
           <p 
@@ -116,10 +121,15 @@ function AIGlassesDropdown() {
 }
 
 // Apps and OS Dropdown Content
-function AppsOSDropdown() {
+function AppsOSDropdown({ onMouseEnter, onMouseLeave }: { onMouseEnter?: () => void; onMouseLeave?: () => void }) {
   const navigate = useNavigate();
   return (
-    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[421px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" style={{ zIndex: 10000 }}>
+    <div 
+      className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[421px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" 
+      style={{ zIndex: 10000, marginTop: '-4px' }}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    >
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[205.33px]" data-name="div.grid">
         <div className="content-stretch flex items-start pb-px pl-0 pr-[89.33px] pt-0 relative shrink-0 w-[205.33px] group" data-name="Link">
           <p 
@@ -144,10 +154,15 @@ function AppsOSDropdown() {
 }
 
 // Company Dropdown Content
-function CompanyDropdown() {
+function CompanyDropdown({ onMouseEnter, onMouseLeave }: { onMouseEnter?: () => void; onMouseLeave?: () => void }) {
   const navigate = useNavigate();
   return (
-    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[603px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" style={{ zIndex: 10000 }}>
+    <div 
+      className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[603px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" 
+      style={{ zIndex: 10000, marginTop: '-4px' }}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    >
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-name="div.grid">
         <div className="relative shrink-0 w-[122px] group" data-name="Link">
           <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative w-full" onClick={() => navigate('/about')}>
@@ -163,10 +178,15 @@ function CompanyDropdown() {
 }
 
 // Community Dropdown Content
-function CommunityDropdown() {
+function CommunityDropdown({ onMouseEnter, onMouseLeave }: { onMouseEnter?: () => void; onMouseLeave?: () => void }) {
   const navigate = useNavigate();
   return (
-    <div className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[753px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" style={{ zIndex: 10000 }}>
+    <div 
+      className="absolute backdrop-blur-[50px] backdrop-filter bg-[rgba(255,255,255,0.95)] content-stretch flex items-start left-[753px] pb-[40px] pt-[24px] px-[40px] rounded-bl-[24px] rounded-br-[24px] top-[88px] z-[10000] shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-100 animate-fade-in-up" 
+      style={{ zIndex: 10000, marginTop: '-4px' }}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    >
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0" data-name="div.grid">
         <div className="relative shrink-0 w-[122px] group" data-name="Link">
           <div className="content-stretch flex items-start pb-px pl-0 pr-[129.33px] pt-0 relative w-full">
@@ -263,12 +283,41 @@ export default function NavigationBar({ onDropdownChange }: NavigationBarProps =
     };
   }, [isHomePage]);
 
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
   const handleMouseEnter = (dropdown: string) => {
+    // Cancel any pending close timeout
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
     setActiveDropdown(dropdown);
     onDropdownChange?.(true);
   };
 
   const handleMouseLeave = () => {
+    // Add a small delay before closing to allow movement to dropdown
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    timeoutRef.current = setTimeout(() => {
+      setActiveDropdown(null);
+      onDropdownChange?.(false);
+    }, 200);
+  };
+
+  const handleDropdownMouseEnter = (dropdown: string) => {
+    // Cancel any pending close timeout
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    // Keep dropdown open when mouse enters it
+    setActiveDropdown(dropdown);
+    onDropdownChange?.(true);
+  };
+
+  const handleDropdownMouseLeave = () => {
     setActiveDropdown(null);
     onDropdownChange?.(false);
   };
@@ -288,7 +337,6 @@ export default function NavigationBar({ onDropdownChange }: NavigationBarProps =
           ? 'shadow-none' 
           : 'backdrop-blur-[50px] backdrop-filter shadow-[0px_4px_30px_5px_rgba(0,0,0,0.05)]'
       }`}
-      onMouseLeave={handleMouseLeave}
       style={{ zIndex: 9999 }}
     >
       {/* Main Navbar */}
@@ -315,6 +363,7 @@ export default function NavigationBar({ onDropdownChange }: NavigationBarProps =
             <div
               className="relative"
               onMouseEnter={() => handleMouseEnter("aiGlasses")}
+              onMouseLeave={handleMouseLeave}
             >
               <div 
                 className={`${activeDropdown === "aiGlasses" ? hoverBg : ""} content-stretch flex flex-col items-center px-[16px] py-[4px] relative rounded-[32px] shrink-0 cursor-pointer transition-colors ${!activeDropdown && shouldBeTransparent ? 'hover:bg-[rgba(255,255,255,0.1)]' : ''} ${!activeDropdown && !shouldBeTransparent ? 'hover:bg-[#f5f5f5]' : ''}`}
@@ -328,6 +377,7 @@ export default function NavigationBar({ onDropdownChange }: NavigationBarProps =
             <div
               className="relative"
               onMouseEnter={() => handleMouseEnter("appsOS")}
+              onMouseLeave={handleMouseLeave}
             >
               <div className={`${activeDropdown === "appsOS" ? hoverBg : ""} content-stretch flex flex-col items-center px-[16px] py-[4px] relative rounded-[32px] shrink-0 cursor-pointer transition-colors ${!activeDropdown && shouldBeTransparent ? 'hover:bg-[rgba(255,255,255,0.1)]' : ''} ${!activeDropdown && !shouldBeTransparent ? 'hover:bg-[#f5f5f5]' : ''}`}>
                 <p className={`font-['Red_Hat_Display:Medium',sans-serif] leading-[31.873px] not-italic relative shrink-0 ${activeDropdown === "appsOS" ? "text-[#00b869]" : ""} text-[20px] text-center text-nowrap transition-colors duration-500`} style={{ color: activeDropdown === "appsOS" ? "#00b869" : textColor }}>Apps and OS</p>
@@ -338,6 +388,7 @@ export default function NavigationBar({ onDropdownChange }: NavigationBarProps =
             <div
               className="relative"
               onMouseEnter={() => handleMouseEnter("company")}
+              onMouseLeave={handleMouseLeave}
             >
               <div className={`${activeDropdown === "company" ? hoverBg : ""} content-stretch flex flex-col items-center px-[16px] py-[4px] relative rounded-[32px] shrink-0 cursor-pointer transition-colors ${!activeDropdown && shouldBeTransparent ? 'hover:bg-[rgba(255,255,255,0.1)]' : ''} ${!activeDropdown && !shouldBeTransparent ? 'hover:bg-[#f5f5f5]' : ''}`}>
                 <p className={`font-['Red_Hat_Display:Medium',sans-serif] leading-[31.873px] not-italic relative shrink-0 ${activeDropdown === "company" ? "text-[#00b869]" : ""} text-[20px] text-center text-nowrap transition-colors duration-500`} style={{ color: activeDropdown === "company" ? "#00b869" : textColor }}>Company</p>
@@ -348,6 +399,7 @@ export default function NavigationBar({ onDropdownChange }: NavigationBarProps =
             <div
               className="relative"
               onMouseEnter={() => handleMouseEnter("community")}
+              onMouseLeave={handleMouseLeave}
             >
               <div className={`${activeDropdown === "community" ? hoverBg : ""} content-stretch flex flex-col items-center px-[16px] py-[4px] relative rounded-[32px] shrink-0 cursor-pointer transition-colors ${!activeDropdown && shouldBeTransparent ? 'hover:bg-[rgba(255,255,255,0.1)]' : ''} ${!activeDropdown && !shouldBeTransparent ? 'hover:bg-[#f5f5f5]' : ''}`}>
                 <p className={`font-['Red_Hat_Display:Medium',sans-serif] leading-[31.873px] not-italic relative shrink-0 ${activeDropdown === "community" ? "text-[#00b869]" : ""} text-[20px] text-center text-nowrap transition-colors duration-500`} style={{ color: activeDropdown === "community" ? "#00b869" : textColor }}>Community</p>
@@ -363,10 +415,30 @@ export default function NavigationBar({ onDropdownChange }: NavigationBarProps =
       </div>
 
       {/* Dropdowns - positioned absolutely to appear seamlessly connected */}
-      {activeDropdown === "aiGlasses" && <AIGlassesDropdown />}
-      {activeDropdown === "appsOS" && <AppsOSDropdown />}
-      {activeDropdown === "company" && <CompanyDropdown />}
-      {activeDropdown === "community" && <CommunityDropdown />}
+      {activeDropdown === "aiGlasses" && (
+        <AIGlassesDropdown 
+          onMouseEnter={() => handleDropdownMouseEnter("aiGlasses")}
+          onMouseLeave={handleDropdownMouseLeave}
+        />
+      )}
+      {activeDropdown === "appsOS" && (
+        <AppsOSDropdown 
+          onMouseEnter={() => handleDropdownMouseEnter("appsOS")}
+          onMouseLeave={handleDropdownMouseLeave}
+        />
+      )}
+      {activeDropdown === "company" && (
+        <CompanyDropdown 
+          onMouseEnter={() => handleDropdownMouseEnter("company")}
+          onMouseLeave={handleDropdownMouseLeave}
+        />
+      )}
+      {activeDropdown === "community" && (
+        <CommunityDropdown 
+          onMouseEnter={() => handleDropdownMouseEnter("community")}
+          onMouseLeave={handleDropdownMouseLeave}
+        />
+      )}
     </div>
   );
 }
