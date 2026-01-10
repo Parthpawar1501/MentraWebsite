@@ -2862,10 +2862,132 @@ function Gallery2() {
 }
 
 function Frame56() {
+  const [phase, setPhase] = useState<'initial' | 'expanded'>('initial');
+  const video2Ref = useRef<HTMLVideoElement>(null);
+  const video3Ref = useRef<HTMLVideoElement>(null);
+  const video1Ref = useRef<HTMLVideoElement>(null);
+  const video4Ref = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    // Handle video 2 and 3 ending to trigger phase change
+    const handleVideoEnd = () => {
+      if (video2Ref.current?.ended && video3Ref.current?.ended && phase === 'initial') {
+        setPhase('expanded');
+        // Start playing videos 1 and 4
+        video1Ref.current?.play();
+        video4Ref.current?.play();
+        // Pause videos 2 and 3
+        video2Ref.current?.pause();
+        video3Ref.current?.pause();
+      }
+    };
+
+    // Check when videos 2 and 3 end
+    const video2 = video2Ref.current;
+    const video3 = video3Ref.current;
+    
+    if (video2 && video3 && phase === 'initial') {
+      video2.addEventListener('ended', handleVideoEnd);
+      video3.addEventListener('ended', handleVideoEnd);
+    }
+
+    return () => {
+      if (video2) video2.removeEventListener('ended', handleVideoEnd);
+      if (video3) video3.removeEventListener('ended', handleVideoEnd);
+    };
+  }, [phase]);
+
   return (
-    <div className="content-stretch flex flex-col gap-[14.628px] h-[502px] items-start relative shrink-0">
-      <Gallery1 />
-      <Gallery2 />
+    <div className="content-stretch flex flex-col gap-[14.628px] h-[502px] items-start relative shrink-0 overflow-hidden">
+      {/* Top row: Video 1 (left) and Video 2 (right) */}
+      <div className="content-stretch flex gap-[14.628px] items-center relative shrink-0 w-[885px]">
+        {/* Video 1 */}
+        <div 
+          className={`overflow-clip relative rounded-[14.628px] transition-all duration-700 ease-in-out ${
+            phase === 'expanded' 
+              ? 'h-[286.467px] w-[508.936px]' 
+              : 'h-[286.223px] w-[357.779px]'
+          }`}
+        >
+          <video
+            ref={video1Ref}
+            muted
+            loop
+            playsInline
+            preload="auto"
+            className="absolute inset-0 max-w-none object-cover rounded-[14.628px] size-full"
+            controlsList="nodownload"
+          >
+            <source src="/assets/Mercerlab01.mp4" type="video/mp4" />
+          </video>
+        </div>
+        {/* Video 2 */}
+        <div 
+          className={`overflow-clip relative rounded-[14.628px] transition-all duration-700 ease-in-out ${
+            phase === 'expanded' 
+              ? 'h-[286.223px] w-[357.779px]' 
+              : 'h-[286.321px] w-[508.936px]'
+          }`}
+        >
+          <video
+            ref={video2Ref}
+            autoPlay
+            muted
+            loop={false}
+            playsInline
+            preload="auto"
+            className="absolute inset-0 max-w-none object-cover rounded-[14.628px] size-full"
+            controlsList="nodownload"
+          >
+            <source src="/assets/Mercerlab02.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+      
+      {/* Bottom row: Video 3 (left) and Video 4 (right) */}
+      <div className="content-stretch flex gap-[14.628px] items-center relative shrink-0 w-[885px]">
+        {/* Video 3 */}
+        <div 
+          className={`overflow-clip relative rounded-[14.628px] transition-all duration-700 ease-in-out ${
+            phase === 'expanded' 
+              ? 'h-[286.223px] w-[357.779px]' 
+              : 'h-[286.321px] w-[508.936px]'
+          }`}
+        >
+          <video
+            ref={video3Ref}
+            autoPlay
+            muted
+            loop={false}
+            playsInline
+            preload="auto"
+            className="absolute inset-0 max-w-none object-cover rounded-[14.628px] size-full"
+            controlsList="nodownload"
+          >
+            <source src="/assets/Mercerlab03.mp4" type="video/mp4" />
+          </video>
+        </div>
+        {/* Video 4 */}
+        <div 
+          className={`overflow-clip relative rounded-[14.628px] transition-all duration-700 ease-in-out ${
+            phase === 'expanded' 
+              ? 'h-[286.467px] w-[508.936px]' 
+              : 'h-[286.223px] w-[357.779px]'
+          }`}
+        >
+          <video
+            ref={video4Ref}
+            muted
+            loop
+            playsInline
+            preload="auto"
+            className="absolute inset-0 max-w-none object-cover rounded-[14.628px] size-full"
+            controlsList="nodownload"
+          >
+            <source src="/assets/Mercerlabs04.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
     </div>
   );
 }
